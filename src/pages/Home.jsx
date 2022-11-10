@@ -8,6 +8,7 @@ import MyWork from '../components/MyWork';
 import LatestBlog from '../components/LatestBlog';
 import ContactMe from '../components/ContactMe';
 import Footer from '../components/Footer';
+import Testimonials from '../components/Testimonials';
 
 const Home = () => (
   <div className="font-nunito text-base text-black dark:text-white dark:bg-slate-900">
@@ -19,6 +20,8 @@ const Home = () => (
     <section className="relative md:py-24 py-16" id="portfolio">
       <MyWork />
       <LatestBlog />
+      <Testimonials />
+
       <ContactMe />
     </section>
     <Footer />

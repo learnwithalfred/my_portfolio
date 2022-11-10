@@ -2,21 +2,20 @@ import React from 'react';
 
 const MyWork = () => {
   return (
-    <section className="relative py-16">
-      <div className="container mt-16">
-        <div className="grid md:grid-cols-12 grid-cols-1 pb-8 items-end">
-          <div className="lg:col-span-8 md:col-span-6 md:text-left text-center">
-            <h6 className="text-indigo-600 font-semibold mb-2">Portfolio</h6>
-            <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
-              My Works
-            </h3>
-            <p className="text-slate-400 max-w-xl">
-              I have worked on a number of projects, both personal and for
-              clients over the years. Here are some of them.
-            </p>
-          </div>
+    <section className="relative py-8 bg-gray-50 dark:bg-slate-800">
+      <div className="container mt-8">
+        <div className="grid grid-cols-1 pb-8 text-center">
+          <h6 className="text-indigo-600 text-sm font-bold uppercase mb-2">
+            Portfolio
+          </h6>
+          <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
+            My Works
+          </h3>
+          <p className="text-slate-400 max-w-xl mx-auto">
+            I have worked on a number of projects, both personal and for clients
+            over the years. Here are some of them.
+          </p>
         </div>
-        {/*end grid*/}
         <div className="sm:flex mt-4" id="grid">
           <div className="lg:w-1/3 sm:w-1/2 picture-item p-4 rounded-md">
             <div className>

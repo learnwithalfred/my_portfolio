@@ -13,7 +13,7 @@ const Available = () => {
     >
       <div className="absolute inset-0 bg-slate-900/70" />
       <div className="container relative">
-        <div className="grid grid-cols-1 pb-8 text-center">
+        <div className="grid grid-cols-1 text-center">
           <h3 className="mb-4 md:text-3xl text-2xl text-white font-medium">
             I Am Available For Any Full-time or Part-time Developer Position
           </h3>

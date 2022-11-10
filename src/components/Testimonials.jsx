@@ -1,142 +1,69 @@
-import React from 'react'
+import React from 'react';
 
 const Testimonials = () => {
   return (
-   <section className="relative md:py-24 py-16">
-  <div className="container md:mt-24 mt-16">
-    <div className="grid grid-cols-1 pb-8 text-center">
-      <h6 className="text-indigo-600 text-base mb-2">Testimonial</h6>
-      <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">What Our Users Say</h3>
-      <p className="text-slate-400 max-w-xl mx-auto">Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 30000+ companies worldwide.</p>
-    </div>{/*end grid*/}
-    <div className="grid grid-cols-1 mt-8">
-      <div className="tiny-three-item">
-        <div className="tiny-slide text-center">
-          <div className="customer-testi">
-            <div className="content relative rounded shadow dark:shadow-gray-800 m-2 p-6 bg-white dark:bg-slate-900">
-              <i className="mdi mdi-format-quote-open mdi-48px text-indigo-600" />
-              <p className="text-slate-400">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. "</p>
-              <ul className="list-none mb-0 text-amber-400 mt-3">
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-              </ul>
-            </div>
-            <div className="text-center mt-5">
-              <img src="assets/images/client/01.jpg" className="h-14 w-14 rounded-full shadow-md mx-auto" alt />
-              <h6 className="mt-2 font-semibold">Calvin Carlo</h6>
-              <span className="text-slate-400 text-sm">Manager</span>
-            </div>
-          </div>
+    <section className="relative py-8 bg-gray-50 dark:bg-slate-800">
+      <div className="container">
+        <div className="grid grid-cols-1 text-center  mt-16">
+          <h3 className="text-indigo-600 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
+            Testimonial
+          </h3>
         </div>
-        <div className="tiny-slide text-center">
-          <div className="customer-testi">
-            <div className="content relative rounded shadow dark:shadow-gray-800 m-2 p-6 bg-white dark:bg-slate-900">
-              <i className="mdi mdi-format-quote-open mdi-48px text-indigo-600" />
-              <p className="text-slate-400">" The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century. "</p>
-              <ul className="list-none mb-0 text-amber-400 mt-3">
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-              </ul>
-            </div>
-            <div className="text-center mt-5">
-              <img src="assets/images/client/02.jpg" className="h-14 w-14 rounded-full shadow-md mx-auto" alt />
-              <h6 className="mt-2 font-semibold">Christa Smith</h6>
-              <span className="text-slate-400 text-sm">Manager</span>
-            </div>
+
+        <div className="grid md:grid-cols-2 gap-[30px] mt-10">
+          <div className="client-testi rounded shadow dark:shadow-gray-800 m-2 p-6">
+            <p className="text-slate-400 mt-6">
+              " Alfred is one of the teammates you always want near you while
+              working on any project. He always has something to teach whether
+              it is a technical or professional skill, working with Alfred means
+              the thrive of a project. Proactiveness and effective remote
+              communication are some things you will have while having Alfred as
+              a team member. "
+            </p>
+            <a
+              href="https://www.linkedin.com/in/mike-mart%C3%ADnez/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h6 className="text-indigo-600 font-semibold mt-3">
+                - Mike Martínez
+              </h6>
+            </a>
+
+            <span className="text-slate-400 text-sm dark:text-white/60 block">
+              Microverse
+            </span>
           </div>
-        </div>
-        <div className="tiny-slide text-center">
-          <div className="customer-testi">
-            <div className="content relative rounded shadow dark:shadow-gray-800 m-2 p-6 bg-white dark:bg-slate-900">
-              <i className="mdi mdi-format-quote-open mdi-48px text-indigo-600" />
-              <p className="text-slate-400">" One disadvantage of Lorum Ipsum is that in Latin certain letters appear more frequently than others. "</p>
-              <ul className="list-none mb-0 text-amber-400 mt-3">
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-              </ul>
-            </div>
-            <div className="text-center mt-5">
-              <img src="assets/images/client/03.jpg" className="h-14 w-14 rounded-full shadow-md mx-auto" alt />
-              <h6 className="mt-2 font-semibold">Jemina CLone</h6>
-              <span className="text-slate-400 text-sm">Manager</span>
-            </div>
+          <div className="client-testi rounded shadow dark:shadow-gray-800 m-2 p-6">
+            <p className="text-slate-400 mt-6">
+              " He has good experience in the workings of how to handle works
+              regarding servers, databases, and also system engineering. He also
+              has good team management abilities and is a really dedicated
+              worker. So I would really like to recommend him for the post of
+              full stack developer of your company. I can assure you that, he
+              would be a great option for helping your company in its future
+              growth and success. Thank you for taking the time to read this
+              recommendation from your busy schedule.. "
+            </p>
+            <a
+              href="https://www.linkedin.com/in/silviatofana/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h6 className="text-indigo-600 font-semibold mt-3">
+                - Silvia Tofana
+              </h6>
+            </a>
+
+            <span className="text-slate-400 text-sm dark:text-white/60 block">
+              Microverse
+            </span>
           </div>
-        </div>
-        <div className="tiny-slide text-center">
-          <div className="customer-testi">
-            <div className="content relative rounded shadow dark:shadow-gray-800 m-2 p-6 bg-white dark:bg-slate-900">
-              <i className="mdi mdi-format-quote-open mdi-48px text-indigo-600" />
-              <p className="text-slate-400">" Thus, Lorem Ipsum has only limited suitability as a visual filler for German texts. "</p>
-              <ul className="list-none mb-0 text-amber-400 mt-3">
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-              </ul>
-            </div>
-            <div className="text-center mt-5">
-              <img src="assets/images/client/04.jpg" className="h-14 w-14 rounded-full shadow-md mx-auto" alt />
-              <h6 className="mt-2 font-semibold">Smith Vodka</h6>
-              <span className="text-slate-400 text-sm">Manager</span>
-            </div>
-          </div>
-        </div>
-        <div className="tiny-slide text-center">
-          <div className="customer-testi">
-            <div className="content relative rounded shadow dark:shadow-gray-800 m-2 p-6 bg-white dark:bg-slate-900">
-              <i className="mdi mdi-format-quote-open mdi-48px text-indigo-600" />
-              <p className="text-slate-400">" There is now an abundance of readable dummy texts. These are usually used when a text is required. "</p>
-              <ul className="list-none mb-0 text-amber-400 mt-3">
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-              </ul>
-            </div>
-            <div className="text-center mt-5">
-              <img src="assets/images/client/05.jpg" className="h-14 w-14 rounded-full shadow-md mx-auto" alt />
-              <h6 className="mt-2 font-semibold">Cristino Murfi</h6>
-              <span className="text-slate-400 text-sm">Manager</span>
-            </div>
-          </div>
-        </div>
-        <div className="tiny-slide text-center">
-          <div className="customer-testi">
-            <div className="content relative rounded shadow dark:shadow-gray-800 m-2 p-6 bg-white dark:bg-slate-900">
-              <i className="mdi mdi-format-quote-open mdi-48px text-indigo-600" />
-              <p className="text-slate-400">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero. "</p>
-              <ul className="list-none mb-0 text-amber-400 mt-3">
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-                <li className="inline"><i className="mdi mdi-star" /></li>
-              </ul>
-            </div>
-            <div className="text-center mt-5">
-              <img src="assets/images/client/06.jpg" className="h-14 w-14 rounded-full shadow-md mx-auto" alt />
-              <h6 className="mt-2 font-semibold">Cristino Murfi</h6>
-              <span className="text-slate-400 text-sm">Manager</span>
-            </div>
-          </div>
+          {/* Content */}
         </div>
       </div>
-    </div>{/*end grid*/}
-  </div>{/*end container*/}
-</section>
-
+    </section>
   );
-}
+};
 
-export default Testimonials
+export default Testimonials;
