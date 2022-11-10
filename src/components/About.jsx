@@ -8,7 +8,7 @@ const About = () => {
           <div className="lg:col-span-5 md:col-span-6">
             <div className="relative">
               <img
-                src="assets/images/personal/hero.jpg"
+                src="assets/images/personal/hero.png"
                 className="rounded-full"
                 alt="Alfred Boateng"
               />
@@ -24,7 +24,7 @@ const About = () => {
               </div>
               <div className="absolute top-0 left-0 -z-1">
                 <img
-                  src="assets/images/illustrator/dots.svg"
+                  src="assets/images/personal/dots.svg"
                   alt="Alfred Boateng"
                 />
               </div>
@@ -32,51 +32,89 @@ const About = () => {
           </div>
           <div className="lg:col-span-7 md:col-span-6 mt-8 md:mt-0">
             <div className="lg:ml-5">
-              <h6 className="text-indigo-600 text-sm font-bold uppercase mb-2">
-                About us
+              <h6 className="text-indigo-600 text-sm font-bold uppercase mb-2 text-2xl">
+                About Me
               </h6>
-              <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
-                Better Design <br /> Better Experience
-              </h3>
+
               <p className="text-slate-400 max-w-xl">
-                Obviously I'm a Web Designer. Experienced with all stages of the
-                development cycle for dynamic web projects.
+                Junior plus Full-stack JavaScript, and Ruby developer with
+                hands-on experience in web development.
               </p>
               <div className="mt-4">
-                <div className="flex justify-between mb-2">
-                  <span className="text-slate-400">WordPress</span>
-                  <span className="text-slate-400">84%</span>
-                </div>
-                <div className="w-full bg-gray-100 dark:bg-gray-800 rounded-full h-[6px]">
-                  <div
-                    className="bg-indigo-600 h-[6px] rounded-full"
-                    style={{ width: '84%' }}
-                  />
-                </div>
+                <h3>
+                  <span className="text-2xl font-bold text-indigo-600">
+                    My Skills
+                  </span>{' '}
+                </h3>
+                <ol>
+                  <li className="flex items-center">
+                    <i className="mdi mdi-check text-indigo-600 text-lg mr-2" />
+                    Front-end development: ReactJS | NextJS | Redux |
+                    TailwindCSS
+                  </li>
+
+                  <li className="flex items-center">
+                    <i className="mdi mdi-check text-indigo-600 text-lg mr-2" />
+                    Back-end development: Ruby on Rails | NodeJS | ExpressJS
+                    TailwindCSS
+                  </li>
+
+                  <li className="flex items-center">
+                    <i className="mdi mdi-check text-indigo-600 text-lg mr-2" />
+                    Testing: RSpec | Jest | Cypress
+                  </li>
+
+                  <li className="flex items-center">
+                    <i className="mdi mdi-check text-indigo-600 text-lg mr-2" />
+                    Deployment: Heroku | Netlify | Vercel
+                  </li>
+                </ol>
               </div>
+
               <div className="mt-4">
-                <div className="flex justify-between mb-2">
-                  <span className="text-slate-400">JavaScript</span>
-                  <span className="text-slate-400">79%</span>
-                </div>
-                <div className="w-full bg-gray-100 dark:bg-gray-800 rounded-full h-[6px]">
-                  <div
-                    className="bg-indigo-600 h-[6px] rounded-full"
-                    style={{ width: '79%' }}
-                  />
-                </div>
+                <h3>
+                  <span className="text-2xl font-bold text-indigo-600">
+                    Education
+                  </span>{' '}
+                </h3>
+                <ol>
+                  <li className="flex items-center">
+                    <i className="mdi mdi-check text-indigo-600 text-lg mr-2" />
+                    Microverse Coding Boot Camp
+                  </li>
+                </ol>
               </div>
+
               <div className="mt-4">
-                <div className="flex justify-between mb-2">
-                  <span className="text-slate-400">HTML</span>
-                  <span className="text-slate-400">95%</span>
-                </div>
-                <div className="w-full bg-gray-100 dark:bg-gray-800 rounded-full h-[6px]">
-                  <div
-                    className="bg-indigo-600 h-[6px] rounded-full"
-                    style={{ width: '95%' }}
-                  />
-                </div>
+                <h3>
+                  <span className="text-2xl font-bold text-indigo-600">
+                    Email
+                  </span>{' '}
+                </h3>
+                <ol>
+                  <a href="mailto:learniwthalfred@gmail.com">
+                    <li className="flex items-center">
+                      <i className="mdi mdi-check text-indigo-600 text-lg mr-2" />
+                      learniwthalfred@gmail.com
+                    </li>
+                  </a>
+                </ol>
+              </div>
+
+              <div className="mt-4">
+                <h3>
+                  <span className="text-2xl font-bold text-indigo-600">
+                    Phone
+                  </span>{' '}
+                </h3>
+                <ol>
+                  <a href="tel:+233203848853">
+                    <li className="flex items-center">
+                      <i className="mdi mdi-check text-indigo-600 text-lg mr-2" />
+                      +233203848853
+                    </li>
+                  </a>
+                </ol>
               </div>
             </div>
           </div>

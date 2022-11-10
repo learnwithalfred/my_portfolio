@@ -18,12 +18,12 @@ const Nav = () => {
           <img
             src="assets/images/logo-dark.png"
             className="inline-block dark:hidden"
-             alt="Alfred Boateng"
+            alt="Alfred Boateng"
           />
           <img
             src="assets/images/logo-light.png"
             className="hidden dark:inline-block"
-             alt="Alfred Boateng"
+            alt="Alfred Boateng"
           />
         </a>
         {/* End Logo container*/}
@@ -55,8 +55,13 @@ const Nav = () => {
         <div id="navigation">
           <ul className="navigation-menu">
             <li>
-              <a href="index.html" className="sub-menu-item">
+              <a href="/" className="sub-menu-item">
                 Home
+              </a>
+            </li>
+            <li>
+              <a href="/blogs" className="sub-menu-item">
+                Blogs
               </a>
             </li>
             <li>

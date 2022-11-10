@@ -11,12 +11,11 @@ const ContactMe = () => {
           Have Question ? Get in touch!
         </h3>
         <p className="text-slate-400 max-w-xl mx-auto">
-          Obviously I'm a Web Designer. Experienced with all stages of the
-          development cycle for dynamic web projects.
+          Contact me for any questions or inquiries. I will get back to you as soon as possible.
         </p>
         <div className="mt-6">
           <a
-            href="contact-one.html"
+            href="tel:+233203848853"
             className="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mr-2 mt-2"
           >
             <i className="uil uil-phone" /> Contact Me

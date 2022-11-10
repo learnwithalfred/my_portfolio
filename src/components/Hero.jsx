@@ -24,10 +24,10 @@ const Hero = () => {
               <div className="lg:col-span-4 md:col-span-6 order-2 lg:order-1 mt-6 md:mt-0 relative">
                 <div className="rounded-md lg:shadow-md lg:dark:shadow-gray-800 lg:absolute lg:top-14 lg:bg-white lg:dark:bg-slate-900 lg:p-6">
                   <h5 className="mb-3 text-2xl font-bold lg:text-black lg:dark:text-white text-white">
-                    I'm Professional Web Developer
+                    Junior plus Full-stack JavaScript Ruby on Rails Developer{' '}
                   </h5>
                   <p className="para-desc lg:text-slate-400 text-slate-200 dark:text-slate-200 mb-0">
-                    Obviously I'm a Web Designer. Web Developer with over 3
+                    Web Developer with over 2
                     years of experience.
                   </p>
                   <div className="mt-4">
@@ -44,7 +44,7 @@ const Hero = () => {
               <div className="lg:col-span-4 lg:block hidden lg:order-2" />
               <div className="lg:col-span-4 md:col-span-6 order-1 lg:order-3">
                 <h4 className="lg:text-[64px] lg:leading-[1.1] text-[40px] font-bold lg:text-black lg:dark:text-white text-white mb-0">
-                  John <br /> Boateng
+                  Alfred <br /> Boateng
                 </h4>
               </div>
               {/*end col*/}
