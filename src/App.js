@@ -4,6 +4,7 @@ import BlogPage from './pages/BlogPage';
 import Authorize from './components/blogs/Pages/Authorize';
 import Home from './pages/Home';
 import Pagination from './components/blogs/Pages/Pagination';
+import RSpec from './components/blogs/Pages/RSpec';
 
 export default function App() {
   return (
@@ -21,6 +22,10 @@ export default function App() {
       <Route
         path="/blogs/add-pagination-to-rails-7-app-using-will-paginate-gem-and-tailwind-css"
         element={<Pagination />}
+      />
+      <Route
+        path="/blogs/rails-7-rspec-model-test-complementary-guide"
+        element={<RSpec />}
       />
     </Routes>
   );
