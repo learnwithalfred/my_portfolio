@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import DeviseAuth from './components/blogs/Pages/DeviseAuth';
 import BlogPage from './pages/BlogPage';
+import Authorize from './components/blogs/Pages/Authorize';
 import Home from './pages/Home';
 
 export default function App() {
@@ -11,6 +12,10 @@ export default function App() {
       <Route
         path="/blogs/rails-7-authentication-with-devise-gem-with-confirm-password"
         element={<DeviseAuth />}
+      />
+      <Route
+        path="/blogs/rails-7-authorization-using-cancancan-gem"
+        element={<Authorize />}
       />
     </Routes>
   );
