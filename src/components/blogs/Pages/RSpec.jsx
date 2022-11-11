@@ -156,25 +156,6 @@ const RSpec = () => (
           Hooks are used to run code before or after each test. There are 4
           types of hooks in RSpec:
         </p>
-        {/* <ul className="list-disc list-inside">
-          <li>
-            <code className="text-indigo-600 font-semibold">before(:each)</code>{' '}
-            - This hook is used to run code before each test.
-          </li>
-          <li>
-            <code className="text-indigo-600 font-semibold">after(:each)</code>{' '}
-            - This hook is used to run code after each test.
-          </li>
-          <li>
-            <code className="text-indigo-600 font-semibold">before(:all)</code>{' '}
-            - This hook is used to run code before all tests.
-          </li>
-          <li>
-            <code className="text-indigo-600 font-semibold">after(:all)</code> -
-            This hook is used to run code after all tests.
-          </li>
-        </ul> */}
-
         <div className="table-responsive bg-white dark:bg-slate-900 rounded">
           <table className="w-full text-sm text-left">
             <thead>

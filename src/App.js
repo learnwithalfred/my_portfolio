@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import DeviseAuth from './components/blogs/Pages/DeviseAuth';
 import BlogPage from './pages/BlogPage';
 import Authorize from './components/blogs/Pages/Authorize';
+import Performance from './components/blogs/Pages/Performance';
 import Home from './pages/Home';
 import Pagination from './components/blogs/Pages/Pagination';
 import RSpec from './components/blogs/Pages/RSpec';
@@ -26,6 +27,11 @@ export default function App() {
       <Route
         path="/blogs/rails-7-rspec-model-test-complementary-guide"
         element={<RSpec />}
+      />
+
+      <Route
+        path="/blogs/fix-n1-performance-in-rails-with-bullet-gem"
+        element={<Performance />}
       />
     </Routes>
   );
