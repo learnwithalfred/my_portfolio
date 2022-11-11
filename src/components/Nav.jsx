@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Nav = () => {
   function toggleMenu() {
@@ -16,12 +16,12 @@ const Nav = () => {
         {/* Logo container*/}
         <a className="logo pl-0" href="index.html">
           <img
-            src="assets/images/logo-dark.png"
+            src="/assets/images/logo-dark.png"
             className="inline-block dark:hidden"
             alt="Alfred Boateng"
           />
           <img
-            src="assets/images/logo-light.png"
+            src="/assets/images/logo-light.png"
             className="hidden dark:inline-block"
             alt="Alfred Boateng"
           />
@@ -74,6 +74,6 @@ const Nav = () => {
       </div>
     </nav>
   );
-}
+};
 
-export default Nav
+export default Nav;

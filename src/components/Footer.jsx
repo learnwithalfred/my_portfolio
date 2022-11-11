@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="md:text-left text-center">
               <a href="/" className="text-[22px] focus:outline-none">
                 <img
-                  src="assets/images/logo-light.png"
+                  src="/assets/images/logo-light.png"
                   className="mx-auto md:mr-auto md:ml-0"
                   alt="Alfred Boateng"
                 />
@@ -44,10 +44,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
                 >
-                  <i
-                    className="uil uil-twitter align-middle"
-                    title="twitter"
-                  />
+                  <i className="uil uil-twitter align-middle" title="twitter" />
                 </a>
               </li>
               <li className="inline">
@@ -64,6 +61,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-}
+};
 
-export default Footer
+export default Footer;

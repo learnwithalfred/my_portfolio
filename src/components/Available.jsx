@@ -23,7 +23,7 @@ const Available = () => {
           <div className="relative mt-8">
             <a
               href
-              className="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md"
+              className="btn bg-sky-600 hover:bg-sky-700 border-sky-600 hover:border-sky-700 text-white rounded-md"
             >
               Hire Me
             </a>

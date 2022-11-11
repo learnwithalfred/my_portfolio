@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Hero = () => {
   return (
@@ -13,7 +13,7 @@ const Hero = () => {
           data-speed="0.5"
           style={{
             background:
-              'url("assets/images/personal/hero-overlay.png") top center',
+              'url("/assets/images/personal/hero-overlay.png") top center',
           }}
         />
       </div>
@@ -27,13 +27,12 @@ const Hero = () => {
                     Junior plus Full-stack JavaScript Ruby on Rails Developer{' '}
                   </h5>
                   <p className="para-desc lg:text-slate-400 text-slate-200 dark:text-slate-200 mb-0">
-                    Web Developer with over 2
-                    years of experience.
+                    Web Developer with over 2 years of experience.
                   </p>
                   <div className="mt-4">
                     <a
                       href="#portfolio"
-                      className="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md"
+                      className="btn bg-sky-600 hover:bg-sky-700 border-sky-600 hover:border-sky-700 text-white rounded-md"
                     >
                       Hire me
                     </a>
@@ -70,6 +69,6 @@ const Hero = () => {
       </ul>
     </section>
   );
-}
+};
 
-export default Hero
+export default Hero;

@@ -22,7 +22,7 @@ const MyWork = () => {
               <div className="relative">
                 <div className="shadow dark:shadow-gray-800 p-5 pb-0 rounded-md bg-indigo-600/5 dark:bg-indigo-600/30">
                   <img
-                    src="assets/images/listed.png"
+                    src="/assets/images/listed.png"
                     className="rounded-t-md shadow"
                     alt="Listed"
                   />
@@ -60,7 +60,7 @@ const MyWork = () => {
               <div className="relative">
                 <div className="shadow dark:shadow-gray-800 p-5 pb-0 rounded-md bg-emerald-600/5 dark:bg-emerald-600/30">
                   <img
-                    src="assets/images/kraado.png"
+                    src="/assets/images/kraado.png"
                     className="rounded-t-md shadow"
                     alt="Kraado"
                   />
@@ -118,7 +118,7 @@ const MyWork = () => {
               <div className="relative">
                 <div className="shadow dark:shadow-gray-800 p-5 pb-0 rounded-md bg-sky-600/5 dark:bg-sky-600/30">
                   <img
-                    src="assets/images/tv.png"
+                    src="/assets/images/tv.png"
                     className="rounded-t-md shadow"
                     alt="TV"
                   />
@@ -145,7 +145,7 @@ const MyWork = () => {
               <div className="relative">
                 <div className="shadow dark:shadow-gray-800 p-5 pb-0 rounded-md bg-amber-600/5 dark:bg-amber-600/30">
                   <img
-                    src="assets/images/code.png"
+                    src="/assets/images/code.png"
                     className="rounded-t-md shadow"
                     alt="Code"
                   />
@@ -174,7 +174,7 @@ const MyWork = () => {
               <div className="relative">
                 <div className="shadow dark:shadow-gray-800 p-5 pb-0 rounded-md bg-indigo-600/5 dark:bg-indigo-600/30">
                   <img
-                    src="assets/images/space.png"
+                    src="/assets/images/space.png"
                     className="rounded-t-md shadow"
                     alt="Space"
                   />

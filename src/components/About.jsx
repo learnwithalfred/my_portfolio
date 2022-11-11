@@ -8,7 +8,7 @@ const About = () => {
           <div className="lg:col-span-5 md:col-span-6">
             <div className="relative">
               <img
-                src="assets/images/personal/hero.png"
+                src="/assets/images/personal/hero.png"
                 className="rounded-full"
                 alt="Alfred Boateng"
               />
@@ -24,7 +24,7 @@ const About = () => {
               </div>
               <div className="absolute top-0 left-0 -z-1">
                 <img
-                  src="assets/images/personal/dots.svg"
+                  src="/assets/images/personal/dots.svg"
                   alt="Alfred Boateng"
                 />
               </div>
