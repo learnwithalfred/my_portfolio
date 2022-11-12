@@ -4,7 +4,10 @@ import Gist from 'react-gist';
 
 const Authorize = () => {
   return (
-    <BlogContainer>
+    <BlogContainer
+      title=" Rails 7 Authorization Using Cancancan Gem"
+      description="In this tutorial, we are going to add the ability to restrict users based on their role There will be several roles and each role will have different access to the app."
+    >
       <div className="p-6 rounded-md shadow dark:shadow-gray-800">
         <div className="relative overflow-hidden rounded-md">
           <iframe

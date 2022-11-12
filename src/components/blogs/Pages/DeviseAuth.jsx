@@ -3,7 +3,10 @@ import BlogContainer from '../../BlogContainer';
 import Gist from 'react-gist';
 const DeviseAuth = () => {
   return (
-    <BlogContainer>
+    <BlogContainer
+      title="Rails 7 authentication with devise gem and confirm password"
+      description="In this tutorial, we will learn to build a a school-like app in rails 7 and add authentication to it using the devise gem. In the next tutorial we will add several roles to the app"
+    >
       <div className="p-6 rounded-md shadow dark:shadow-gray-800">
         <div className="relative overflow-hidden rounded-md">
           <iframe

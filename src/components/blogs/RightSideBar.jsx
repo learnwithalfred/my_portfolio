@@ -11,7 +11,7 @@ const RightSideBar = () => {
           <img
             src="/assets/images/alfred_.jpg"
             className="h-24 w-36 mx-auto rounded-full shadow mb-4"
-            alt="alfred boateng"
+            alt="alfred Boateng"
           />
           <p
             className="text-lg font-semibold hover:text-indigo-600 transition-all duration-500 ease-in-out"

@@ -4,9 +4,14 @@ import BlogContainer from '../../BlogContainer'
 
 const Performance = () => {
   return (
-    <BlogContainer>
+    <BlogContainer
+      title="Fix N+1 Performance issues in Rails 7 with Bullet Gem"
+      description="In this tutorial,  we will fix N+1 Performance issues in Rails 7 with Bullet Gem"
+    >
       <div className="text-center mt-2">
-        <h3 className="my-3 text-[26px] font-semibold">Fix N+1 Performance issues in Rails 7 with Bullet Gem</h3>
+        <h3 className="my-3 text-[26px] font-semibold">
+          Fix N+1 Performance issues in Rails 7 with Bullet Gem
+        </h3>
       </div>
 
       <div className="mt-6">
@@ -71,7 +76,6 @@ const Performance = () => {
             <Gist id="9d3f3130e51c728eb519322b9f451ae5" />
           </div>
 
-     
           <div className="py-18 my-16">
             <Gist id="7a8921adfc3fa70e08b0d7795b5a65a2" />
           </div>
@@ -121,19 +125,17 @@ const Performance = () => {
           </div>
           {/* conclusion */}
           <div className="py-8">
-            <h5 className="font-semibold text-xl py-8">
-              Conclusion
-            </h5>
+            <h5 className="font-semibold text-xl py-8">Conclusion</h5>
             <p className="text-blue-400">
               N+1 performance issue occurs when you have a list of records and
               you want to access a property of each record in a different table.
               To avoid N+1 performance issue, you can use includes method in the
               view to eager load the data. Bullet is a gem that is used to find
               N+1 queries. Bullet will log the N+1 queries in the development
-              environment. Bullet will also display a notification in the browser
-              when it detects N+1 queries.
+              environment. Bullet will also display a notification in the
+              browser when it detects N+1 queries.
             </p>
-            </div>
+          </div>
         </div>
       </div>
     </BlogContainer>

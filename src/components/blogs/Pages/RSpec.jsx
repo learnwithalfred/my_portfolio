@@ -3,7 +3,10 @@ import BlogContainer from '../../BlogContainer';
 import Gist from 'react-gist';
 
 const RSpec = () => (
-  <BlogContainer>
+  <BlogContainer
+    title="Rails 7 RSpec Model Test Complementary Guide"
+    description="In this tutorial we are going to talk about rails 7 and testing model with rspec models. I want to test user model created using device gem"
+  >
     <div className="text-center mt-2">
       <h3 className="my-3 text-[26px] font-semibold">
         Rails 7 RSpec Model Test Complementary Guide
@@ -237,11 +240,11 @@ const RSpec = () => (
           <div className="py-8">
             <code className="bg-gray-100 dark:bg-gray-800 rounded-md">
               group :development, :test do
-                <br />
-                gem 'rspec-rails', '~> 6.0.0.rc1'
-                <br />
-                gem 'factory_bot_rails'
-                <br />
+              <br />
+              gem 'rspec-rails', '~> 6.0.0.rc1'
+              <br />
+              gem 'factory_bot_rails'
+              <br />
               end
             </code>
           </div>

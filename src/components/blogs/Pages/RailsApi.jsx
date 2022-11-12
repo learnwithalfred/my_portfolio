@@ -4,11 +4,12 @@ import Gist from 'react-gist';
 
 const RailsApi = () => {
   return (
-    <BlogContainer>
+    <BlogContainer
+      title=" Lets create an API in Rails 7"
+    >
       <div className="text-center mt-2">
         <h3 className="my-3 text-[26px] font-semibold">
-          Lets create an API in Rails 7 with JWT Authentication and Active Model
-          Serializer Gem for JSON response format
+          Lets create an API in Rails 7
         </h3>
       </div>
 
@@ -22,8 +23,7 @@ const RailsApi = () => {
           you’re requesting it from and then delivers the response back to you.
         </p>
         <p className="text-blue-400">
-          In this blog, we will create an API in Rails 7 with JWT Authentication
-          and Active Model Serializer Gem for JSON response format.
+          In this blog, we will create an API in Rails 7 with Active Model Serializer Gem for JSON response format.
         </p>
 
         <h5 className="font-semibold text-xl my-16 py-8">
