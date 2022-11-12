@@ -6,6 +6,12 @@ const BlogPage = () => {
     <>
       <BlogContainer>
         <div className="grid grid-cols-1 gap-[30px]">
+          <div className="grid grid-cols-1 text-center ">
+            <h3 className="mb-8 text-3xl leading-normal font-medium text-indigo-700">
+              My Blogs
+            </h3>
+            {/* <Gist id="d12a5f58e5995f5c8263deaeb57245d6" /> */}
+          </div>
           <div className="blog relative rounded-md shadow dark:shadow-gray-800 overflow-hidden">
             <div className="lg:flex relative">
               <div className="relative md:shrink-0">
