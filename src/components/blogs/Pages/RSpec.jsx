@@ -14,22 +14,33 @@ const RSpec = () => (
     </div>
 
     <div className="mt-6">
+      <div className="relative overflow-hidden rounded-md">
+        <img
+          src="https://images.unsplash.com/photo-1560785496-3c9d27877182?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHRlc3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+          className="rounded-md w-full"
+          alt="pagination with tailwind css and will paginate gem"
+        />
+      </div>
+      <div className="text-center mt-12">
+        <h3 className="my-3 text-[26px] font-semibold">
+          Rails 7 RSpec Model Test Complementary Guide
+        </h3>
+      </div>
       <p className="text-blue-400">
         In this tutorial we are going to talk about rails 7 and testing model
-        with rspec models. I want to test user model created using device gem.
-        Then we will add articles model and write a has_may test for this model
+        with rspec. I want to test user model created using device gem.
       </p>
 
       <div>
         <h5 className="font-semibold text-xl my-16 py-8">
           Step 1: Install RSpec
         </h5>
-        <code className="bg-gray-100 dark:bg-gray-800 rounded-md">
+        <code className="bg-gray-100 dark:bg-gray-800 rounded-md py-3 my-4">
           gem 'rspec-rails', '~> 6.0.0.rc1'
         </code>
 
         <h5 className="font-semibold text-xl py-4">Step 2: Setup RSpec</h5>
-        <code className="bg-gray-100 dark:bg-gray-800 rounded-md">
+        <code className="bg-gray-100 dark:bg-gray-800 rounded-md py-3 my-4">
           rails g rspec:install
         </code>
 
@@ -40,12 +51,15 @@ const RSpec = () => (
         <div className="py-18 my-16">
           <Gist id="c5830aa3e086060b9210ee209ccbc581" />
         </div>
+        <h5 className="font-semibold text-xl py-8">
+          This is the model we are testing
+        </h5>
         <div className="py-18 my-16">
           <Gist id="8bab71bd95111986f1e94ce6104d7f8e" />
         </div>
 
         <h5 className="font-semibold text-xl py-8">
-          Let's explain the keywords used in the test:
+          Let's explain the keywords used in rspec test:
         </h5>
 
         <div className="table-responsive bg-white dark:bg-slate-900 rounded">
@@ -68,32 +82,32 @@ const RSpec = () => (
                 <td className="text-lg border border-gray-100 dark:border-gray-700 p-4">
                   <code className="text-red-600">context</code>
                 </td>
-                <td className="border border-gray-100 dark:border-gray-700 p-4 text-base text-slate-400">
+                <td className="border border-gray-100 dark:border-gray-700 p-4 text-base text-dark-900">
                   Context it accept a class name. The idea of context is that it
                   encloses test of a certain type. You can decide to ignore it.
                   But it add details to you test code, example for user model we
                   can group test into the following
                   {/* example */}
-                  <ul className="list-disc list-inside">
+                  <ul className="list-disc list-inside my-4">
                     <li>
-                      <code className="text-indigo-600 font-semibold">
+                      <code className="bg-gray-100 dark:bg-gray-800 rounded-md py-3 my-4">
                         context 'when user is not logged in'
                       </code>
                     </li>
                     <li>
-                      <code className="text-indigo-600 font-semibold">
+                      <code className="bg-gray-100 dark:bg-gray-800 rounded-md py-3 my-4">
                         {' '}
                         context 'when user is logged in'
                       </code>
                     </li>
                     <li>
-                      <code className="text-indigo-600 font-semibold">
+                      <code className="bg-gray-100 dark:bg-gray-800 rounded-md py-3 my-4">
                         {' '}
                         context 'when user is admin'
                       </code>
                     </li>
                     <li>
-                      <code className="text-indigo-600 font-semibold">
+                      <code className="bg-gray-100 dark:bg-gray-800 rounded-md py-3 my-4">
                         {' '}
                         context 'when user is not admin'
                       </code>
@@ -105,7 +119,7 @@ const RSpec = () => (
                 <td className="text-lg border border-gray-100 dark:border-gray-700 p-4">
                   <code className="text-red-600">describe</code>
                 </td>
-                <td className="border border-gray-100 dark:border-gray-700 p-4 text-base text-slate-400">
+                <td className="border border-gray-100 dark:border-gray-700 p-4 text-base text-dark-900">
                   it is used to group a set of tests. It is usually used to
                   group tests for a particular class or method.
                 </td>
@@ -114,7 +128,7 @@ const RSpec = () => (
                 <td className="text-lg border border-gray-100 dark:border-gray-700 p-4">
                   <code className="text-red-600">it</code>
                 </td>
-                <td className="border border-gray-100 dark:border-gray-700 p-4 text-base text-slate-400">
+                <td className="border border-gray-100 dark:border-gray-700 p-4 text-base text-dark-900">
                   used to define a test. It is usually used to define a test for
                   a particular method.
                 </td>
@@ -123,7 +137,7 @@ const RSpec = () => (
                 <td className="text-lg border border-gray-100 dark:border-gray-700 p-4">
                   <code className="text-red-600">expect</code>
                 </td>
-                <td className="border border-gray-100 dark:border-gray-700 p-4 text-base text-slate-400">
+                <td className="border border-gray-100 dark:border-gray-700 p-4 text-base text-dark-900">
                   used to define an expectation. It is used to define the
                   expected behavior of a particular method.
                 </td>
@@ -132,7 +146,7 @@ const RSpec = () => (
                 <td className="text-lg border border-gray-100 dark:border-gray-700 p-4">
                   <code className="text-red-600">to</code>
                 </td>
-                <td className="border border-gray-100 dark:border-gray-700 p-4 text-base text-slate-400">
+                <td className="border border-gray-100 dark:border-gray-700 p-4 text-base text-dark-900">
                   used to define the matcher. It is used to define the matcher
                   that will be used to compare the actual result with the
                   expected result.
@@ -142,7 +156,7 @@ const RSpec = () => (
           </table>
         </div>
 
-        <p className="text-blue-400">
+        <p className="text-blue-400 py-8">
           You can read
           <a
             className="text-indigo-600 font-semibold my-8 py-8"
@@ -179,7 +193,7 @@ const RSpec = () => (
                 <td className="text-lg border border-gray-100 dark:border-gray-700 p-4">
                   <code className="text-red-600">before(:each)</code>
                 </td>
-                <td className="border border-gray-100 dark:border-gray-700 p-4 text-base text-slate-400">
+                <td className="border border-gray-100 dark:border-gray-700 p-4 text-base text-dark-900">
                   This hook is used to run code before each test.
                 </td>
               </tr>
@@ -187,7 +201,7 @@ const RSpec = () => (
                 <td className="text-lg border border-gray-100 dark:border-gray-700 p-4">
                   <code className="text-red-600">after(:each)</code>
                 </td>
-                <td className="border border-gray-100 dark:border-gray-700 p-4 text-base text-slate-400">
+                <td className="border border-gray-100 dark:border-gray-700 p-4 text-base text-dark-900">
                   This hook is used to run code after each test.
                 </td>
               </tr>
@@ -195,7 +209,7 @@ const RSpec = () => (
                 <td className="text-lg border border-gray-100 dark:border-gray-700 p-4">
                   <code className="text-red-600">before(:all)</code>
                 </td>
-                <td className="border border-gray-100 dark:border-gray-700 p-4 text-base text-slate-400">
+                <td className="border border-gray-100 dark:border-gray-700 p-4 text-base text-dark-900">
                   This hook is used to run code before all tests.
                 </td>
               </tr>
@@ -203,7 +217,7 @@ const RSpec = () => (
                 <td className="text-lg border border-gray-100 dark:border-gray-700 p-4">
                   <code className="text-red-600">after(:all)</code>
                 </td>
-                <td className="border border-gray-100 dark:border-gray-700 p-4 text-base text-slate-400">
+                <td className="border border-gray-100 dark:border-gray-700 p-4 text-base text-dark-900">
                   This hook is used to run code after all tests.
                 </td>
               </tr>
@@ -229,23 +243,8 @@ const RSpec = () => (
         </p>
         <div className="list-disc list-inside">
           <div className="py-4 my-8">
-            <code className="text-indigo-600 font-semibold ">
+            <code className="bg-gray-100 dark:bg-gray-800 rounded-md py-3 my-4">
               gem 'factory_bot_rails'
-            </code>
-          </div>
-          <p className="text-blue-400">
-            You can also add factory_bot_rails to the development and test group
-            in the Gemfile.
-          </p>
-          <div className="py-8">
-            <code className="bg-gray-100 dark:bg-gray-800 rounded-md">
-              group :development, :test do
-              <br />
-              gem 'rspec-rails', '~> 6.0.0.rc1'
-              <br />
-              gem 'factory_bot_rails'
-              <br />
-              end
             </code>
           </div>
 
@@ -253,7 +252,7 @@ const RSpec = () => (
             We can generate a factory for user model using the following
             command:
           </h5>
-          <code className="text-indigo-600 font-semibold">
+          <code className="bg-gray-100 dark:bg-gray-800 rounded-md py-3 my-4">
             rails g factory_bot:model user
           </code>
         </div>
@@ -263,7 +262,7 @@ const RSpec = () => (
         <h5 className="font-semibold text-xl py-8">
           Let's generate a test for the application model:
         </h5>
-        <code className="text-indigo-600 font-semibold">
+        <code className="bg-gray-100 dark:bg-gray-800 rounded-md py-3 my-4">
           rails g rspec:model application
         </code>
         <p className="text-blue-900 py-8">
@@ -291,7 +290,12 @@ const RSpec = () => (
         <p className="text-blue-400">
           Add the following line to the Gemfile and run bundle install:
         </p>
-        <code className="text-indigo-600 font-semibold">gem 'faker'</code>
+
+        <div className="py-4 my-4">
+          <code className="bg-gray-100 dark:bg-gray-800 rounded-md py-3 my-4">
+            gem 'faker'
+          </code>
+        </div>
 
         <h5 className="font-semibold text-xl py-8">
           Generate your factories for your models and Add a test for the

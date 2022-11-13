@@ -34,13 +34,14 @@ const Nav = () => {
         {/*Login button Start*/}
         <ul className="buy-button list-none mb-0">
           <li className="inline pl-1 mb-0">
-            <Link
-              to="/"
-              target="_blank"
-              className="btn btn-icon rounded-full bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white"
+            <a
+              href="../assets/ab.pdf"
+              download="ab.pdf"
+              className="btn bg-sky-600 hover:bg-sky-700 border-sky-600
+                      hover:border-sky-700 text-white rounded-md"
             >
-              <i data-feather="shopping-cart" className="h-4 w-4" />
-            </Link>
+              Download Resume
+            </a>
           </li>
         </ul>
         <div id="navigation">
@@ -55,11 +56,11 @@ const Nav = () => {
                 Blogs
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/" className="sub-menu-item">
                 Contact
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

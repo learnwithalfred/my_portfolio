@@ -14,7 +14,7 @@ const About = () => {
               />
               <div className="absolute bottom-2/4 translate-y-2/4 right-0 left-0 text-center">
                 <a
-                  href="#!"
+                  href="/"
                   data-type="youtube"
                   data-id="yba7hPeTSjk"
                   className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-indigo-600"
@@ -78,10 +78,16 @@ const About = () => {
                   </span>{' '}
                 </h3>
                 <ol>
-                  <li className="flex items-center">
-                    <i className="mdi mdi-check text-indigo-600 text-lg mr-2" />
-                    Microverse Coding Boot Camp
-                  </li>
+                  <a
+                    href="https://www.microverse.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <li className="flex items-center">
+                      <i className="mdi mdi-check text-indigo-600 text-lg mr-2" />
+                      Microverse Coding Boot Camp
+                    </li>
+                  </a>
                 </ol>
               </div>
 

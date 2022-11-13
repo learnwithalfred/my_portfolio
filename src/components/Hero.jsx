@@ -30,11 +30,10 @@ const Hero = () => {
                     Web Developer with over 2 years of experience.
                   </p>
                   <div className="mt-4">
-                    <a
-                      href="#portfolio"
-                      className="btn bg-sky-600 hover:bg-sky-700 border-sky-600 hover:border-sky-700 text-white rounded-md"
-                    >
-                      Hire me
+                    <a href="../assets/ab.pdf" download="ab.pdf"
+                      className="btn bg-sky-600 hover:bg-sky-700 border-sky-600
+                      hover:border-sky-700 text-white rounded-md" > Download
+                      Resume
                     </a>
                   </div>
                 </div>

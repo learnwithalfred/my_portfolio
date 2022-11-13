@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const LatestBlog = () => {
   return (
     <div className="container md:mt-24 mt-16 ">
@@ -11,7 +11,8 @@ const LatestBlog = () => {
           Latest News
         </h3>
         <p className="text-slate-400 max-w-xl mx-auto">
-          I write about web development, programming, and other tech related, and non-tech related topics.
+          I write about web development, programming, and other tech related,
+          and non-tech related topics.
         </p>
       </div>
       {/*end grid*/}
@@ -44,24 +45,23 @@ const LatestBlog = () => {
         </div>
         <div className="blog relative rounded-md shadow dark:shadow-gray-800 overflow-hidden">
           <img
-            src="https://miro.medium.com/max/1100/0*NMOv6NY0uJI0VKM6"
+            src="https://images.unsplash.com/photo-1586864387634-2f33030dab41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
             alt="Alfred Boateng"
           />
           <div className="content p-6">
-            <a
-              href="https://medium.com/@learnwithalfred/before-you-enroll-in-an-online-course-there-is-something-you-should-know-a2b0849b5ce9"
+            <Link
+              to="/blogs/rails-7-authentication-with-devise-gem-with-confirm-password"
               className="title h5 text-lg font-medium hover:text-indigo-600 duration-500 ease-in-out"
             >
-              Before you enroll in an online course, there is something you
-              should know
-            </a>
+              Rails 7 authentication with devise gem
+            </Link>
             <p className="text-slate-400 mt-3">
-              Although there are several courses out there, finding a good one
-              is not an easy job.
+              We will learn to build a a school-like app in rails 7 and add
+              authentication to it using devise gem
             </p>
             <div className="mt-4">
               <a
-                href="https://medium.com/@learnwithalfred/before-you-enroll-in-an-online-course-there-is-something-you-should-know-a2b0849b5ce9"
+                href="/blogs/rails-7-authentication-with-devise-gem-with-confirm-password"
                 className="btn btn-link font-normal hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
               >
                 Read More <i className="uil uil-arrow-right" />
@@ -71,27 +71,26 @@ const LatestBlog = () => {
         </div>
         <div className="blog relative rounded-md shadow dark:shadow-gray-800 overflow-hidden">
           <img
-            src="https://miro.medium.com/max/1100/0*k6Eh1qMJGl4pTIRJ"
+            src="https://images.unsplash.com/photo-1560785496-3c9d27877182?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHRlc3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
             alt="Alfred Boateng"
           />
           <div className="content p-6">
-            <a
-              href="https://medium.com/@learnwithalfred/four-free-well-structured-resources-to-learn-how-to-code-c0d5f3d29858"
+            <Link
+              to="/blogs/rails-7-rspec-model-test-complementary-guide"
               className="title h5 text-lg font-medium hover:text-indigo-600 duration-500 ease-in-out"
             >
-              Four Free Well Structured Resources to learn to code
-            </a>
+              Rails 7 and testing model with rspec models using device gem
+            </Link>
             <p className="text-slate-400 mt-3">
-              Coding materials are no different. But the problem is how to find
-              well-structured contents,
+              Rails 7 and testing model with rspec models using device gem
             </p>
             <div className="mt-4">
-              <a
-                href="https://medium.com/@learnwithalfred/four-free-well-structured-resources-to-learn-how-to-code-c0d5f3d29858"
+              <Link
+                to="/blogs/rails-7-rspec-model-test-complementary-guide"
                 className="btn btn-link font-normal hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
               >
                 Read More <i className="uil uil-arrow-right" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -2,7 +2,6 @@ import React from 'react';
 import BlogContainer from '../../BlogContainer';
 import Gist from 'react-gist';
 
-
 const Pagination = () => {
   return (
     <BlogContainer
@@ -24,7 +23,7 @@ const Pagination = () => {
           </h3>
         </div>
         <div className="mt-6">
-          <p className="text-slate-400">
+          <p className="text-dark-900">
             In this tutorial, we will learn to add pagination to our rails 7 app
             using Tailwind CSS and the will_paginate gem.
           </p>
@@ -37,26 +36,31 @@ const Pagination = () => {
               gem 'will_paginate', '~> 3.3'
             </code>
 
-            <h5 className="font-semibold text-xl py-4">
-              Step 2: Define the number of items per page
-            </h5>
+            <div className="py-8 my-8">
+              <h5 className="font-semibold text-xl py-4">
+                Step 2: Define the number of items per page
+              </h5>
+            </div>
             <ul className="list-none">
               <Gist id="f22f3e3f174841d7919a10f62d472233" />
 
-              <p className="text-slate-400">
+              <p className="text-dark-900">
                 In this example, we are paginating the Payments and we are
                 displaying 15 items per page.
               </p>
             </ul>
 
-            <h5 className="font-semibold text-xl py-4">
-              Step 3 - Update the view with some styles
-            </h5>
+            <div className="py-8 my-8">
+              <h5 className="font-semibold text-xl py-4">
+                Step 3 - Update the view with some styles
+              </h5>
+            </div>
+
             <div className="">
-              <p className="text-slate-400">
-                I found some styles on github that I liked and I am going to use
-                them. You can find the styles here. I am going to copy the
-                styles and paste them in my application.css file.
+              <p className="text-dark-900">
+                I found some styles on github. You can find the styles here. I
+                am going to copy the styles and paste them in my application.css
+                file.
               </p>
               <a
                 className="text-indigo-600 py-8 my-8"
@@ -67,7 +71,7 @@ const Pagination = () => {
                 https://mislav.github.io/will_paginate/
               </a>
 
-              <p className="text-slate-400 py-8 my-8">
+              <p className="text-dark-900 py-8 my-8">
                 Then add the pagination and style with Tailwind CSS and
                 flickr_pagination from the above styles.
               </p>

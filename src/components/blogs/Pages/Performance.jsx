@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import Gist from 'react-gist';
-import BlogContainer from '../../BlogContainer'
+import BlogContainer from '../../BlogContainer';
 
 const Performance = () => {
   return (
@@ -8,13 +8,19 @@ const Performance = () => {
       title="Fix N+1 Performance issues in Rails 7 with Bullet Gem"
       description="In this tutorial,  we will fix N+1 Performance issues in Rails 7 with Bullet Gem"
     >
-      <div className="text-center mt-2">
-        <h3 className="my-3 text-[26px] font-semibold">
-          Fix N+1 Performance issues in Rails 7 with Bullet Gem
-        </h3>
-      </div>
-
       <div className="mt-6">
+        <div className="relative overflow-hidden rounded-md">
+          <img
+            src="https://images.unsplash.com/photo-1532985716028-255a31586f6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1053&q=80"
+            className="rounded-md"
+            alt="pagination with tailwind css and will paginate gem"
+          />
+        </div>
+        <div className="text-center mt-12">
+          <h3 className="my-3 text-[26px] font-semibold">
+            Fix N+1 Performance issues in Rails 7 with Bullet Gem
+          </h3>
+        </div>
         <p className="text-blue-400">
           <span className="font-semibold">N+1 Problem</span> is a common problem
           in Rails. It occurs when you have a list of records and you want to
@@ -31,7 +37,7 @@ const Performance = () => {
             <Gist id="fcb5e4a7bef506d3b06cd0e1b26f0a0a" />
           </div>
           <h5 className="font-semibold text-xl py-4">
-            let's try to see when N+1 performance issue arises
+            Let's try to see when N+1 performance issue arises
           </h5>
           <p className="text-blue-400 py-4">
             Eager loading is a technique that allows you to load associated data
@@ -76,19 +82,13 @@ const Performance = () => {
             <Gist id="9d3f3130e51c728eb519322b9f451ae5" />
           </div>
 
-          <div className="py-18 my-16">
-            <Gist id="7a8921adfc3fa70e08b0d7795b5a65a2" />
-          </div>
           <div className="py-8">
             <h5 className="font-semibold text-xl py-8">
               Find N+1 Queries with Bullet
             </h5>
             <p className="text-blue-400">
-              Bullet is a gem that is used to find N+1 queries. N+1 queries
-              occur when you have a list of records and you are trying to access
-              a relationship on each record. For example, if you have a list of
-              users and you want to access the posts of each user, you will have
-              N+1 queries. To setup Bullet, follow the steps below:
+              Bullet is a gem that is used to find N+1 queries. To setup Bullet,
+              follow the steps below:
             </p>
             <div className="list-disc list-inside">
               <div className="py-4 my-8">
@@ -100,15 +100,6 @@ const Performance = () => {
                 You can also add bullet to the development and test group in the
                 Gemfile.
               </p>
-              <div className="py-8">
-                <code className="bg-gray-100 dark:bg-gray-800 rounded-md">
-                  group :development, :test do
-                  <br />
-                  gem 'bullet'
-                  <br />
-                  end
-                </code>
-              </div>
               <h5 className="font-semibold text-xl py-8">
                 Enable Bullet gem in the development environment
               </h5>
@@ -140,6 +131,6 @@ const Performance = () => {
       </div>
     </BlogContainer>
   );
-}
+};
 
-export default Performance
+export default Performance;

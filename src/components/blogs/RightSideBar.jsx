@@ -36,7 +36,7 @@ const RightSideBar = () => {
             >
               Rails 7 authentication with devise gem
             </Link>
-            <p className="text-sm text-slate-400">1st November 2022</p>
+            
           </div>
         </div>
         <div className="flex items-center mt-4">
@@ -52,7 +52,7 @@ const RightSideBar = () => {
             >
               Fix N+1 Performance issues in Rails 7
             </Link>
-            <p className="text-sm text-slate-400">2nd November 2022</p>
+            
           </div>
         </div>
         <div className="flex items-center mt-4">
@@ -68,7 +68,6 @@ const RightSideBar = () => {
             >
               React with Redux toolkit and CreateAsyncThunk Complementary Guide
             </a>
-            <p className="text-sm text-slate-400">1st May 2022</p>
           </div>
         </div>
         <h5 className="text-lg font-semibold bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 rounded-md p-2 text-center mt-8">

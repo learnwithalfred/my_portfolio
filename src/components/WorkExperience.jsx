@@ -64,7 +64,7 @@ const WorkExperience = () => (
                   Full-stack Developer Intern
                 </h5>
                 <p className="mt-3 mb-0 text-slate-400">
-                  Worked as a Full Stack JavaScript developer. WOrked with Node
+                  Worked as a Full Stack JavaScript developer. Worked with Node
                   and React.js to build a coaches booking website.
                 </p>
               </div>
