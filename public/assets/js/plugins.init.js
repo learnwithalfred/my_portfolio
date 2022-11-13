@@ -38,6 +38,7 @@
 /*            01) Tiny slider              */
 //=========================================//
 
+
 if(document.getElementsByClassName('tiny-single-item').length > 0) {
     var slider = tns({
         container: '.tiny-single-item',
