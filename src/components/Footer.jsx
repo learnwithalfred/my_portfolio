@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <footer className="footer bg-dark-footer relative text-gray-200 dark:text-gray-200">
@@ -7,13 +7,9 @@ const Footer = () => {
         <div className="container text-center">
           <div className="grid md:grid-cols-3 grid-cols-1 items-center">
             <div className="md:text-left text-center">
-              <a href="/" className="text-[22px] focus:outline-none">
-                <img
-                  src="/assets/images/logo-light.png"
-                  className="mx-auto md:mr-auto md:ml-0"
-                  alt="Alfred Boateng"
-                />
-              </a>
+              <Link to="/" className="text-[22px] focus:outline-none">
+                Alfred Boateng
+                </Link>
             </div>
             <div className="text-center mt-6 md:mt-0"></div>
             <ul className="list-none md:text-right text-center mt-6 md:mt-0">
