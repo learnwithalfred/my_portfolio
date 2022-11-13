@@ -2,6 +2,7 @@ import React from 'react';
 import BlogContainer from '../../BlogContainer';
 import Gist from 'react-gist';
 
+
 const Authorize = () => {
   return (
     <BlogContainer

@@ -6,6 +6,7 @@ const RailsApi = () => {
   return (
     <BlogContainer
       title=" Lets create an API in Rails 7"
+      description="In this blog, we will create an API in Rails 7 with Active Model Serializer Gem for JSON response format."
     >
       <div className="text-center mt-2">
         <h3 className="my-3 text-[26px] font-semibold">
@@ -23,7 +24,8 @@ const RailsApi = () => {
           you’re requesting it from and then delivers the response back to you.
         </p>
         <p className="text-blue-400">
-          In this blog, we will create an API in Rails 7 with Active Model Serializer Gem for JSON response format.
+          In this blog, we will create an API in Rails 7 with Active Model
+          Serializer Gem for JSON response format.
         </p>
 
         <h5 className="font-semibold text-xl my-16 py-8">

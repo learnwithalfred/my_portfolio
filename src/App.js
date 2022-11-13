@@ -6,6 +6,7 @@ import Performance from './components/blogs/Pages/Performance';
 import Home from './pages/Home';
 import Pagination from './components/blogs/Pages/Pagination';
 import RSpec from './components/blogs/Pages/RSpec';
+import RailsApi from './components/blogs/Pages/RailsApi';
 
 export default function App() {
   return (
@@ -33,6 +34,12 @@ export default function App() {
         path="/blogs/fix-n1-performance-in-rails-with-bullet-gem"
         element={<Performance />}
       />
+
+      <Route
+        path="/blogs/lets-create-an-api-in-rails-7"
+        element={<RailsApi />}
+      />
     </Routes>
   );
 }
+

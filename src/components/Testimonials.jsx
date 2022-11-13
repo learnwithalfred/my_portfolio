@@ -42,8 +42,7 @@ const Testimonials = () => {
               worker. So I would really like to recommend him for the post of
               full stack developer of your company. I can assure you that, he
               would be a great option for helping your company in its future
-              growth and success. Thank you for taking the time to read this
-              recommendation from your busy schedule.. "
+              growth and success."
             </p>
             <a
               href="https://www.linkedin.com/in/silviatofana/"

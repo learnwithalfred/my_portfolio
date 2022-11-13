@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const Nav = () => {
   function toggleMenu() {
     document.getElementById('isToggle').classList.toggle('open');
@@ -14,18 +14,9 @@ const Nav = () => {
     <nav id="topnav" className="defaultscroll is-sticky">
       <div className="container">
         {/* Logo container*/}
-        <a className="logo pl-0" href="index.html">
-          <img
-            src="/assets/images/logo-dark.png"
-            className="inline-block dark:hidden"
-            alt="Alfred Boateng"
-          />
-          <img
-            src="/assets/images/logo-light.png"
-            className="hidden dark:inline-block"
-            alt="Alfred Boateng"
-          />
-        </a>
+        <Link className="logo pl-0" to="/">
+          Alfred Boateng
+        </Link>
         {/* End Logo container*/}
         <div className="menu-extras">
           <div className="menu-item">
@@ -43,31 +34,31 @@ const Nav = () => {
         {/*Login button Start*/}
         <ul className="buy-button list-none mb-0">
           <li className="inline pl-1 mb-0">
-            <a
-              href="/"
+            <Link
+              to="/"
               target="_blank"
               className="btn btn-icon rounded-full bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white"
             >
               <i data-feather="shopping-cart" className="h-4 w-4" />
-            </a>
+            </Link>
           </li>
         </ul>
         <div id="navigation">
           <ul className="navigation-menu">
             <li>
-              <a href="/" className="sub-menu-item">
+              <Link to="/" className="sub-menu-item">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/blogs" className="sub-menu-item">
+              <Link to="/blogs" className="sub-menu-item">
                 Blogs
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="contact-one.html" className="sub-menu-item">
+              <Link to="/" className="sub-menu-item">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
