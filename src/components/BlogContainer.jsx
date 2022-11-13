@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-
+import Available from './Available';
 import Nav from './Nav';
 import RightSideBar from './blogs/RightSideBar';
 import Footer from './Footer';
@@ -29,6 +29,8 @@ const BlogContainer = ({ children, title, description }) => {
           </div>
         </div>
       </section>
+      <Available />
+
       <Footer />
     </>
   );

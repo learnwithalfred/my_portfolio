@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Available = () => {
   return (
@@ -15,7 +15,7 @@ const Available = () => {
       <div className="container relative">
         <div className="grid grid-cols-1 text-center">
           <h3 className="mb-4 md:text-3xl text-2xl text-white font-medium">
-            I Am Available For Any Full-time Developer Position
+            I Am Available For Full-time Developer Position
           </h3>
           <p className="text-white/80 max-w-xl mx-auto">
             I am a junior plus full-stack JavaScript Ruby on Rails developer
@@ -41,6 +41,6 @@ const Available = () => {
       {/*end container*/}
     </section>
   );
-}
+};
 
-export default Available
+export default Available;
