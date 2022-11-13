@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const WorkExperience = () => (
   <section className="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800">
@@ -52,7 +52,7 @@ const WorkExperience = () => (
             <div className="grid md:grid-cols-2">
               <div className="text-left md:ml-8 relative md:order-2">
                 <img
-                  src="https://kraado.co/assets/images/kraado_logo.png"
+                  src="https://media-exp1.licdn.com/dms/image/C4E0BAQG9ueTShXlW1A/company-logo_200_200/0/1571408292205?e=2147483647&v=beta&t=yAITmxZPKPoXl_ZqYfEmZUfwpdstNde1zJ4_ruPy3Pc"
                   className="rounded-full h-9 w-9 md:mr-auto"
                   alt="Alfred Boateng"
                 />
@@ -78,4 +78,4 @@ const WorkExperience = () => (
   </section>
 );
 
-export default WorkExperience
+export default WorkExperience;

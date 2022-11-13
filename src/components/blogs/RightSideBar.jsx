@@ -112,15 +112,6 @@ const RightSideBar = () => {
               <i className="uil uil-envelope align-middle" title="email" />
             </a>
           </li>
-
-          <li className="inline">
-            <a
-              href="mailto:learnwithalfred@gmail.com"
-              className="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md text-slate-400 hover:border-indigo-600 hover:text-white hover:bg-indigo-600 mx-2"
-            >
-              <i className="uil uil-youtube align-middle" title="email" />
-            </a>
-          </li>
         </ul>
         {/*end icon*/}
       </div>

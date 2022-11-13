@@ -35,8 +35,8 @@ const Nav = () => {
         <ul className="buy-button list-none mb-0">
           <li className="inline pl-1 mb-0">
             <a
-              href="../assets/ab.pdf"
-              download="ab.pdf"
+              href="/assets/Alfred_Boateng_Resume.pdf"
+              download="Alfred_Boateng_Resume.pdf"
               className="btn bg-sky-600 hover:bg-sky-700 border-sky-600
                       hover:border-sky-700 text-white rounded-md"
             >
