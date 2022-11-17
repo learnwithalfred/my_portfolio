@@ -39,7 +39,8 @@ export default function App() {
         path="/blogs/lets-create-an-api-in-rails-7"
         element={<RailsApi />}
       />
+
+      <Route path="*" element={<Home />} />
     </Routes>
   );
 }
-
