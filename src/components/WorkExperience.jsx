@@ -56,7 +56,15 @@ const WorkExperience = () => (
                   className="rounded-full h-9 w-9 md:mr-auto"
                   alt="Alfred Boateng"
                 />
-                <h5 className="my-2 font-semibold text-lg">Kraado.</h5>
+                <h5 className="my-2 font-semibold text-lg">
+                  <a
+                    href="https://kraado.co"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    https://kraado.co
+                  </a>
+                </h5>
                 <h6 className="text-slate text-sm mb-0">2021</h6>
               </div>
               <div className="float-left md:text-right md:mr-8 mt-6 md:mt-0 md:order-1">
