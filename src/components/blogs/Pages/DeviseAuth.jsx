@@ -67,7 +67,13 @@ const DeviseAuth = () => {
 
                 <div className="py-8 my-4">
                   <code className="bg-gray-100 dark:bg-gray-800 rounded-md py-3 my-4">
-                    bundle install && rails generate devise:install
+                    bundle install
+                  </code>
+                </div>
+
+                <div className="py-8 my-4">
+                  <code className="bg-gray-100 dark:bg-gray-800 rounded-md py-3 my-4">
+                    rails generate devise:install
                   </code>
                 </div>
 

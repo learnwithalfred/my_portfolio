@@ -7,12 +7,6 @@ const RSpec = () => (
     title="Rails 7 RSpec Model Test Complementary Guide"
     description="In this tutorial we are going to talk about rails 7 and testing model with rspec models. I want to test user model created using device gem"
   >
-    <div className="text-center mt-2">
-      <h3 className="my-3 text-[26px] font-semibold">
-        Rails 7 RSpec Model Test Complementary Guide
-      </h3>
-    </div>
-
     <div className="mt-6">
       <div className="relative overflow-hidden rounded-md">
         <img
@@ -89,24 +83,24 @@ const RSpec = () => (
                   can group test into the following
                   {/* example */}
                   <ul className="list-disc list-inside my-4">
-                    <li>
+                    <li className="my-4 py-2">
                       <code className="bg-gray-100 dark:bg-gray-800 rounded-md py-3 my-4">
                         context 'when user is not logged in'
                       </code>
                     </li>
-                    <li>
+                    <li className="my-4 py-2">
                       <code className="bg-gray-100 dark:bg-gray-800 rounded-md py-3 my-4">
                         {' '}
                         context 'when user is logged in'
                       </code>
                     </li>
-                    <li>
+                    <li className="my-4 py-2">
                       <code className="bg-gray-100 dark:bg-gray-800 rounded-md py-3 my-4">
                         {' '}
                         context 'when user is admin'
                       </code>
                     </li>
-                    <li>
+                    <li className="my-4 py-2">
                       <code className="bg-gray-100 dark:bg-gray-800 rounded-md py-3 my-4">
                         {' '}
                         context 'when user is not admin'

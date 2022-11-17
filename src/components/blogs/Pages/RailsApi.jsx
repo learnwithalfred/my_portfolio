@@ -79,7 +79,7 @@ const RailsApi = () => {
         </div>
         <h5 className="font-semibold text-xl my-16 py-8">
           You can test your application by going to{' '}
-          <code className="bg-gray-100 dark:bg-gray-800 rounded-md py-3 my-4">
+          <code className="bg-gray-100 dark:bg-gray-800 rounded-md">
             localhost:3000/users and localhost:3000/books{' '}
           </code>{' '}
           in your browser.
