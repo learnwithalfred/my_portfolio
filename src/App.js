@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Pagination from './components/blogs/Pages/Pagination';
 import RSpec from './components/blogs/Pages/RSpec';
 import RailsApi from './components/blogs/Pages/RailsApi';
+import BoxModel from './components/blogs/Pages/BoxModel';
 
 export default function App() {
   return (
@@ -39,6 +40,7 @@ export default function App() {
         path="/blogs/lets-create-an-api-in-rails-7"
         element={<RailsApi />}
       />
+      <Route path="/blogs/the-box-model" element={<BoxModel />} />
 
       <Route path="*" element={<Home />} />
     </Routes>

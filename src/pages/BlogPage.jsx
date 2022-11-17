@@ -252,6 +252,42 @@ const BlogPage = () => {
               </div>
             </div>
           </div>
+          {/* ========================== */}
+          <div className="blog relative rounded-md shadow dark:shadow-gray-800 overflow-hidden">
+            <div className="lg:flex relative">
+              <div className="relative md:shrink-0">
+                <img
+                  className="h-full w-full object-cover lg:w-52 lg:h-56"
+                  src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Boxmodell-detail.png"
+                  alt="the box model"
+                />
+              </div>
+              <div className="p-6 flex flex-col lg:h-56 justify-center">
+                <Link
+                  to="/blogs/the-box-model"
+                  className="title h5 text-lg font-medium hover:text-indigo-600 duration-500 ease-in-out"
+                >
+                  The Box Model in CSS
+                </Link>
+                <div className="my-auto">
+                  <p className="text-slate-400 mt-3">
+                    he box model is the foundation of CSS. It is the way that
+                    CSS treats each HTML element as a box. The box model is
+                    essentially a box ...
+                  </p>
+                </div>
+                <div className="mt-4">
+                  <Link
+                    to="/blogs/the-box-model"
+                    className="btn btn-link font-normal hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
+                  >
+                    Read More <i className="uil uil-arrow-right" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* ========================== */}
 
           <div className="blog relative rounded-md shadow dark:shadow-gray-800 overflow-hidden">
             <div className="lg:flex relative">

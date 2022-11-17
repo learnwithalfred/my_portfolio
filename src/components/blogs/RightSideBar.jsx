@@ -13,9 +13,7 @@ const RightSideBar = () => {
             className="h-24 w-36 mx-auto rounded-full shadow mb-4"
             alt="alfred Boateng"
           />
-          <p
-            className="text-lg font-semibold hover:text-indigo-600 transition-all duration-500 ease-in-out"
-          >
+          <p className="text-lg font-semibold hover:text-indigo-600 transition-all duration-500 ease-in-out">
             Alfred Boateng
           </p>
           <p className="text-slate-400">Full-stack Developer</p>
@@ -36,7 +34,6 @@ const RightSideBar = () => {
             >
               Rails 7 authentication with devise gem
             </Link>
-            
           </div>
         </div>
         <div className="flex items-center mt-4">
@@ -52,7 +49,6 @@ const RightSideBar = () => {
             >
               Fix N+1 Performance issues in Rails 7
             </Link>
-            
           </div>
         </div>
         <div className="flex items-center mt-4">
@@ -68,6 +64,21 @@ const RightSideBar = () => {
             >
               React with Redux toolkit and CreateAsyncThunk Complementary Guide
             </a>
+          </div>
+        </div>
+        <div className="flex items-center mt-4">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Boxmodell-detail.png"
+            className="h-16 rounded-md shadow dark:shadow-gray-800"
+            alt="React redux toolkit"
+          />
+          <div className="ml-3">
+            <Link
+              to="/blogs/the-box-model"
+              className="font-semibold hover:text-indigo-600"
+            >
+              The Box Model in CSS
+            </Link>
           </div>
         </div>
         <h5 className="text-lg font-semibold bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 rounded-md p-2 text-center mt-8">
