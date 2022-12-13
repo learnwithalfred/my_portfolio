@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Typical from 'react-typical';
 const Hero = () => {
   return (
     <section
@@ -44,9 +44,19 @@ const Hero = () => {
               </div>
               {/*end col*/}
               <div className="lg:col-span-4 lg:block hidden lg:order-2" />
+
               <div className="lg:col-span-4 md:col-span-6 order-1 lg:order-3">
-                <h4 className="lg:text-[64px] lg:leading-[1.1] text-[40px] font-bold lg:text-black lg:dark:text-white text-white mb-0">
-                  Alfred <br /> Boateng
+                <h4 className="lg:text-[40px] lg:leading-[1.1] text-[40px] font-bold lg:text-black lg:dark:text-white text-white mb-0 ">
+                  <Typical
+                    steps={[
+                      'Alfred Boateng',
+                      7000,
+                      'Web developer!',
+                      5000,
+                    ]}
+                    loop={Infinity}
+                    wrapper="b"
+                  />
                 </h4>
               </div>
               {/*end col*/}
