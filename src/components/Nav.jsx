@@ -39,11 +39,11 @@ const Nav = () => {
             <a
               target={'_blank'}
               rel="noreferrer"
-              href="https://docs.google.com/document/d/1_19Fknm1CHhR0YmslcuAKkVdP8u0uwwfNma-GJL5iJU/edit?usp=sharing"
+              href="mailto:learnwithalfred@gmail.com "
               className="btn bg-sky-600 hover:bg-sky-700 border-sky-600
                       hover:border-sky-700 text-white rounded-md"
             >
-              Download Resume
+              <i className="uil uil-envelope" /> Contact Me
             </a>
           </li>
         </ul>
