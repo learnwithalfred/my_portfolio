@@ -55,6 +55,12 @@ const Nav = () => {
               </HashLink>
             </li>
             <li>
+              <HashLink to="/#experience" className="sub-menu-item">
+                Experience
+              </HashLink>
+            </li>
+
+            <li>
               <Link to={'/blogs'} className="sub-menu-item">
                 Blogs
               </Link>

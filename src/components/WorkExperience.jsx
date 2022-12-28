@@ -1,7 +1,10 @@
 import React from 'react';
 
 const WorkExperience = () => (
-  <section className="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800">
+  <section
+    className="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800"
+    id="experience"
+  >
     <div className="container">
       <div className="grid grid-cols-1 pb-8 text-center">
         <h6 className="text-indigo-600 text-sm font-bold uppercase mb-2">
@@ -31,7 +34,7 @@ const WorkExperience = () => (
               <div className="float-left text-left md:ml-8 mt-6 md:mt-0">
                 <h5 className="title mb-1 font-semibold">
                   <a
-                    href="https://tobedetermined.dev/our-roster"
+                    href="https://tobedetermined.dev"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
