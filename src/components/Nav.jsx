@@ -56,7 +56,7 @@ const Nav = () => {
             </li>
 
             <li>
-              <HashLink to="/#my-work" className="sub-menu-item">
+              <HashLink to="/portfolio" className="sub-menu-item">
                 Projects
               </HashLink>
             </li>

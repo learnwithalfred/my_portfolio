@@ -8,12 +8,14 @@ import Pagination from './components/blogs/Pages/Pagination';
 import RSpec from './components/blogs/Pages/RSpec';
 import RailsApi from './components/blogs/Pages/RailsApi';
 import BoxModel from './components/blogs/Pages/BoxModel';
+import PortfolioPage from './pages/PortfolioPage';
 
 export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/blogs" element={<BlogPage />} />
+      <Route path="/portfolio" element={<PortfolioPage />} />
       <Route
         path="/blogs/rails-7-authentication-with-devise-gem-with-confirm-password"
         element={<DeviseAuth />}

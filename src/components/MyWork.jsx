@@ -3,7 +3,7 @@ import React from 'react';
 const MyWork = () => {
   return (
     <section
-      className="relative py-8 bg-gray-50 dark:bg-slate-800"
+      className="relative py-8"
       id="my-work"
     >
       <div>
