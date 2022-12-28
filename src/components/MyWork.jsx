@@ -2,7 +2,7 @@ import React from 'react';
 
 const MyWork = () => {
   return (
-    <section className="relative py-8 bg-gray-50 dark:bg-slate-800">
+    <section className="relative py-8 bg-gray-50 dark:bg-slate-800" id="my-work">
       <div className="container mt-8">
         <div className="grid grid-cols-1 pb-8 text-center">
           <h6 className="text-indigo-600 text-sm font-bold uppercase mb-2">
