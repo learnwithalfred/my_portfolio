@@ -54,17 +54,18 @@ const Nav = () => {
                 About Me
               </HashLink>
             </li>
+
+            <li>
+              <HashLink to="/#my-work" className="sub-menu-item">
+                Projects
+              </HashLink>
+            </li>
             <li>
               <HashLink to="/#experience" className="sub-menu-item">
                 Experience
               </HashLink>
             </li>
-               <li>
-              <HashLink to="/#my-work" className="sub-menu-item">
-                Projects
-              </HashLink>
-            </li>
-              <li>
+            <li>
               <HashLink to="/#testimonials" className="sub-menu-item">
                 Testimonials
               </HashLink>
