@@ -71,8 +71,8 @@ const MyWork = () => {
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
                   <a
                     rel="noreferrer"
-                    href="https://nana-ama-stores.onrender.com/"
                     target="_blank"
+                    href="https://nana-ama-stores.onrender.com/"
                     className="hover:text-red-600 transition-all duration-500 ease-in-out"
                   >
                     <span className="text-indigo-600 mr-2">
@@ -84,6 +84,8 @@ const MyWork = () => {
               </ul>
               <div className="mt-4">
                 <a
+                  rel="noreferrer"
+                  target="_blank"
                   href="https://nana-ama-stores.onrender.com/"
                   className="btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                 >
@@ -130,16 +132,11 @@ const MyWork = () => {
                 </li>
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
-                  <a
-                    rel="noreferrer"
-                    href=""
-                    target="_blank"
-                    className="hover:text-red-600 transition-all duration-500 ease-in-out"
-                  >
+                  <span className="hover:text-red-600 transition-all duration-500 ease-in-out">
                     <span className="text-indigo-600 mr-2">Github link: </span>
                     This is a private project I contributed to whiles working as
                     a part-time developer at a TobeDetermened.
-                  </a>
+                  </span>
                 </li>
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
@@ -167,6 +164,13 @@ const MyWork = () => {
                     tobedetermined.dev
                   </a>
                 </li>
+                <li className="mb-1 flex">
+                  <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
+                  <span className="hover:text-red-600 transition-all duration-500 ease-in-out">
+                    <span className="text-indigo-600 mr-2">Project Type: </span>
+                    Personal Project
+                  </span>
+                </li>
               </ul>
               <div className="mt-4">
                 <a
@@ -187,7 +191,7 @@ const MyWork = () => {
             <div className="relative">
               <a
                 rel="noreferrer"
-                href="https://github.com/learnwithalfred/nana-ama-stores"
+                href="https://kraado.co"
                 target="_blank"
                 className="hover:text-red-600 transition-all duration-500 ease-in-out"
               >
@@ -233,9 +237,18 @@ const MyWork = () => {
                     https://kraado.co
                   </a>
                 </li>
+                <li className="mb-1 flex">
+                  <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
+                  <span className="hover:text-red-600 transition-all duration-500 ease-in-out">
+                    <span className="text-indigo-600 mr-2">Project Type: </span>
+                    Company website
+                  </span>
+                </li>
               </ul>
               <div className="mt-4">
                 <a
+                  rel="noreferrer"
+                  target="_blank"
                   href="https://kraado.co"
                   className="btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                 >
@@ -316,6 +329,8 @@ const MyWork = () => {
               </ul>
               <div className="mt-4">
                 <a
+                  target="_blank"
+                  rel="noreferrer"
                   href="https://reserve-car.onrender.com/"
                   className="btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                 >
@@ -385,9 +400,18 @@ const MyWork = () => {
                     https://giuseppetg.github.io/TVmaze/dist{' '}
                   </a>
                 </li>
+                <li className="mb-1 flex">
+                  <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
+                  <span className="hover:text-red-600 transition-all duration-500 ease-in-out">
+                    <span className="text-indigo-600 mr-2">Project Type: </span>
+                    Group Project
+                  </span>
+                </li>
               </ul>
               <div className="mt-4">
                 <a
+                  target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/giuseppetg/TVmaze/"
                   className="btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                 >
@@ -469,6 +493,8 @@ const MyWork = () => {
               </ul>
               <div className="mt-4">
                 <a
+                  target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/learnwithalfred/space-travel-booking"
                   className="btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                 >
