@@ -37,8 +37,9 @@ const Nav = () => {
         <ul className="buy-button list-none mb-0">
           <li className="inline pl-1 mb-0">
             <a
-              href="/assets/Alfred_Boateng_Resume.pdf"
-              download="Alfred_Boateng_Resume.pdf"
+              target={'_blank'}
+              rel="noreferrer"
+              href="https://docs.google.com/document/d/1_19Fknm1CHhR0YmslcuAKkVdP8u0uwwfNma-GJL5iJU/edit?usp=sharing"
               className="btn bg-sky-600 hover:bg-sky-700 border-sky-600
                       hover:border-sky-700 text-white rounded-md"
             >

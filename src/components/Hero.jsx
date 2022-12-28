@@ -7,7 +7,7 @@ const Hero = () => {
       className="md:h-screen py-36 h-auto relative flex items-center background-effect overflow-hidden 
       before:content-[''] before:absolute before:-z-1 sm:before:-bottom-80 before:-bottom-40 before:right-36 before:left-0 before:mx-auto before:rounded-full before:bg-indigo-600 sm:before:w-[50rem] before:w-[30rem] sm:before:h-[50rem] before:h-[30rem]"
     >
-      <div className="container-fluid" >
+      <div className="container-fluid">
         <div
           className="absolute inset-0 jarallax"
           data-jarallax
@@ -18,7 +18,7 @@ const Hero = () => {
           }}
         />
       </div>
-      <div className="container relative z-1" >
+      <div className="container relative z-1">
         <div className="grid grid-cols-1 mt-5">
           <div className="title-heading">
             <div className="grid md:grid-cols-12 mt-12">
@@ -32,13 +32,14 @@ const Hero = () => {
                   </p>
                   <div className="mt-4">
                     <a
-                      href="/assets/Alfred_Boateng_Resume.pdf"
-                      download="Alfred_Boateng_Resume.pdf"
+                      target={'_blank'}
+                      rel="noreferrer"
+                      href="https://docs.google.com/document/d/1_19Fknm1CHhR0YmslcuAKkVdP8u0uwwfNma-GJL5iJU/edit?usp=sharing"
                       className="btn bg-sky-600 hover:bg-sky-700 border-sky-600
                       hover:border-sky-700 text-white rounded-md"
                     >
                       {' '}
-                      Download Resume
+                      My Resume
                     </a>
                   </div>
                 </div>
@@ -49,12 +50,7 @@ const Hero = () => {
               <div className="lg:col-span-4 md:col-span-6 order-1 lg:order-3">
                 <h4 className="lg:text-[40px] lg:leading-[1.1] text-[40px] font-bold lg:text-black lg:dark:text-white text-white mb-0 ">
                   <Typical
-                    steps={[
-                      'Alfred Boateng',
-                      7000,
-                      'Web developer!',
-                      5000,
-                    ]}
+                    steps={['Alfred Boateng', 7000, 'Web developer!', 5000]}
                     loop={Infinity}
                     wrapper="b"
                   />
