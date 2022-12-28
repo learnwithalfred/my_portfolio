@@ -15,9 +15,11 @@ const Home = () => (
     <Nav />
     <Hero />
     <About />
-    <WorkExperience />
-    <Available />
     <MyWork />
+
+    <Available />
+    <WorkExperience />
+
     <LatestBlog />
     <Testimonials />
 
