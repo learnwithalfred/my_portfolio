@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+
 const Nav = () => {
   function toggleMenu() {
     document.getElementById('isToggle').classList.toggle('open');
@@ -47,12 +49,12 @@ const Nav = () => {
         <div id="navigation">
           <ul className="navigation-menu">
             <li>
-              <Link to="/" className="sub-menu-item">
-                Home
-              </Link>
+              <HashLink to="/#about" className="sub-menu-item">
+                About Me
+              </HashLink>
             </li>
             <li>
-              <Link to="/blogs" className="sub-menu-item">
+              <Link to={"/blogs"} className="sub-menu-item">
                 Blogs
               </Link>
             </li>
