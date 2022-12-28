@@ -181,7 +181,7 @@ const MyWork = () => {
           </div>
         </div>
         {/*end container*/}
-        {/* ============================================================================ */}
+        {/* ======================================   Kraado   ====================================== */}
         <div className="container md:mt-24 mt-16">
           <div className="grid md:grid-cols-2 grid-cols-1 items-center mt-16 gap-[30px]">
             <div className="relative">
@@ -215,9 +215,9 @@ const MyWork = () => {
                 </li>
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
-                    <span className="text-indigo-600 mr-2">Github link: </span>A
-                    private project I contributed to whiles working as a
-                    developer Intern at Kraado.
+                  <span className="text-indigo-600 mr-2">Github link: </span>A
+                  private project I contributed to whiles working as a developer
+                  Intern at Kraado.
                 </li>
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
@@ -246,85 +246,77 @@ const MyWork = () => {
             </div>
           </div>
         </div>
-        {/* ============================================================================ */}
+        {/* =================================== Car booking app ========================================= */}
 
         <div className="container md:mt-24 mt-16">
           <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
             <div className="relative order-1 md:order-2">
               <a
                 rel="noreferrer"
-                href="https://www.gotlisted.io"
+                href="https://github.com/learnwithalfred/backend-microverse-final-capstone"
                 target="_blank"
                 className="hover:text-red-600 transition-all duration-500 ease-in-out"
               >
                 <img
-                  src="/assets/images/listed.png"
+                  src="/assets/images/cars-reserve.png"
                   className="rounded-lg shadow-md dark:shadow-gray-800"
-                  alt="Alfred Boateng's Portfolio"
+                  alt="Microverse"
                 />
               </a>
               <div className="overflow-hidden absolute lg:h-[400px] h-[320px] lg:w-[400px] w-[320px] bg-indigo-600/5 dark:bg-indigo-600/20 bottom-0 right-0 rotate-45 -z-1 rounded-3xl" />
             </div>
             <div className="lg:mr-8 order-2 md:order-1">
               <h5 className="mb-4 text-2xl leading-normal font-medium">
-                <span className="text-indigo-600 mr-2">Name: </span> Listed
+                <span className="text-indigo-600 mr-2">Name: </span> Car Booking
+                App
               </h5>
               <p className="text-dark-800">
-                <span className="text-indigo-600">Description: </span> An
-                enterprise NFT application that allows users to create NFTs and
-                to buy and sell NFTs. I added role based authentication to the
-                app, so that only users with the admin role can create NFTs and
-                users with the buyer role can buy NFTs.
+                <span className="text-indigo-600">Description: </span> This is a
+                group project where we were to build a car booking app.
               </p>
               <ul className="list-none text-dark-800 mt-4">
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
                   <span className="text-indigo-600 mr-2">Languages: </span>{' '}
-                  React.js, Firebase, Tailwind CSS
+                  React.js, Ruby on Rails, Bootstrap, Postgres.
                 </li>
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
                   <a
                     rel="noreferrer"
-                    href=""
+                    href="https://github.com/learnwithalfred/backend-microverse-final-capstone"
                     target="_blank"
                     className="hover:text-red-600 transition-all duration-500 ease-in-out"
                   >
                     <span className="text-indigo-600 mr-2">Github link: </span>
-                    This is a private project I contributed to whiles working as
-                    a part-time developer at a TobeDetermened.
+                    https://github.com/learnwithalfred/backend-microverse-final-capstone
                   </a>
                 </li>
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
                   <a
                     rel="noreferrer"
-                    href="https://www.gotlisted.io"
+                    href="https://reserve-car.onrender.com/"
                     target="_blank"
                     className="hover:text-red-600 transition-all duration-500 ease-in-out"
                   >
                     <span className="text-indigo-600 mr-2">
                       Deployed link:{' '}
                     </span>
-                    https://www.gotlisted.io
+                    https://reserve-car.onrender.com/{' '}
                   </a>
                 </li>
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
-                  <a
-                    rel="noreferrer"
-                    href="https://tobedetermined.dev"
-                    target="_blank"
-                    className="hover:text-red-600 transition-all duration-500 ease-in-out"
-                  >
-                    <span className="text-indigo-600 mr-2">Client: </span>
-                    tobedetermined.dev
-                  </a>
+                  <span className="hover:text-red-600 transition-all duration-500 ease-in-out">
+                    <span className="text-indigo-600 mr-2">Project Type: </span>
+                    Group Project
+                  </span>
                 </li>
               </ul>
               <div className="mt-4">
                 <a
-                  href="https://www.gotlisted.io"
+                  href="https://reserve-car.onrender.com/"
                   className="btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                 >
                   Find Out More{' '}
@@ -503,34 +495,6 @@ const MyWork = () => {
 
       <div className="container mt-8">
         <div className="sm:flex mt-4">
-          <div className="lg:w-1/2 sm:w-1/2 picture-item p-4 rounded-md">
-            <div className>
-              <div className="relative">
-                <div className="shadow dark:shadow-gray-800 p-5 pb-0 rounded-md bg-emerald-600/5 dark:bg-emerald-600/30">
-                  <img
-                    src="/assets/images/kraado.png"
-                    className="rounded-t-md shadow"
-                    alt="Kraado"
-                  />
-                </div>
-              </div>
-              <div className="pt-4 px-3">
-                <h5 className="mb-1 font-semibold text-lg">
-                  <a
-                    href="https://kraado.co/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="hover:text-emerald-600 transition-all duration-500 ease-in-out"
-                  >
-                    https://kraado.co Website
-                  </a>
-                </h5>
-                <span className="text-dark-800">
-                  Contributed to when project working as developer intern
-                </span>
-              </div>
-            </div>
-          </div>
           <div className="lg:w-1/2 sm:w-1/2 picture-item p-4 rounded-md">
             <div className>
               <div className="relative">
