@@ -4,7 +4,6 @@ import Hero from '../components/Hero';
 import About from '../components/About';
 import WorkExperience from '../components/WorkExperience';
 import Available from '../components/Available';
-import MyWork from '../components/MyWork';
 // import LatestBlog from '../components/LatestBlog';
 import ContactMe from '../components/ContactMe';
 import Footer from '../components/Footer';
@@ -15,7 +14,6 @@ const Home = () => (
     <Nav />
     <Hero />
     <About />
-    <MyWork />
 
     <Available />
     <WorkExperience />
