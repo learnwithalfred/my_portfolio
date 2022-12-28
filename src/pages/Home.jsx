@@ -17,13 +17,11 @@ const Home = () => (
     <About />
     <WorkExperience />
     <Available />
-    <section className="relative md:py-24 py-16" id="portfolio">
-      <MyWork />
-      <LatestBlog />
-      <Testimonials />
+    <MyWork />
+    <LatestBlog />
+    <Testimonials />
 
-      <ContactMe />
-    </section>
+    <ContactMe />
     <Footer />
   </div>
 );
