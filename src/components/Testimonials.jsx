@@ -9,7 +9,7 @@ const Testimonials = () => {
       <div className="container">
         <div className="grid grid-cols-1 text-center  mt-16">
           <h3 className="text-indigo-600 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
-            Testimonial
+            Testimonials
           </h3>
         </div>
 
