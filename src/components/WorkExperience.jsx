@@ -42,9 +42,23 @@ const WorkExperience = () => (
                   </a>
                 </h5>
                 <p className="mt-3 mb-0 text-slate-400">
-                  Created a full-stack NFT User Interface using NextJS,
-                  JavaScript, Typescript, Firebase, React, Storybook, Tailwind
-                  CSS, SASS, and Adobe XD with a team of 10+ engineers.
+                  Worked with experienced developers on an enterprise NFT
+                  application
+                  <br />
+                  <br />
+                  <ul className="list-disc list-inside">
+                    <li>
+                      Languages: React.js, Next.js, Firebase and Tailwind CSS
+                    </li>
+                    <li>
+                      Mentored by senior engineers whiles building a production
+                      application
+                    </li>
+                    <br />
+                    <li>
+                      Skills: Team Leadership · Teamwork · Pair Programming
+                    </li>
+                  </ul>
                 </p>
               </div>
             </div>
@@ -75,8 +89,22 @@ const WorkExperience = () => (
                   Full-stack Developer Intern
                 </h5>
                 <p className="mt-3 mb-0 text-slate-400">
-                  Worked as a Full Stack JavaScript developer. Worked with Node
-                  and React.js to build a coaches booking website.
+                  Worked with Kraado developers to create SASS website for
+                  booking coaches.
+                  <br />
+                  <br />
+                  <ul className="list-disc list-inside">
+                    <li>Languages: React.js and Firebase</li>
+                    <li>
+                      Mentored by senior engineers whiles building a production
+                      application
+                    </li>
+                    <br />
+                    <li>
+                      Skills: Kanban · Front-End Development · Software
+                      Development
+                    </li>
+                  </ul>
                 </p>
               </div>
             </div>
