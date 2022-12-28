@@ -326,73 +326,69 @@ const MyWork = () => {
             </div>
           </div>
         </div>
-        {/* ============================================================================ */}
+        {/* ========================================== TV shows ================================== */}
         <div className="container md:mt-24 mt-16">
           <div className="grid md:grid-cols-2 grid-cols-1 items-center mt-16 gap-[30px]">
             <div className="relative">
               <a
                 rel="noreferrer"
-                href="https://github.com/learnwithalfred/nana-ama-stores"
+                href="https://giuseppetg.github.io/TVmaze/dist"
                 target="_blank"
                 className="hover:text-red-600 transition-all duration-500 ease-in-out"
               >
                 <img
-                  src="https://github.com/learnwithalfred/furry-invention/blob/main/app/assets/images/nana_ama.png?raw=true"
+                  src="/assets/images/tv.png"
                   className="rounded-lg shadow-md dark:shadow-gray-800"
-                  alt="Alfred Boateng's Portfolio"
+                  alt="TV shows"
                 />
               </a>
               <div className="overflow-hidden absolute lg:h-[400px] h-[320px] lg:w-[400px] w-[320px] bg-indigo-600/5 dark:bg-indigo-600/20 bottom-0 left-0 rotate-45 -z-1 rounded-3xl" />
             </div>
             <div className="lg:ml-8">
               <h5 className="mb-4 text-2xl leading-normal font-medium">
-                <span className="text-indigo-600 mr-2">Name: </span> Stores Data
-                Collection App
+                <span className="text-indigo-600 mr-2">Name: </span> TV Maze
               </h5>
               <p className="text-dark-800">
-                <span className="text-indigo-600">Description: </span>A store
-                data collection app that allows users to create stores and add
-                products to the stores. The app also allows users to search for
-                stores and products. I added role based authentication to the
-                app, so that only users with the admin role can create stores
-                and products.
+                <span className="text-indigo-600">Description: </span>A
+                JavaScript group project for searching and commenting on TV
+                shows.
               </p>
               <ul className="list-none text-dark-800 mt-4">
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
-                  <span className="text-indigo-600 mr-2">Languages: </span> Ruby
-                  on Rails,Tailwind CSS, HTML, CSS, Javascript
+                  <span className="text-indigo-600 mr-2">Languages: </span>{' '}
+                  JavaScript, HTML, CSS, Bootstrap, Webpack, Jest.
                 </li>
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
                   <a
                     rel="noreferrer"
-                    href="https://github.com/learnwithalfred/nana-ama-stores"
+                    href="https://github.com/giuseppetg/TVmaze/"
                     target="_blank"
                     className="hover:text-red-600 transition-all duration-500 ease-in-out"
                   >
                     <span className="text-indigo-600 mr-2">Github link: </span>
-                    https://github.com/learnwithalfred/nana-ama-stores
+                    https://github.com/giuseppetg/TVmaze/{' '}
                   </a>
                 </li>
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
                   <a
                     rel="noreferrer"
-                    href="https://nana-ama-stores.onrender.com/"
+                    href="https://giuseppetg.github.io/TVmaze/dist"
                     target="_blank"
                     className="hover:text-red-600 transition-all duration-500 ease-in-out"
                   >
                     <span className="text-indigo-600 mr-2">
                       Deployed link:{' '}
                     </span>
-                    nana-ama-stores.onrender.com/
+                    https://giuseppetg.github.io/TVmaze/dist{' '}
                   </a>
                 </li>
               </ul>
               <div className="mt-4">
                 <a
-                  href="https://nana-ama-stores.onrender.com/"
+                  href="https://github.com/giuseppetg/TVmaze/"
                   className="btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                 >
                   Find Out More{' '}
@@ -490,68 +486,10 @@ const MyWork = () => {
             </div>
           </div>
         </div>
-        {/* ============================================================================ */}
       </div>
 
       <div className="container mt-8">
-        <div className="sm:flex mt-4">
-          <div className="lg:w-1/2 sm:w-1/2 picture-item p-4 rounded-md">
-            <div className>
-              <div className="relative">
-                <div className="shadow dark:shadow-gray-800 p-5 pb-0 rounded-md bg-amber-600/5 dark:bg-amber-600/30">
-                  <img
-                    src="/assets/images/cars-reserve.png"
-                    className="rounded-t-md shadow"
-                    alt="Car Booking App"
-                  />
-                </div>
-              </div>
-              <div className="pt-4 px-3">
-                <h5 className="mb-1 font-semibold text-lg">
-                  <a
-                    rel="noreferrer"
-                    href="https://github.com/learnwithalfred/backend-microverse-final-capstone"
-                    target="_blank"
-                    className="hover:text-amber-600 transition-all duration-500 ease-in-out"
-                  >
-                    Car Booking App
-                  </a>
-                </h5>
-                <span className="text-dark-800">
-                  The project is based on an app to book an appointment to try a
-                  Car.{' '}
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="sm:flex">
-          <div className="lg:w-1/2 sm:w-1/2 picture-item p-4 rounded-md">
-            <div className>
-              <div className="relative">
-                <div className="shadow dark:shadow-gray-800 p-5 pb-0 rounded-md bg-sky-600/5 dark:bg-sky-600/30">
-                  <img
-                    src="/assets/images/tv.png"
-                    className="rounded-t-md shadow"
-                    alt="TV"
-                  />
-                </div>
-              </div>
-              <div className="pt-4 px-3">
-                <h5 className="mb-1 font-semibold text-lg">
-                  <a
-                    href="https://giuseppetg.github.io/TVmaze/dist"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="hover:text-sky-600 transition-all duration-500 ease-in-out"
-                  >
-                    TV shows website build with TVmaze API
-                  </a>
-                </h5>
-                <span className="text-dark-800">Group Project</span>
-              </div>
-            </div>
-          </div>
           {/*end col*/}
 
           {/*end col*/}
