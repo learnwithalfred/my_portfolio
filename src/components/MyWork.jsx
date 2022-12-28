@@ -2,7 +2,10 @@ import React from 'react';
 
 const MyWork = () => {
   return (
-    <section className="relative py-8 bg-gray-50 dark:bg-slate-800" id="my-work">
+    <section
+      className="relative py-8 bg-gray-50 dark:bg-slate-800"
+      id="my-work"
+    >
       <div className="container mt-8">
         <div className="grid grid-cols-1 pb-8 text-center">
           <h6 className="text-indigo-600 text-sm font-bold uppercase mb-2">
@@ -16,7 +19,7 @@ const MyWork = () => {
             over the years. Here are some of them.
           </p>
         </div>
-        <div className="sm:flex mt-4" id="grid">
+        <div className="sm:flex mt-4">
           <div className="lg:w-1/3 sm:w-1/2 picture-item p-4 rounded-md">
             <div className>
               <div className="relative">
@@ -113,6 +116,9 @@ const MyWork = () => {
             </div>
           </div>
           {/*end col*/}
+          {/*end col*/}
+        </div>
+        <div className="sm:flex">
           <div className="lg:w-1/3 sm:w-1/2 picture-item p-4 rounded-md">
             <div className>
               <div className="relative">
@@ -195,8 +201,8 @@ const MyWork = () => {
               </div>
             </div>
           </div>
-          {/*end col*/}
         </div>
+
         <div className="grid md:grid-cols-12 grid-cols-1 md:hidden mt-8">
           <div className="md:col-span-12 text-center">
             <a
