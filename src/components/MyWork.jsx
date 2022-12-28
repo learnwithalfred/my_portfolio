@@ -398,19 +398,19 @@ const MyWork = () => {
             </div>
           </div>
         </div>
-        {/* ============================================================================ */}
+        {/* ==================================== Space travel hub ======================================== */}
 
         <div className="container md:mt-24 mt-16">
           <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
             <div className="relative order-1 md:order-2">
               <a
                 rel="noreferrer"
-                href="https://www.gotlisted.io"
+                href="https://space-travel-hub-rockets.netlify.app/"
                 target="_blank"
                 className="hover:text-red-600 transition-all duration-500 ease-in-out"
               >
                 <img
-                  src="/assets/images/listed.png"
+                  src="/assets/images/space.png"
                   className="rounded-lg shadow-md dark:shadow-gray-800"
                   alt="Alfred Boateng's Portfolio"
                 />
@@ -419,64 +419,57 @@ const MyWork = () => {
             </div>
             <div className="lg:mr-8 order-2 md:order-1">
               <h5 className="mb-4 text-2xl leading-normal font-medium">
-                <span className="text-indigo-600 mr-2">Name: </span> Listed
+                <span className="text-indigo-600 mr-2">Name: </span> Space
+                Travel Hub
               </h5>
               <p className="text-dark-800">
-                <span className="text-indigo-600">Description: </span> An
-                enterprise NFT application that allows users to create NFTs and
-                to buy and sell NFTs. I added role based authentication to the
-                app, so that only users with the admin role can create NFTs and
-                users with the buyer role can buy NFTs.
+                <span className="text-indigo-600">Description: </span> Space
+                travel hub - The application allow users to book rockets and
+                join selected space missions
               </p>
               <ul className="list-none text-dark-800 mt-4">
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
                   <span className="text-indigo-600 mr-2">Languages: </span>{' '}
-                  React.js, Firebase, Tailwind CSS
+                  React.js, Redux, JavaScript, HTML, CSS, Bootstrap, Webpack,
                 </li>
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
                   <a
                     rel="noreferrer"
-                    href=""
+                    href="https://github.com/learnwithalfred/space-travel-booking"
                     target="_blank"
                     className="hover:text-red-600 transition-all duration-500 ease-in-out"
                   >
                     <span className="text-indigo-600 mr-2">Github link: </span>
-                    This is a private project I contributed to whiles working as
-                    a part-time developer at a TobeDetermened.
+                    https://github.com/learnwithalfred/space-travel-booking
                   </a>
                 </li>
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
                   <a
                     rel="noreferrer"
-                    href="https://www.gotlisted.io"
+                    href="https://space-travel-hub-rockets.netlify.app/"
                     target="_blank"
                     className="hover:text-red-600 transition-all duration-500 ease-in-out"
                   >
                     <span className="text-indigo-600 mr-2">
                       Deployed link:{' '}
                     </span>
-                    https://www.gotlisted.io
+                    https://space-travel-hub-rockets.netlify.app/{' '}
                   </a>
                 </li>
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
-                  <a
-                    rel="noreferrer"
-                    href="https://tobedetermined.dev"
-                    target="_blank"
-                    className="hover:text-red-600 transition-all duration-500 ease-in-out"
-                  >
-                    <span className="text-indigo-600 mr-2">Client: </span>
-                    tobedetermined.dev
-                  </a>
+                  <span className="hover:text-red-600 transition-all duration-500 ease-in-out">
+                    <span className="text-indigo-600 mr-2">Project Type: </span>
+                    Group Project
+                  </span>
                 </li>
               </ul>
               <div className="mt-4">
                 <a
-                  href="https://www.gotlisted.io"
+                  href="https://github.com/learnwithalfred/space-travel-booking"
                   className="btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                 >
                   Find Out More{' '}
@@ -487,53 +480,6 @@ const MyWork = () => {
           </div>
         </div>
       </div>
-
-      <div className="container mt-8">
-        <div className="sm:flex">
-          {/*end col*/}
-
-          {/*end col*/}
-          <div className="lg:w-1/2 sm:w-1/2 picture-item p-4 rounded-md">
-            <div className>
-              <div className="relative">
-                <div className="shadow dark:shadow-gray-800 p-5 pb-0 rounded-md bg-indigo-600/5 dark:bg-indigo-600/30">
-                  <img
-                    src="/assets/images/space.png"
-                    className="rounded-t-md shadow"
-                    alt="Space"
-                  />
-                </div>
-              </div>
-              <div className="pt-4 px-3">
-                <h5 className="mb-1 font-semibold text-lg">
-                  <a
-                    rel="noreferrer"
-                    href="https://space-travel-hub-rockets.netlify.app/"
-                    target="_blank"
-                    className="hover:text-indigo-600 transition-all duration-500 ease-in-out"
-                  >
-                    Space Travel Hub Booking Website
-                  </a>
-                </h5>
-                <span className="text-dark-800">Group Project</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="grid md:grid-cols-12 grid-cols-1 md:hidden mt-8">
-          <div className="md:col-span-12 text-center">
-            <a
-              href="/"
-              className="btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
-            >
-              See More <i className="uil uil-arrow-right align-middle" />
-            </a>
-          </div>
-        </div>
-        {/*end grid*/}
-      </div>
-      {/*end container*/}
     </section>
   );
 };
