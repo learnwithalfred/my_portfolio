@@ -16,9 +16,9 @@ const Nav = () => {
     <nav id="topnav" className="defaultscroll is-sticky">
       <div className="container">
         {/* Logo container*/}
-        <Link className="logo pl-0" to="/">
+        <HashLink className="logo pl-0" to="/#welcome">
           Alfred Boateng
-        </Link>
+        </HashLink>
         {/* End Logo container*/}
         <div className="menu-extras">
           <div className="menu-item">
@@ -54,7 +54,7 @@ const Nav = () => {
               </HashLink>
             </li>
             <li>
-              <Link to={"/blogs"} className="sub-menu-item">
+              <Link to={'/blogs'} className="sub-menu-item">
                 Blogs
               </Link>
             </li>

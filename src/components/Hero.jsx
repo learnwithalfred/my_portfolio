@@ -3,10 +3,11 @@ import Typical from 'react-typical';
 const Hero = () => {
   return (
     <section
+      id="welcome"
       className="md:h-screen py-36 h-auto relative flex items-center background-effect overflow-hidden 
       before:content-[''] before:absolute before:-z-1 sm:before:-bottom-80 before:-bottom-40 before:right-36 before:left-0 before:mx-auto before:rounded-full before:bg-indigo-600 sm:before:w-[50rem] before:w-[30rem] sm:before:h-[50rem] before:h-[30rem]"
     >
-      <div className="container-fluid">
+      <div className="container-fluid" >
         <div
           className="absolute inset-0 jarallax"
           data-jarallax
@@ -17,7 +18,7 @@ const Hero = () => {
           }}
         />
       </div>
-      <div className="container relative z-1">
+      <div className="container relative z-1" >
         <div className="grid grid-cols-1 mt-5">
           <div className="title-heading">
             <div className="grid md:grid-cols-12 mt-12">
