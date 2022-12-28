@@ -94,7 +94,7 @@ const MyWork = () => {
                   <img
                     src="https://github.com/learnwithalfred/furry-invention/blob/main/app/assets/images/nana_ama.png?raw=true"
                     className="rounded-t-md shadow"
-                    alt="Nana Ama"
+                    alt="Stores Data Collection App"
                   />
                 </div>
               </div>
@@ -102,13 +102,14 @@ const MyWork = () => {
                 <h5 className="mb-1 font-semibold text-lg">
                   <a
                     rel="noreferrer"
-                    href="https://nana-ama-stores.onrender.com/"
+                    href="https://github.com/learnwithalfred/nana-ama-stores"
                     target="_blank"
                     className="hover:text-red-600 transition-all duration-500 ease-in-out"
                   >
                     Stores Data Collection App
                   </a>
                 </h5>
+
                 <span className="text-slate-400">
                   Ruby on Rails web app for collecting stores data, add taxes
                   and pay taxes.{' '}
@@ -120,6 +121,35 @@ const MyWork = () => {
           {/*end col*/}
         </div>
         <div className="sm:flex">
+          <div className="lg:w-1/3 sm:w-1/2 picture-item p-4 rounded-md">
+            <div className>
+              <div className="relative">
+                <div className="shadow dark:shadow-gray-800 p-5 pb-0 rounded-md bg-amber-600/5 dark:bg-amber-600/30">
+                  <img
+                    src="/assets/images/cars-reserve.png"
+                    className="rounded-t-md shadow"
+                    alt="Car Booking App"
+                  />
+                </div>
+              </div>
+              <div className="pt-4 px-3">
+                <h5 className="mb-1 font-semibold text-lg">
+                  <a
+                    rel="noreferrer"
+                    href="https://github.com/learnwithalfred/backend-microverse-final-capstone"
+                    target="_blank"
+                    className="hover:text-amber-600 transition-all duration-500 ease-in-out"
+                  >
+                    Car Booking App
+                  </a>
+                </h5>
+                <span className="text-slate-400">
+                  The project is based on an app to book an appointment to try a
+                  Car.{' '}
+                </span>
+              </div>
+            </div>
+          </div>
           <div className="lg:w-1/3 sm:w-1/2 picture-item p-4 rounded-md">
             <div className>
               <div className="relative">
@@ -147,34 +177,7 @@ const MyWork = () => {
             </div>
           </div>
           {/*end col*/}
-          <div className="lg:w-1/3 sm:w-1/2 picture-item p-4 rounded-md">
-            <div className>
-              <div className="relative">
-                <div className="shadow dark:shadow-gray-800 p-5 pb-0 rounded-md bg-amber-600/5 dark:bg-amber-600/30">
-                  <img
-                    src="/assets/images/code.png"
-                    className="rounded-t-md shadow"
-                    alt="Code"
-                  />
-                </div>
-              </div>
-              <div className="pt-4 px-3">
-                <h5 className="mb-1 font-semibold text-lg">
-                  <a
-                    rel="noreferrer"
-                    href="https://learnwithalfred.github.io/alfred-code-college/"
-                    target="_blank"
-                    className="hover:text-amber-600 transition-all duration-500 ease-in-out"
-                  >
-                    Code School Website
-                  </a>
-                </h5>
-                <span className="text-slate-400">
-                  Group Project for Software Engineering Course
-                </span>
-              </div>
-            </div>
-          </div>
+
           {/*end col*/}
           <div className="lg:w-1/3 sm:w-1/2 picture-item p-4 rounded-md">
             <div className>
