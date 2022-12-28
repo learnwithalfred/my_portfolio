@@ -39,7 +39,7 @@ const Nav = () => {
             <a
               target={'_blank'}
               rel="noreferrer"
-              href="mailto:learnwithalfred@gmail.com "
+              href="tel:+233541034798"
               className="btn bg-sky-600 hover:bg-sky-700 border-sky-600
                       hover:border-sky-700 text-white rounded-md"
             >
