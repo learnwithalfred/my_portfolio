@@ -10,7 +10,7 @@ const LatestBlog = () => {
         <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
           Latest News
         </h3>
-        <p className="text-slate-400 max-w-xl mx-auto">
+        <p className="text-dark-800 max-w-xl mx-auto">
           I write about web development, programming, and other tech related,
           and non-tech related topics.
         </p>
@@ -29,7 +29,7 @@ const LatestBlog = () => {
             >
               React with Redux toolkit and CreateAsyncThunk Complementary Guide
             </a>
-            <p className="text-slate-400 mt-3">
+            <p className="text-dark-800 mt-3">
               This tutorial we are going to build a application from scratch
               using redux toolkit.
             </p>
@@ -55,7 +55,7 @@ const LatestBlog = () => {
             >
               Rails 7 authentication with devise gem
             </Link>
-            <p className="text-slate-400 mt-3">
+            <p className="text-dark-800 mt-3">
               We will learn to build a a school-like app in rails 7 and add
               authentication to it using devise gem
             </p>
@@ -81,7 +81,7 @@ const LatestBlog = () => {
             >
               Rails 7 and testing model with rspec models using device gem
             </Link>
-            <p className="text-slate-400 mt-3">
+            <p className="text-dark-800 mt-3">
               Rails 7 and testing model with rspec models using device gem
             </p>
             <div className="mt-4">

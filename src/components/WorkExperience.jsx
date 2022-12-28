@@ -41,7 +41,7 @@ const WorkExperience = () => (
                     https://tobedetermined.dev
                   </a>
                 </h5>
-                <p className="mt-3 mb-0 text-slate-400">
+                <p className="mt-3 mb-0 text-dark-800">
                   Worked with experienced developers on an enterprise NFT
                   application
                   <br />
@@ -88,7 +88,7 @@ const WorkExperience = () => (
                 <h5 className="title mb-1 font-semibold">
                   Full-stack Developer Intern
                 </h5>
-                <p className="mt-3 mb-0 text-slate-400">
+                <p className="mt-3 mb-0 text-dark-800">
                   Worked with Kraado developers to create SASS website for
                   booking coaches.
                   <br />

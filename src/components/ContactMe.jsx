@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const ContactMe = () => {
   return (
@@ -10,8 +10,9 @@ const ContactMe = () => {
         <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
           Have Question ? Get in touch!
         </h3>
-        <p className="text-slate-400 max-w-xl mx-auto">
-          Contact me for any questions or inquiries. I will get back to you as soon as possible.
+        <p className="text-dark-800 max-w-xl mx-auto">
+          Contact me for any questions or inquiries. I will get back to you as
+          soon as possible.
         </p>
         <div className="mt-6">
           <a
@@ -27,6 +28,6 @@ const ContactMe = () => {
       {/*end grid*/}
     </div>
   );
-}
+};
 
-export default ContactMe
+export default ContactMe;

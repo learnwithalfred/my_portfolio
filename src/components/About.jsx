@@ -38,7 +38,7 @@ const About = () => {
                 About Me
               </h6>
 
-              <p className="text-slate-400 max-w-xl">
+              <p className="text-dark-800 max-w-xl">
                 Junior plus Full-stack JavaScript, and Ruby developer with
                 hands-on experience in web development.
               </p>

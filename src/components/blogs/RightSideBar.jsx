@@ -16,7 +16,7 @@ const RightSideBar = () => {
           <p className="text-lg font-semibold hover:text-indigo-600 transition-all duration-500 ease-in-out">
             Alfred Boateng
           </p>
-          <p className="text-slate-400">Full-stack Developer</p>
+          <p className="text-dark-800">Full-stack Developer</p>
         </div>
         <h5 className="text-lg font-semibold bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 rounded-md p-2 text-center mt-8">
           Recent post
@@ -90,7 +90,7 @@ const RightSideBar = () => {
               href="https://linkedin.com/in/learnwithalfred"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md text-slate-400 hover:border-indigo-600 hover:text-white hover:bg-indigo-600 mx-2"
+              className="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md text-dark-800 hover:border-indigo-600 hover:text-white hover:bg-indigo-600 mx-2"
             >
               <i className="uil uil-linkedin" title="Linkedin" />
             </a>
@@ -100,7 +100,7 @@ const RightSideBar = () => {
               href="https://github.com/learnwithalfred"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md text-slate-400 hover:border-indigo-600 hover:text-white hover:bg-indigo-600 mx-2"
+              className="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md text-dark-800 hover:border-indigo-600 hover:text-white hover:bg-indigo-600 mx-2"
             >
               <i className="uil uil-github" title="Linkedin" />
             </a>
@@ -110,7 +110,7 @@ const RightSideBar = () => {
               href="https://twitter.com/kb_alfred"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md text-slate-400 hover:border-indigo-600 hover:text-white hover:bg-indigo-600 mx-2"
+              className="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md text-dark-800 hover:border-indigo-600 hover:text-white hover:bg-indigo-600 mx-2"
             >
               <i className="uil uil-twitter align-middle" title="twitter" />
             </a>
@@ -118,7 +118,7 @@ const RightSideBar = () => {
           <li className="inline">
             <a
               href="mailto:learnwithalfred@gmail.com"
-              className="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md text-slate-400 hover:border-indigo-600 hover:text-white hover:bg-indigo-600 mx-2"
+              className="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md text-dark-800 hover:border-indigo-600 hover:text-white hover:bg-indigo-600 mx-2"
             >
               <i className="uil uil-envelope align-middle" title="email" />
             </a>

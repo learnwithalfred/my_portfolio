@@ -15,7 +15,7 @@ const Testimonials = () => {
 
         <div className="grid md:grid-cols-2 gap-[30px] mt-10">
           <div className="client-testi rounded shadow dark:shadow-gray-800 m-2 p-6">
-            <p className="text-slate-400 mt-6">
+            <p className="text-dark-800 mt-6">
               " Alfred is one of the teammates you always want near you while
               working on any project. He always has something to teach whether
               it is a technical or professional skill, working with Alfred means
@@ -33,12 +33,12 @@ const Testimonials = () => {
               </h6>
             </a>
 
-            <span className="text-slate-400 text-sm dark:text-white/60 block">
+            <span className="text-dark-800 text-sm dark:text-white/60 block">
               Microverse
             </span>
           </div>
           <div className="client-testi rounded shadow dark:shadow-gray-800 m-2 p-6">
-            <p className="text-slate-400 mt-6">
+            <p className="text-dark-800 mt-6">
               " He has good experience in the workings of how to handle works
               regarding servers, databases, and also system engineering. He also
               has good team management abilities and is a really dedicated
@@ -57,7 +57,7 @@ const Testimonials = () => {
               </h6>
             </a>
 
-            <span className="text-slate-400 text-sm dark:text-white/60 block">
+            <span className="text-dark-800 text-sm dark:text-white/60 block">
               Microverse
             </span>
           </div>

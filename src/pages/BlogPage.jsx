@@ -32,7 +32,7 @@ const BlogPage = () => {
                   Rails 7 authentication with devise gem
                 </Link>
                 <div className="my-auto">
-                  <p className="text-slate-400 mt-3">
+                  <p className="text-dark-800 mt-3">
                     We will learn to build a a school-like app in rails 7 and
                     add authentication to it using devise gem
                   </p>
@@ -65,7 +65,7 @@ const BlogPage = () => {
                   Rails 7 Authorization Using Cancancan Gem
                 </Link>
                 <div className="my-auto">
-                  <p className="text-slate-400 mt-3">
+                  <p className="text-dark-800 mt-3">
                     In this tutorial, we are going to add the ability to
                     restrict users based on their role There will be several
                     roles and each role will have different access to the app
@@ -100,7 +100,7 @@ const BlogPage = () => {
                   Tailwind CSS
                 </Link>
                 <div className="my-auto">
-                  <p className="text-slate-400 mt-3">
+                  <p className="text-dark-800 mt-3">
                     In this tutorial, we will learn to add pagination to our
                     rails 7 app using Tailwind CSS and the will_paginate gem.
                   </p>
@@ -133,7 +133,7 @@ const BlogPage = () => {
                   Rails 7 RSpec Model Test Complementary Guide
                 </Link>
                 <div className="my-auto">
-                  <p className="text-slate-400 mt-3">
+                  <p className="text-dark-800 mt-3">
                     Rails 7 and testing model with rspec models using device gem
                   </p>
                 </div>
@@ -166,7 +166,7 @@ const BlogPage = () => {
                   Fix N+1 Performance issues in Rails 7 with Bullet Gem
                 </Link>
                 <div className="my-auto">
-                  <p className="text-slate-400 mt-3">
+                  <p className="text-dark-800 mt-3">
                     Lets learn to improve the performance of our application
                     with lazy loading
                   </p>
@@ -200,7 +200,7 @@ const BlogPage = () => {
                   Lets create an API in Rails 7
                 </Link>
                 <div className="my-auto">
-                  <p className="text-slate-400 mt-3">
+                  <p className="text-dark-800 mt-3">
                     In this blog, we will create an API in Rails 7 with Active
                     Model Serializer Gem for JSON response format.
                   </p>
@@ -235,7 +235,7 @@ const BlogPage = () => {
                   Guide
                 </a>
                 <div className="my-auto">
-                  <p className="text-slate-400 mt-3">
+                  <p className="text-dark-800 mt-3">
                     This tutorial we are going to build a application from
                     scratch using redux toolkit. We will fetch API data and
                     display on the screen.
@@ -270,7 +270,7 @@ const BlogPage = () => {
                   The Box Model in CSS
                 </Link>
                 <div className="my-auto">
-                  <p className="text-slate-400 mt-3">
+                  <p className="text-dark-800 mt-3">
                     he box model is the foundation of CSS. It is the way that
                     CSS treats each HTML element as a box. The box model is
                     essentially a box ...
@@ -307,7 +307,7 @@ const BlogPage = () => {
                   should know
                 </a>
                 <div className="my-auto">
-                  <p className="text-slate-400 mt-3">
+                  <p className="text-dark-800 mt-3">
                     Not all courses are good, and not all courses are bad! Find
                     out why...
                   </p>
@@ -341,7 +341,7 @@ const BlogPage = () => {
                   Four Free Well Structured Resources to learn to code
                 </a>
                 <div className="my-auto">
-                  <p className="text-slate-400 mt-3">
+                  <p className="text-dark-800 mt-3">
                     The internet is full of resources. Coding materials are no
                     different. But the problem is ...
                   </p>
