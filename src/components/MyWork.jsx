@@ -102,7 +102,7 @@ const MyWork = () => {
                 <h5 className="mb-1 font-semibold text-lg">
                   <a
                     rel="noreferrer"
-                    href="https://nana-ama.herokuapp.com/"
+                    href="https://nana-ama-stores.onrender.com/"
                     target="_blank"
                     className="hover:text-red-600 transition-all duration-500 ease-in-out"
                   >
@@ -110,7 +110,8 @@ const MyWork = () => {
                   </a>
                 </h5>
                 <span className="text-slate-400">
-                  Group Project for Software Engineering Course
+                  Ruby on Rails web app for collecting stores data, add taxes
+                  and pay taxes.{' '}
                 </span>
               </div>
             </div>
