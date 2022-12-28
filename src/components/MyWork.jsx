@@ -42,9 +42,12 @@ const MyWork = () => {
                 Collection App
               </h5>
               <p className="text-dark-800">
-                <span className="text-indigo-600">Description: </span>
-                A store data collection app that allows users to create stores and add products to the stores. The app also allows users to search for stores and products.
-                I added role based authentication to the app, so that only users with the admin role can create stores and products.
+                <span className="text-indigo-600">Description: </span>A store
+                data collection app that allows users to create stores and add
+                products to the stores. The app also allows users to search for
+                stores and products. I added role based authentication to the
+                app, so that only users with the admin role can create stores
+                and products.
               </p>
               <ul className="list-none text-dark-800 mt-4">
                 <li className="mb-1 flex">
@@ -95,40 +98,80 @@ const MyWork = () => {
         <div className="container md:mt-24 mt-16">
           <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
             <div className="relative order-1 md:order-2">
-              <img
-                src="assets/images/saas/classic03.png"
-                className="rounded-lg shadow-md dark:shadow-gray-800"
-                alt
-              />
+              <a
+                rel="noreferrer"
+                href="https://www.gotlisted.io"
+                target="_blank"
+                className="hover:text-red-600 transition-all duration-500 ease-in-out"
+              >
+                <img
+                  src="/assets/images/listed.png"
+                  className="rounded-lg shadow-md dark:shadow-gray-800"
+                  alt="Alfred Boateng's Portfolio"
+                />
+              </a>
               <div className="overflow-hidden absolute lg:h-[400px] h-[320px] lg:w-[400px] w-[320px] bg-indigo-600/5 dark:bg-indigo-600/20 bottom-0 right-0 rotate-45 -z-1 rounded-3xl" />
             </div>
             <div className="lg:mr-8 order-2 md:order-1">
-              <h4 className="mb-4 text-2xl leading-normal font-medium">
-                Get Notified About Importent Email
-              </h4>
+              <h5 className="mb-4 text-2xl leading-normal font-medium">
+                <span className="text-indigo-600 mr-2">Name: </span> Listed
+              </h5>
               <p className="text-dark-800">
-                Due to its widespread use as filler text for layouts,
-                non-readability is of great importance: human perception is
-                tuned to recognize certain patterns and repetitions in texts. If
-                the distribution of letters visual impact.
+                <span className="text-indigo-600">Description: </span> An
+                enterprise NFT application that allows users to create NFTs and
+                to buy and sell NFTs. I added role based authentication to the
+                app, so that only users with the admin role can create NFTs and
+                users with the buyer role can buy NFTs.
               </p>
               <ul className="list-none text-dark-800 mt-4">
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
-                  Digital Marketing Solutions for Tomorrow
+                  <span className="text-indigo-600 mr-2">Languages: </span>{' '}
+                  React.js, Firebase, Tailwind CSS
                 </li>
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
-                  Our Talented &amp; Experienced Marketing Agency
+                  <a
+                    rel="noreferrer"
+                    href=""
+                    target="_blank"
+                    className="hover:text-red-600 transition-all duration-500 ease-in-out"
+                  >
+                    <span className="text-indigo-600 mr-2">Github link: </span>
+                    This is a private project I contributed to whiles working as
+                    a part-time developer at a TobeDetermened.
+                  </a>
                 </li>
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
-                  Create your own skin to match your brand
+                  <a
+                    rel="noreferrer"
+                    href="https://www.gotlisted.io"
+                    target="_blank"
+                    className="hover:text-red-600 transition-all duration-500 ease-in-out"
+                  >
+                    <span className="text-indigo-600 mr-2">
+                      Deployed link:{' '}
+                    </span>
+                    https://www.gotlisted.io
+                  </a>
+                </li>
+                <li className="mb-1 flex">
+                  <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
+                  <a
+                    rel="noreferrer"
+                    href="https://tobedetermined.dev"
+                    target="_blank"
+                    className="hover:text-red-600 transition-all duration-500 ease-in-out"
+                  >
+                    <span className="text-indigo-600 mr-2">Client: </span>
+                    tobedetermined.dev
+                  </a>
                 </li>
               </ul>
               <div className="mt-4">
                 <a
-                  href="page-aboutus.html"
+                  href="https://www.gotlisted.io"
                   className="btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                 >
                   Find Out More{' '}
