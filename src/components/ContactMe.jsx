@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactMe = () => {
   return (
-    <div className="container md:mt-24 mt-16">
+    <div className="container md:mt-24 py-16">
       <div className="grid grid-cols-1 text-center">
         <h6 className="text-indigo-600 text-sm font-bold uppercase mb-2">
           Contact Me
