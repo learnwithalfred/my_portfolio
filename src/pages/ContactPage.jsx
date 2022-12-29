@@ -199,7 +199,7 @@ const ContactPage = () => {
                       type="submit"
                       id="submit"
                       name="send"
-                      className="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md justify-center flex items-center"
+                      className="btn bg-sky-600 hover:bg-sky-700 border-sky-600 hover:border-sky-700 text-white rounded-md justify-center flex items-center"
                     >
                       {loading ? (
                         <>
