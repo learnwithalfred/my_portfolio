@@ -45,6 +45,7 @@ const ContactPage = () => {
       setName('');
       setEmail('');
       setMessage('');
+      setLoading(false);
     }
   };
 
