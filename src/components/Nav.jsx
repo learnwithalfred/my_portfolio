@@ -47,15 +47,15 @@ const Nav = () => {
         </ul>
         <div id="navigation">
           <ul className="navigation-menu">
-            <li>
+            {/* <li>
               <HashLink to="/#about" className="sub-menu-item">
                 About Me
               </HashLink>
-            </li>
+            </li> */}
 
             <li>
               <HashLink to="/portfolio" className="sub-menu-item">
-                Projects
+                Portfolio Projects
               </HashLink>
             </li>
             <li>

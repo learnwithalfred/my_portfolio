@@ -2,7 +2,12 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section className="relative md:py-24 py-16" id="about">
+    <section
+      id="welcome"
+      className="md:h-screen py-36 h-auto relative flex items-center background-effect overflow-hidden 
+      "
+    >
+      {' '}
       <div className="container">
         <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px]">
           <div className="lg:col-span-5 md:col-span-6">
