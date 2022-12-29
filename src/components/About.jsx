@@ -121,10 +121,10 @@ const About = () => {
                   </span>{' '}
                 </h3>
                 <ol>
-                  <a href="tel:+233203848853">
+                  <a href="tel:+233541034798">
                     <li className="flex items-center">
                       <i className="mdi mdi-check text-indigo-600 text-lg mr-2" />
-                      +233203848853
+                      +233541034798
                     </li>
                   </a>
                 </ol>
