@@ -17,9 +17,18 @@ const ContactPage = () => {
   const [message, setMessage] = useState('');
   const [loading, setLoading] = useState(false);
 
+  const isValidEmail = (email) => {
+    const regex =
+      // eslint-disable-next-line no-useless-escape
+      /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return regex.test(String(email).toLowerCase());
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!name || !email || !message) {
+    if (!isValidEmail(email)) {
+      handleToast({ msg: 'Please enter a valid email', type: 'error' });
+    } else if (!name || !email || !message) {
       handleToast({ msg: 'Please fill in all fields', type: 'error' });
     } else {
       setLoading(true);
@@ -39,8 +48,7 @@ const ContactPage = () => {
             msg: 'Thank you for your message, I will be in touch in no time!',
             type: 'success',
           })
-        )
-        .then((error) => console.log(error.text));
+        );
 
       setName('');
       setEmail('');
