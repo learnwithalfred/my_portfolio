@@ -36,13 +36,13 @@ const Nav = () => {
         {/*Login button Start*/}
         <ul className="buy-button list-none mb-0">
           <li className="inline pl-1 mb-0">
-            <Link
-              to={'/contact'}
+            <HashLink
+              to={'/#contact'}
               className="btn bg-sky-600 hover:bg-sky-700 border-sky-600
                       hover:border-sky-700 text-white rounded-md"
             >
               Contact Me
-            </Link>
+            </HashLink>
           </li>
         </ul>
         <div id="navigation">
