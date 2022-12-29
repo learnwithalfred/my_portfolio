@@ -5,7 +5,6 @@ import About from '../components/About';
 import WorkExperience from '../components/WorkExperience';
 import Available from '../components/Available';
 // import LatestBlog from '../components/LatestBlog';
-import ContactMe from '../components/ContactMe';
 import Footer from '../components/Footer';
 import Testimonials from '../components/Testimonials';
 
@@ -15,13 +14,12 @@ const Home = () => (
     <Hero />
     <About />
 
-    <Available />
     <WorkExperience />
 
     {/* <LatestBlog /> */}
     <Testimonials />
+    <Available />
 
-    <ContactMe />
     <Footer />
   </div>
 );
