@@ -2,10 +2,7 @@ import React from 'react';
 
 const MyWork = () => {
   return (
-    <section
-      className="relative py-8"
-      id="my-work"
-    >
+    <section className="relative py-8" id="my-work">
       <div>
         <div className="grid grid-cols-1 pb-8 text-center">
           <h6 className="text-indigo-600 text-sm font-bold uppercase mb-2">
@@ -81,6 +78,13 @@ const MyWork = () => {
                     nana-ama-stores.onrender.com/
                   </a>
                 </li>
+                <li className="mb-1 flex">
+                  <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
+                  <span className="hover:text-red-600 transition-all duration-500 ease-in-out">
+                    <span className="text-indigo-600 mr-2">Project Type: </span>
+                    Personal Project
+                  </span>
+                </li>
               </ul>
               <div className="mt-4">
                 <a
@@ -134,8 +138,8 @@ const MyWork = () => {
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
                   <span className="hover:text-red-600 transition-all duration-500 ease-in-out">
                     <span className="text-indigo-600 mr-2">Github link: </span>
-                    This is a private project I contributed to whiles working as
-                    a part-time developer at a TobeDetermened.
+                    Private Repository I contributed to whiles working as a
+                    part-time developer at a TobeDetermened.
                   </span>
                 </li>
                 <li className="mb-1 flex">
@@ -163,13 +167,6 @@ const MyWork = () => {
                     <span className="text-indigo-600 mr-2">Client: </span>
                     tobedetermined.dev
                   </a>
-                </li>
-                <li className="mb-1 flex">
-                  <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
-                  <span className="hover:text-red-600 transition-all duration-500 ease-in-out">
-                    <span className="text-indigo-600 mr-2">Project Type: </span>
-                    Personal Project
-                  </span>
                 </li>
               </ul>
               <div className="mt-4">
@@ -219,9 +216,9 @@ const MyWork = () => {
                 </li>
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
-                  <span className="text-indigo-600 mr-2">Github link: </span>A
-                  private project I contributed to whiles working as a developer
-                  Intern at Kraado.
+                  <span className="text-indigo-600 mr-2">Github link: </span>
+                  Private repository I contributed to whiles working as a
+                  developer Intern at Kraado.
                 </li>
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
@@ -240,8 +237,15 @@ const MyWork = () => {
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
                   <span className="hover:text-red-600 transition-all duration-500 ease-in-out">
-                    <span className="text-indigo-600 mr-2">Project Type: </span>
-                    Company website
+                    <span className="text-indigo-600 mr-2">Client: </span>
+                      <a
+                    rel="noreferrer"
+                    href="https://kraado.co"
+                    target="_blank"
+                    className="hover:text-red-600 transition-all duration-500 ease-in-out"
+                  >
+                      Kraado
+                  </a>
                   </span>
                 </li>
               </ul>
@@ -302,7 +306,7 @@ const MyWork = () => {
                     className="hover:text-red-600 transition-all duration-500 ease-in-out"
                   >
                     <span className="text-indigo-600 mr-2">Github link: </span>
-                    https://github.com/learnwithalfred/backend-microverse-final-capstone
+                    github.com/learnwithalfred
                   </a>
                 </li>
                 <li className="mb-1 flex">
@@ -455,7 +459,7 @@ const MyWork = () => {
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
                   <span className="text-indigo-600 mr-2">Languages: </span>{' '}
-                  React.js, Redux, JavaScript, HTML, CSS, Bootstrap, Webpack,
+                  React.js, Redux, JavaScript, Bootstrap
                 </li>
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
@@ -466,7 +470,7 @@ const MyWork = () => {
                     className="hover:text-red-600 transition-all duration-500 ease-in-out"
                   >
                     <span className="text-indigo-600 mr-2">Github link: </span>
-                    https://github.com/learnwithalfred/space-travel-booking
+                    github.com/learnwithalfred/space-travel-booking
                   </a>
                 </li>
                 <li className="mb-1 flex">
