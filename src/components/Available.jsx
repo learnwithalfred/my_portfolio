@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Available = () => {
   return (
@@ -26,14 +27,13 @@ const Available = () => {
             new ways to improve my skills.
           </p>
           <div className="relative mt-8">
-            <a
-              href="mailto:learnwithalfred@gmail.com"
-              target="_blank"
-              rel="noreferrer"
-              className="btn bg-sky-600 hover:bg-sky-700 border-sky-600 hover:border-sky-700 text-white rounded-md"
+            <Link
+              to={'/contact'}
+              className="btn bg-sky-600 hover:bg-sky-700 border-sky-600
+                      hover:border-sky-700 text-white rounded-md"
             >
-              Contact Me
-            </a>
+              Contact
+            </Link>
           </div>
         </div>
         {/*end grid*/}
