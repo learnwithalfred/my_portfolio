@@ -3,7 +3,7 @@ import React from 'react';
 const Testimonials = () => {
   return (
     <section
-      className="relative py-8 bg-gray-50 dark:bg-slate-800"
+      className="relative py-8"
       id="testimonials"
     >
       <div className="container">
