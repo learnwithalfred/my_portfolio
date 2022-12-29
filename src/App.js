@@ -9,6 +9,7 @@ import RSpec from './components/blogs/Pages/RSpec';
 import RailsApi from './components/blogs/Pages/RailsApi';
 import BoxModel from './components/blogs/Pages/BoxModel';
 import PortfolioPage from './pages/PortfolioPage';
+import ContactPage from './pages/ContactPage';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Route path="/" element={<Home />} />
       <Route path="/blogs" element={<BlogPage />} />
       <Route path="/portfolio" element={<PortfolioPage />} />
+      <Route path="/contact" element={<ContactPage />} />
       <Route
         path="/blogs/rails-7-authentication-with-devise-gem-with-confirm-password"
         element={<DeviseAuth />}
