@@ -36,15 +36,13 @@ const Nav = () => {
         {/*Login button Start*/}
         <ul className="buy-button list-none mb-0">
           <li className="inline pl-1 mb-0">
-            <a
-              target={'_blank'}
-              rel="noreferrer"
-              href="tel:+233541034798"
+            <Link
+              to={'/contact'}
               className="btn bg-sky-600 hover:bg-sky-700 border-sky-600
                       hover:border-sky-700 text-white rounded-md"
             >
-              <i className="uil uil-envelope" /> Contact Me
-            </a>
+              Contact
+            </Link>
           </li>
         </ul>
         <div id="navigation">
@@ -65,11 +63,11 @@ const Nav = () => {
                 Experience
               </HashLink>
             </li>
-            <li>
+            {/* <li>
               <HashLink to="/#testimonials" className="sub-menu-item">
                 Testimonials
               </HashLink>
-            </li>
+            </li> */}
             <li>
               <Link to={'/blogs'} className="sub-menu-item">
                 Blogs
