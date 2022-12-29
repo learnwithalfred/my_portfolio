@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Available = () => {
   return (
@@ -16,7 +16,7 @@ const Available = () => {
       <div className="container relative">
         <div className="grid grid-cols-1 text-center">
           <h3 className="mb-4 md:text-3xl text-2xl text-white font-medium">
-            I Am Available For Full-time Developer Position
+            I am Available For Full-time Developer Position
           </h3>
           <p className="text-white/80 max-w-xl mx-auto">
             I am a junior plus full-stack JavaScript Ruby on Rails developer
@@ -27,13 +27,13 @@ const Available = () => {
             new ways to improve my skills.
           </p>
           <div className="relative mt-8">
-            <Link
-              to={'/contact'}
+            <HashLink
+              to={'/#contact'}
               className="btn bg-sky-600 hover:bg-sky-700 border-sky-600
                       hover:border-sky-700 text-white rounded-md"
             >
               Contact Me
-            </Link>
+            </HashLink>
           </div>
         </div>
         {/*end grid*/}
