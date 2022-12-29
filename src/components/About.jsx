@@ -39,9 +39,9 @@ const About = () => {
           </div>
           <div className="lg:col-span-7 md:col-span-6 mt-8 md:mt-0">
             <div className="lg:ml-5">
-              <h6 className="text-indigo-600 text-sm font-bold uppercase mb-2 text-2xl">
+              <h3 className="text-indigo-600 mb-4 md:text-3xl md:leading-normal text-2xl leading-normal  font-bold uppercase mb-2">
                 About Me
-              </h6>
+              </h3>
 
               <p className="text-dark-800 max-w-xl">
                 Junior plus Full-stack JavaScript, and Ruby developer with

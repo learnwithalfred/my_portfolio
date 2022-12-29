@@ -55,12 +55,17 @@ const ContactMe = () => {
   return (
     <>
       <section className="relative md:py-24 py-16  bg-gray-50" id="contact">
+        <div className="grid grid-cols-1 pb-8 text-center">
+          <h3 className="text-indigo-600 mb-4 md:text-3xl md:leading-normal text-2xl leading-normal  font-bold uppercase mb-2">
+            Contact Me
+          </h3>
+        </div>
         <div className="grid md:grid-cols-12 grid-cols-1  gap-[30px] container">
           <div className="lg:col-span-4 md:col-span-6">
             <div className="lg:col-span-5 md:col-span-6">
               <div className="p-6">
                 <h3 className="mb-6 text-2xl leading-normal font-medium">
-                  Let's talk
+                  My Contacts
                 </h3>
 
                 <div className="flex items-center mt-6">

@@ -2,13 +2,10 @@ import React from 'react';
 
 const Testimonials = () => {
   return (
-    <section
-      className="relative py-8"
-      id="testimonials"
-    >
+    <section className="relative py-8" id="testimonials">
       <div className="container">
         <div className="grid grid-cols-1 text-center  mt-16">
-          <h3 className="text-indigo-600 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
+          <h3 className="text-indigo-600 mb-4 md:text-3xl md:leading-normal text-2xl leading-normal  font-bold uppercase mb-2">
             Testimonials
           </h3>
         </div>

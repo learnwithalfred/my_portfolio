@@ -7,10 +7,7 @@ const WorkExperience = () => (
   >
     <div className="container">
       <div className="grid grid-cols-1 pb-8 text-center">
-        <h6 className="text-indigo-600 text-sm font-bold uppercase mb-2">
-          Experience
-        </h6>
-        <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
+          <h3 className="text-indigo-600 mb-4 md:text-3xl md:leading-normal text-2xl leading-normal  font-bold uppercase mb-2">
           Work Experience
         </h3>
       </div>
