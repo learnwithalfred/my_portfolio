@@ -44,7 +44,7 @@ const About = () => {
               </h3>
 
               <p className="text-dark-800 max-w-xl">
-                Junior plus Full-stack JavaScript, and Ruby developer with
+                Mid Level Full-stack JavaScript, Node.js and Ruby developer with
                 hands-on experience in web development.
               </p>
               <div className="mt-4">

@@ -15,7 +15,7 @@ const BlogContainer = ({ children, title, description }) => {
           content={
             description
               ? description
-              : 'Blog Post from Alfred Boateng - A Junior plus Full-stack JavaScript, and Ruby developer with hands-on experience in web development'
+              : 'Blog Post from Alfred Boateng - A Mid Level Full-stack JavaScript, and Ruby developer with hands-on experience in web development'
           }
         />
       </Helmet>

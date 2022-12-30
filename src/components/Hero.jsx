@@ -25,7 +25,7 @@ const Hero = () => {
               <div className="lg:col-span-4 md:col-span-6 order-2 lg:order-1 mt-6 md:mt-0 relative">
                 <div className="rounded-md lg:shadow-md lg:dark:shadow-gray-800 lg:absolute lg:top-14 lg:bg-white lg:dark:bg-slate-900 lg:p-6">
                   <h5 className="mb-3 text-2xl font-bold lg:text-black lg:dark:text-white text-white">
-                    Junior plus Full-stack JavaScript Ruby on Rails Developer{' '}
+                    Mid Level Full-stack JavaScript, Node.js, Ruby on Rails Developer{' '}
                   </h5>
                   <p className="para-desc lg:text-slate-400 text-slate-200 dark:text-slate-200 mb-0">
                     Web Developer with over 2 years of experience.
