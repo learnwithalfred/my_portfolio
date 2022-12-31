@@ -14,9 +14,7 @@ const PortfolioPage = () => (
     <Nav />
     <section className="relative md:pt-16  pt-36">
       <MyWork />
-
       <Available />
-
       <Footer />
     </section>
   </>
