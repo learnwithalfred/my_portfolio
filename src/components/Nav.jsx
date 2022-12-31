@@ -17,7 +17,7 @@ const Nav = () => {
       <div className="container">
         {/* Logo container*/}
         <HashLink className="logo pl-0" to="/#welcome">
-          Alfred Boateng
+          Alfred 
         </HashLink>
         {/* End Logo container*/}
         <div className="menu-extras">
