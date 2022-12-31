@@ -17,7 +17,7 @@ const About = () => {
                 className="rounded-full"
                 alt="Alfred Boateng"
               />
-              <div className="absolute bottom-2/4 translate-y-2/4 right-0 left-0 text-center">
+              {/* <div className="absolute bottom-2/4 translate-y-2/4 right-0 left-0 text-center">
                 <a
                   href="https://youtu.be/lpHENwZQLFA"
                   data-type="youtube"
@@ -28,7 +28,7 @@ const About = () => {
                 >
                   <i className="mdi mdi-play inline-flex items-center justify-center text-2xl" />
                 </a>
-              </div>
+              </div> */}
               <div className="absolute top-0 left-0 -z-1">
                 <img
                   src="/assets/images/personal/dots.svg"
