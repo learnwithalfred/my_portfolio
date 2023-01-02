@@ -1,27 +1,18 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 import Available from './Available';
 import Nav from './Nav';
 import RightSideBar from './blogs/RightSideBar';
 import Footer from './Footer';
+import { RenderTitle } from '../utils/utils';
 
 const BlogContainer = ({
   children,
-  title,
-  description,
+  title = 'Alfred Boateng',
+  description = 'A mid level software developer',
 }) => {
   return (
     <>
-      <Helmet>
-        <title>{title} </title>
-        <meta property="og:url" content={window} />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={description} />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={title} />
-        <meta name="twitter:description" content={description} />
-      </Helmet>
+      <RenderTitle title={title} description={description} />
       <Nav />
 
       <section className="relative md:pb-16 md:pt-16 pb-16 pt-36">
