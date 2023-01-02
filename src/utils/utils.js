@@ -17,7 +17,7 @@ export const handleToast = ({ msg, type = 'success' }) =>
 
 // handle Helmet
 
-export const handleHelmet = ({ title, description, image }) => {
+export const RenderTitle = ({ title, description, image }) => {
   return (
     <Helmet >
       <title>{title}</title>
