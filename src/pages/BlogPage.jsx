@@ -1,14 +1,15 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 import BlogContainer from '../components/BlogContainer';
 import { Link } from 'react-router-dom';
 const BlogPage = () => {
   return (
     <>
-      <Helmet>
-        <title>Blog Post From Alfred Boateng</title>
-      </Helmet>
-      <BlogContainer>
+      <BlogContainer
+        title={'Blog post from Alfred Boateng on React.js, Ruby on Rails and general programming'}
+        description={
+          ' Blog post from alfred boateng '
+        }
+      >
         <div className="grid grid-cols-1 gap-[30px]">
           <div className="grid grid-cols-1 text-center ">
             <h3 className="mb-8 text-3xl leading-normal font-medium text-indigo-700">
