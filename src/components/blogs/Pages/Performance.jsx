@@ -5,8 +5,8 @@ import BlogContainer from '../../BlogContainer';
 const Performance = () => {
   return (
     <BlogContainer
-      title="Fix N+1 Performance issues in Rails 7 with Bullet Gem"
-      description="In this tutorial,  we will fix N+1 Performance issues in Rails 7 with Bullet Gem"
+      title={"Fix N+1 Performance issues in Rails 7 with Bullet Gem"}
+      description={"In this tutorial,  we will fix N+1 Performance issues in Rails 7 with Bullet Gem"}
     >
       <div className="mt-6">
         <div className="relative overflow-hidden rounded-md">

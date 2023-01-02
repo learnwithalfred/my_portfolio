@@ -5,8 +5,12 @@ import Gist from 'react-gist';
 const Pagination = () => {
   return (
     <BlogContainer
-      title="Add Pagination to Rails 7 app using Will_Paginate gem and Tailwind CSS"
-      description="In this tutorial, we will learn to add pagination to our rails 7 app using Tailwind CSS and the will_paginate gem."
+      title={
+        'Add Pagination to Rails 7 app using Will_Paginate gem and Tailwind CSS'
+      }
+      description={
+        'In this tutorial, we will learn to add pagination to our rails 7 app using Tailwind CSS and the will_paginate gem.'
+      }
     >
       <div className="p-6 rounded-md shadow dark:shadow-gray-800">
         <div className="relative overflow-hidden rounded-md">
