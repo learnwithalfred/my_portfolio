@@ -4,8 +4,10 @@ import Gist from 'react-gist';
 
 const RSpec = () => (
   <BlogContainer
-    title="Rails 7 RSpec Model Test Complementary Guide"
-    description="In this tutorial we are going to talk about rails 7 and testing model with rspec models. I want to test user model created using device gem"
+    title={'Rails 7 RSpec Model Test Complementary Guide'}
+    description={
+      'In this tutorial we are going to talk about rails 7 and testing model with rspec models. I want to test user model created using device gem'
+    }
   >
     <div className="mt-6">
       <div className="relative overflow-hidden rounded-md">
