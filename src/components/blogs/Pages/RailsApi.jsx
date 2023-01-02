@@ -5,8 +5,8 @@ import Gist from 'react-gist';
 const RailsApi = () => {
   return (
     <BlogContainer
-      title=" Lets create an API in Rails 7"
-      description="In this blog, we will create an API in Rails 7 with Active Model Serializer Gem for JSON response format."
+      title={" Lets create an API in Rails 7"}
+      description={"In this blog, we will create an API in Rails 7 with Active Model Serializer Gem for JSON response format."}
     >
       <div className="mt-6">
         <div className="relative overflow-hidden rounded-md">
