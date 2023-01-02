@@ -1,16 +1,17 @@
 import React from 'react';
 import Nav from '../components/Nav';
-import { Helmet } from 'react-helmet';
-
+import { RenderTitle } from '../utils/utils';
 import Available from '../components/Available';
 import Footer from '../components/Footer';
 import MyWork from '../components/MyWork';
 
 const PortfolioPage = () => (
   <>
-    <Helmet>
-      <title>Alfred Boateng Portfolio Projects </title>
-    </Helmet>
+    <RenderTitle
+      title={'Portfolio projects from Alfred Boateng'}
+      description={' Projects build'}
+    />
+
     <Nav />
     <section className="relative md:pt-16  pt-36">
       <MyWork />
