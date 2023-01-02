@@ -4,8 +4,10 @@ import BlogContainer from '../../BlogContainer';
 const BoxModel = () => {
   return (
     <BlogContainer
-      title="The Css Box Model"
-      description="In this tutorial, we will learn about the css box model and how it works"
+      title={'The Css Box Model'}
+      description={
+        'In this tutorial, we will learn about the css box model and how it works'
+      }
     >
       <div className="p-6 rounded-md shadow dark:shadow-gray-800">
         <div className="relative overflow-hidden rounded-md">
