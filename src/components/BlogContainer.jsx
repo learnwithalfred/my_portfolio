@@ -5,19 +5,22 @@ import Nav from './Nav';
 import RightSideBar from './blogs/RightSideBar';
 import Footer from './Footer';
 
-const BlogContainer = ({ children, title, description }) => {
+const BlogContainer = ({
+  children,
+  title,
+  description,
+}) => {
   return (
     <>
       <Helmet>
-        <title>{title ? title : 'A Post from Alfred Boateng'}</title>
-        <meta
-          name="description"
-          content={
-            description
-              ? description
-              : 'Blog Post from Alfred Boateng - A Mid Level Full-stack JavaScript, and Ruby developer with hands-on experience in web development'
-          }
-        />
+        <title>{title} </title>
+        <meta property="og:url" content={window} />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
       </Helmet>
       <Nav />
 
