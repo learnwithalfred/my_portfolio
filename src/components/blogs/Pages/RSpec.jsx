@@ -86,24 +86,24 @@ const RSpec = () => (
                   {/* example */}
                   <ul className="list-disc list-inside my-4">
                     <li className="my-4 py-2">
-                      <code className="bg-gray-100 dark:bg-gray-800 rounded-md py-3 my-4">
+                      <code className="bg-gray-100 dark:bg-gray-800 rounded-md p-2 my-8">
                         context 'when user is not logged in'
                       </code>
                     </li>
                     <li className="my-4 py-2">
-                      <code className="bg-gray-100 dark:bg-gray-800 rounded-md py-3 my-4">
+                      <code className="bg-gray-100 dark:bg-gray-800 rounded-md p-2 my-8">
                         {' '}
                         context 'when user is logged in'
                       </code>
                     </li>
                     <li className="my-4 py-2">
-                      <code className="bg-gray-100 dark:bg-gray-800 rounded-md py-3 my-4">
+                      <code className="bg-gray-100 dark:bg-gray-800 rounded-md p-2 my-8">
                         {' '}
                         context 'when user is admin'
                       </code>
                     </li>
                     <li className="my-4 py-2">
-                      <code className="bg-gray-100 dark:bg-gray-800 rounded-md py-3 my-4">
+                      <code className="bg-gray-100 dark:bg-gray-800 rounded-md p-2 my-8">
                         {' '}
                         context 'when user is not admin'
                       </code>
