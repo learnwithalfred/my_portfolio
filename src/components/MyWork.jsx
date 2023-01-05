@@ -138,7 +138,7 @@ const MyWork = () => {
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
                   <span className="hover:text-red-600 transition-all duration-500 ease-in-out">
                     <span className="text-indigo-600 mr-2">Github link: </span>
-                    Private Repository I contributed to whiles working as a
+                    Private Repository I contributed to while working as a
                     part-time developer at a TobeDetermened.
                   </span>
                 </li>
