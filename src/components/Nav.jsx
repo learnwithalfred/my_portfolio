@@ -17,7 +17,7 @@ const Nav = () => {
       <div className="container">
         {/* Logo container*/}
         <HashLink className="logo pl-0" to="/#welcome">
-          Alfred 
+          Alfred
         </HashLink>
         {/* End Logo container*/}
         <div className="menu-extras">
@@ -47,11 +47,11 @@ const Nav = () => {
         </ul>
         <div id="navigation">
           <ul className="navigation-menu">
-            {/* <li>
-              <HashLink to="/#about" className="sub-menu-item">
-                About Me
+            <li>
+              <HashLink to="/#welcome" className="sub-menu-item">
+                Home
               </HashLink>
-            </li> */}
+            </li>
 
             <li>
               <HashLink to="/portfolio" className="sub-menu-item">
