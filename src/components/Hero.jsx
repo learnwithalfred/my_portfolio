@@ -34,11 +34,11 @@ const Hero = () => {
                   </p>
                   <div className="mt-4">
                     <HashLink
-                      to="/#contact"
+                      to="/portfolio"
                       className="btn bg-sky-600 hover:bg-sky-700 border-sky-600 hover:border-sky-700 text-white rounded-md"
                     >
                       {' '}
-                      Let's Talk
+                      Portfolio Projects
                     </HashLink>
                     {/* <a
                       target={'_blank'}
