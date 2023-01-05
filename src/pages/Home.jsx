@@ -6,10 +6,12 @@ import Available from '../components/Available';
 import Footer from '../components/Footer';
 import Testimonials from '../components/Testimonials';
 import ContactMe from '../components/ContactMe';
+import Hero from '../components/Hero';
 
 const Home = () => (
   <div className="font-nunito text-base text-black dark:text-white dark:bg-slate-900">
     <Nav />
+    <Hero />
     <About />
     <WorkExperience />
     <Testimonials />
