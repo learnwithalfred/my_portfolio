@@ -41,7 +41,7 @@ const Nav = () => {
               className="btn bg-sky-600 hover:bg-sky-700 border-sky-600
                       hover:border-sky-700 text-white rounded-md"
             >
-              Contact Me
+              Let's Talk
             </HashLink>
           </li>
         </ul>

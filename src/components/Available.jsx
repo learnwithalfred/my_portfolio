@@ -19,12 +19,12 @@ const Available = () => {
             I am Available For Full-time Developer Position
           </h3>
           <p className="text-white/80 max-w-xl mx-auto">
-            I am a Mid Level full-stack JavaScript, Node.js, Ruby on Rails developer with
-            over 2 years of experience. I am a self-motivated and hardworking
-            individual who is able to work well in a team environment. I am a
-            fast learner and I am always willing to learn new skills. I am a
-            very creative person and I am always looking for new ways to improve
-            my skills.
+            I am a Mid Level full-stack JavaScript, Node.js, Ruby on Rails
+            developer with over 2 years of experience. I am a self-motivated and
+            hardworking individual who is able to work well in a team
+            environment. I am a fast learner and I am always willing to learn
+            new skills. I am a very creative person and I am always looking for
+            new ways to improve my skills.
           </p>
           <div className="relative mt-8">
             <HashLink
@@ -32,7 +32,7 @@ const Available = () => {
               className="btn bg-sky-600 hover:bg-sky-700 border-sky-600
                       hover:border-sky-700 text-white rounded-md"
             >
-              Contact Me
+              Let's Talk
             </HashLink>
           </div>
         </div>

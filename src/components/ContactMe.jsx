@@ -36,14 +36,12 @@ const ContactMe = () => {
         email,
         message,
       };
-      emailjs
-        .send(serviceId, templateId, templateParams, userId)
-        .then(() =>
-          handleToast({
-            msg: 'Thank you for your message, I will be in touch in no time!',
-            type: 'success',
-          })
-        );
+      emailjs.send(serviceId, templateId, templateParams, userId).then(() =>
+        handleToast({
+          msg: 'Thank you for your message, I will be in touch in no time!',
+          type: 'success',
+        })
+      );
 
       setName('');
       setEmail('');
@@ -57,7 +55,7 @@ const ContactMe = () => {
       <section className="relative md:py-24 py-16  bg-gray-50" id="contact">
         <div className="grid grid-cols-1 pb-8 text-center">
           <h3 className="text-indigo-600 mb-4 md:text-3xl md:leading-normal text-2xl leading-normal  font-bold uppercase mb-2">
-            Contact Me
+            Let's Talk
           </h3>
         </div>
         <div className="grid md:grid-cols-12 grid-cols-1  gap-[30px] container">
