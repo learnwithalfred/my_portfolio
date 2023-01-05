@@ -72,7 +72,7 @@ const About = () => {
 
                   <li className="flex items-center">
                     <i className="mdi mdi-check text-indigo-600 text-lg mr-2" />
-                    Deployment: Heroku | Netlify | Vercel
+                    Deployment: Heroku | Netlify | Vercel | Docker
                   </li>
                 </ol>
               </div>
