@@ -12,9 +12,9 @@ const About = () => {
           <div className="lg:col-span-5 md:col-span-6">
             <div className="relative">
               <img
-                src="/assets/images/personal/hero.png"
-                className="rounded-full"
-                alt="Alfred Boateng"
+                src="/assets/images/typing_alfred.png "
+                // className="rounded-full"
+                alt="Coding is my passion"
               />
               {/* <div className="absolute bottom-2/4 translate-y-2/4 right-0 left-0 text-center">
                 <a
@@ -28,12 +28,12 @@ const About = () => {
                   <i className="mdi mdi-play inline-flex items-center justify-center text-2xl" />
                 </a>
               </div> */}
-              <div className="absolute top-0 left-0 -z-1">
+              {/* <div className="absolute top-0 left-0 -z-1">
                 <img
                   src="/assets/images/personal/dots.svg"
                   alt="Alfred Boateng"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="lg:col-span-7 md:col-span-6 mt-8 md:mt-0">
@@ -42,9 +42,13 @@ const About = () => {
                 About Me
               </h3>
 
-              <p className="text-dark-800 max-w-xl">
-                Mid Level Full-stack JavaScript, Node.js and Ruby developer with
-                hands-on experience in web development.
+              <p className="text-dark-800 max-w-xl text-xl">
+                I am a Mid Level full-stack JavaScript, Node.js, and Ruby on
+                Rails developer with over two years of experience. I am a
+                self-motivated and hardworking individual who can work well in a
+                team environment. I am a fast learner, willing to learn new
+                skills. I am very creative, always looking for new ways to
+                improve my skills.
               </p>
               <div className="mt-4">
                 <h3>
@@ -97,7 +101,7 @@ const About = () => {
                 </ol>
               </div>
 
-              <div className="mt-4">
+              {/* <div className="mt-4">
                 <h3>
                   <span className="text-2xl font-bold text-indigo-600">
                     Email
@@ -127,7 +131,7 @@ const About = () => {
                     </li>
                   </a>
                 </ol>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
