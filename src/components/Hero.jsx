@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
 import Typical from 'react-typical';
 const Hero = () => {
   return (
@@ -24,15 +25,22 @@ const Hero = () => {
             <div className="grid md:grid-cols-12 mt-12">
               <div className="lg:col-span-4 md:col-span-6 order-2 lg:order-1 mt-6 md:mt-0 relative">
                 <div className="rounded-md lg:shadow-md lg:dark:shadow-gray-800 lg:absolute lg:top-14 lg:bg-white lg:dark:bg-slate-900 lg:p-6">
-                  <h5 className="mb-3 text-2xl font-bold lg:text-black lg:dark:text-white text-white">
-                    Mid Level Full-stack JavaScript, Node.js, Ruby on Rails
-                    Developer{' '}
+                  <h5 className="mb-3 text-3xl font-bold lg:text-black lg:dark:text-white text-white">
+                    Mid Level Full-stack Developer
                   </h5>
                   <p className="para-desc lg:text-slate-400 text-slate-200 dark:text-slate-200 mb-0">
-                    Web Developer with over 2 years of experience.
+                    I have a passion for building web applications that are
+                    fast, responsive and user friendly
                   </p>
                   <div className="mt-4">
-                    <a
+                    <HashLink
+                      to="/#contact"
+                      className="btn bg-sky-600 hover:bg-sky-700 border-sky-600 hover:border-sky-700 text-white rounded-md"
+                    >
+                      {' '}
+                      Let's Talk
+                    </HashLink>
+                    {/* <a
                       target={'_blank'}
                       rel="noreferrer"
                       href="https://docs.google.com/document/d/1_19Fknm1CHhR0YmslcuAKkVdP8u0uwwfNma-GJL5iJU/edit?usp=sharing"
@@ -41,7 +49,7 @@ const Hero = () => {
                     >
                       {' '}
                       My Resume
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
