@@ -3,7 +3,6 @@ import React from 'react';
 const About = () => {
   return (
     <section
-      id="welcome"
       className="md:h-screen py-36 h-auto relative flex items-center background-effect overflow-hidden 
       "
     >
