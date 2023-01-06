@@ -238,14 +238,14 @@ const MyWork = () => {
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
                   <span className="hover:text-red-600 transition-all duration-500 ease-in-out">
                     <span className="text-indigo-600 mr-2">Client: </span>
-                      <a
-                    rel="noreferrer"
-                    href="https://kraado.co"
-                    target="_blank"
-                    className="hover:text-red-600 transition-all duration-500 ease-in-out"
-                  >
+                    <a
+                      rel="noreferrer"
+                      href="https://kraado.co"
+                      target="_blank"
+                      className="hover:text-red-600 transition-all duration-500 ease-in-out"
+                    >
                       Kraado
-                  </a>
+                    </a>
                   </span>
                 </li>
               </ul>
@@ -289,7 +289,7 @@ const MyWork = () => {
               </h5>
               <p className="text-dark-800">
                 <span className="text-indigo-600">Description: </span> This is a
-                group project where we were to build a car booking app.
+                School Project where we were to build a car booking app.
               </p>
               <ul className="list-none text-dark-800 mt-4">
                 <li className="mb-1 flex">
@@ -327,7 +327,7 @@ const MyWork = () => {
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
                   <span className="hover:text-red-600 transition-all duration-500 ease-in-out">
                     <span className="text-indigo-600 mr-2">Project Type: </span>
-                    Group Project
+                    School Project
                   </span>
                 </li>
               </ul>
@@ -369,7 +369,7 @@ const MyWork = () => {
               </h5>
               <p className="text-dark-800">
                 <span className="text-indigo-600">Description: </span>A
-                JavaScript group project for searching and commenting on TV
+                JavaScript School Project for searching and commenting on TV
                 shows.
               </p>
               <ul className="list-none text-dark-800 mt-4">
@@ -408,7 +408,7 @@ const MyWork = () => {
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
                   <span className="hover:text-red-600 transition-all duration-500 ease-in-out">
                     <span className="text-indigo-600 mr-2">Project Type: </span>
-                    Group Project
+                    School Project
                   </span>
                 </li>
               </ul>
@@ -491,7 +491,7 @@ const MyWork = () => {
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
                   <span className="hover:text-red-600 transition-all duration-500 ease-in-out">
                     <span className="text-indigo-600 mr-2">Project Type: </span>
-                    Group Project
+                    School Project
                   </span>
                 </li>
               </ul>
