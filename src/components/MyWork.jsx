@@ -23,7 +23,7 @@ const MyWork = () => {
             <div className="relative">
               <a
                 rel="noreferrer"
-                href="https://github.com/learnwithalfred/nana-ama-stores"
+                href="https://christmodel.academy/"
                 target="_blank"
                 className="hover:text-red-600 transition-all duration-500 ease-in-out"
               >
