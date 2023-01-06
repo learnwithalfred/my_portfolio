@@ -159,7 +159,13 @@ const MyWork = () => {
                     https://www.aurageospatial.com/
                   </a>
                 </li>
-              
+                <li className="mb-1 flex">
+                  <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
+                  <span className="hover:text-red-600 transition-all duration-500 ease-in-out">
+                    <span className="text-indigo-600 mr-2">Project Type: </span>
+                    Freelance Project
+                  </span>
+                </li>
               </ul>
               <div className="mt-4">
                 <a
