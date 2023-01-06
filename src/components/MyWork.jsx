@@ -218,7 +218,7 @@ const MyWork = () => {
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
                   <span className="text-indigo-600 mr-2">Github link: </span>
                   Private repository I contributed to whiles working as a
-                  developer Intern at Kraado.
+                  developer  at Kraado.
                 </li>
                 <li className="mb-1 flex">
                   <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}

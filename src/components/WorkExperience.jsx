@@ -83,7 +83,7 @@ const WorkExperience = () => (
               </div>
               <div className="float-left md:text-right md:mr-8 mt-6 md:mt-0 md:order-1">
                 <h5 className="title mb-1 font-semibold">
-                  Full-stack Developer Intern
+                  Full-stack Developer
                 </h5>
                 <p className="mt-3 mb-0 text-dark-800">
                   Worked with Kraado developers to create SASS website for
