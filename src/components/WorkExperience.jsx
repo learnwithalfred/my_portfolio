@@ -7,7 +7,7 @@ const WorkExperience = () => (
   >
     <div className="container">
       <div className="grid grid-cols-1 pb-8 text-center">
-          <h3 className="text-indigo-600 mb-4 md:text-3xl md:leading-normal text-2xl leading-normal  font-bold uppercase mb-2">
+        <h3 className="text-indigo-600 mb-4 md:text-3xl md:leading-normal text-2xl leading-normal  font-bold uppercase mb-2">
           Work Experience
         </h3>
       </div>
@@ -100,6 +100,50 @@ const WorkExperience = () => (
                     <li>
                       Skills: Kanban · Front-End Development · Software
                       Development
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-12 ml-8 md:ml-0 relative after:content-[''] after:absolute after:top-[9px] after:rounded-full after:z-10 after:w-2.5 after:h-2.5 after:bg-indigo-600 md:after:mx-auto md:after:right-0 md:after:left-0 after:-left-9 before:content-[''] before:absolute md:before:mx-auto md:before:right-0 md:before:left-0 before:-left-11 before:rounded-full before:z-10 before:border-2 before:border-dashed before:border-gray-200 dark:before:border-gray-700 before:top-0 before:w-7 before:h-7 before:bg-white dark:before:bg-slate-900">
+            <div className="grid md:grid-cols-2">
+              <div className="md:text-right md:mr-8 relative">
+                <h5 className="my-2 font-semibold text-lg">Self Employed</h5>
+                <h6 className="text-slate text-sm mb-0">2019 - 2021</h6>
+              </div>
+              <div className="float-left text-left md:ml-8 mt-6 md:mt-0">
+                <h5 className="title mb-1 font-semibold">
+                  Full-Stack Freelance Developer
+                </h5>
+                <p className="mt-3 mb-0 text-dark-800">
+                  Worked with clients to build websites and web applications for
+                  a variety of purposes. Some are listed below:
+                  
+                  <ul className="list-disc list-inside my-4">
+                    <li>
+                      <a
+                        href="https://christmodel.academy"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        https://christmodel.academy
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        href="https://www.aurageospatial.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        https://www.aurageospatial.com/
+                      </a>
+                    </li>
+                    <li>
+                      Languages: PHP, Laravel, React.js, Node.js, JavaScript,
+                      MySQL
                     </li>
                   </ul>
                 </p>
