@@ -16,6 +16,165 @@ const MyWork = () => {
             over the years. Here are some of them.
           </p>
         </div>
+        {/* ======================================   christ model   ====================================== */}
+
+        <div className="container md:mt-24 mt-16">
+          <div className="grid md:grid-cols-2 grid-cols-1 items-center mt-16 gap-[30px]">
+            <div className="relative">
+              <a
+                rel="noreferrer"
+                href="https://github.com/learnwithalfred/nana-ama-stores"
+                target="_blank"
+                className="hover:text-red-600 transition-all duration-500 ease-in-out"
+              >
+                <img
+                  src="/assets/images/cms.png"
+                  className="rounded-lg shadow-md dark:shadow-gray-800"
+                  alt="Christ Model School"
+                />
+              </a>
+              <div className="overflow-hidden absolute lg:h-[400px] h-[320px] lg:w-[400px] w-[320px] bg-indigo-600/5 dark:bg-indigo-600/20 bottom-0 left-0 rotate-45 -z-1 rounded-3xl" />
+            </div>
+            <div className="lg:ml-8">
+              <h5 className="mb-4 text-2xl leading-normal font-medium">
+                <span className="text-indigo-600 mr-2">Name: </span> Christ
+                Model School Website
+              </h5>
+              <p className="text-dark-800">
+                <span className="text-indigo-600">Description: </span>A school
+                website and a school management system for a school in Ghana.
+                The school management system is a content management system that
+                allows the school to manage their students, and other school
+                related activities.
+              </p>
+              <ul className="list-none text-dark-800 mt-4">
+                <li className="mb-1 flex">
+                  <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
+                  <span className="text-indigo-600 mr-2">Languages: </span> PHP,
+                  Laravel, JavaScript, MySql
+                </li>
+                <li className="mb-1 flex">
+                  <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
+                  <a
+                    rel="noreferrer"
+                    href="https://christmodel.academy/"
+                    target="_blank"
+                    className="hover:text-red-600 transition-all duration-500 ease-in-out"
+                  >
+                    <span className="text-indigo-600 mr-2">Github link: </span>
+                    Private Link
+                  </a>
+                </li>
+                <li className="mb-1 flex">
+                  <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://christmodel.academy/"
+                    className="hover:text-red-600 transition-all duration-500 ease-in-out"
+                  >
+                    <span className="text-indigo-600 mr-2">
+                      Deployed link:{' '}
+                    </span>
+                    https://christmodel.academy/
+                  </a>
+                </li>
+                <li className="mb-1 flex">
+                  <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
+                  <span className="hover:text-red-600 transition-all duration-500 ease-in-out">
+                    <span className="text-indigo-600 mr-2">Project Type: </span>
+                    Freelance Project
+                  </span>
+                </li>
+              </ul>
+              <div className="mt-4">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://christmodel.academy/"
+                  className="btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
+                >
+                  Find Out More{' '}
+                  <i className="uil uil-angle-right-b align-middle" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* ======================================   Aura   ====================================== */}
+
+        <div className="container md:mt-24 mt-16">
+          <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
+            <div className="relative order-1 md:order-2">
+              <a
+                rel="noreferrer"
+                href="https://www.aurageospatial.com/"
+                target="_blank"
+                className="hover:text-red-600 transition-all duration-500 ease-in-out"
+              >
+                <img
+                  src="/assets/images/aura.png"
+                  className="rounded-lg shadow-md dark:shadow-gray-800"
+                  alt="Alfred Boateng's Portfolio"
+                />
+              </a>
+              <div className="overflow-hidden absolute lg:h-[400px] h-[320px] lg:w-[400px] w-[320px] bg-indigo-600/5 dark:bg-indigo-600/20 bottom-0 right-0 rotate-45 -z-1 rounded-3xl" />
+            </div>
+            <div className="lg:mr-8 order-2 md:order-1">
+              <h5 className="mb-4 text-2xl leading-normal font-medium">
+                <span className="text-indigo-600 mr-2">Name: </span> Aura
+                Geospatial Website
+              </h5>
+              <p className="text-dark-800">
+                <span className="text-indigo-600">Description: </span> A
+                freelance project for a geospatial company in Ghana. The website
+                is a single page application that allows the company to showcase
+                their services and also allows them to manage their clients and
+                projects.
+              </p>
+              <ul className="list-none text-dark-800 mt-4">
+                <li className="mb-1 flex">
+                  <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
+                  <span className="text-indigo-600 mr-2">Languages: </span>{' '}
+                  React.js, Node.js, Express.js
+                </li>
+                <li className="mb-1 flex">
+                  <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
+                  <span className="hover:text-red-600 transition-all duration-500 ease-in-out">
+                    <span className="text-indigo-600 mr-2">Github link: </span>
+                    Private Repository
+                  </span>
+                </li>
+                <li className="mb-1 flex">
+                  <i className="uil uil-check-circle text-indigo-600 text-xl mr-2" />{' '}
+                  <a
+                    rel="noreferrer"
+                    href="https://www.aurageospatial.com/"
+                    target="_blank"
+                    className="hover:text-red-600 transition-all duration-500 ease-in-out"
+                  >
+                    <span className="text-indigo-600 mr-2">
+                      Deployed link:{' '}
+                    </span>
+                    https://www.aurageospatial.com/
+                  </a>
+                </li>
+              
+              </ul>
+              <div className="mt-4">
+                <a
+                  href="https://www.aurageospatial.com/"
+                  className="btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
+                >
+                  Find Out More{' '}
+                  <i className="uil uil-angle-right-b align-middle" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* ======================================   stores   ====================================== */}
+
         <div className="container md:mt-24 mt-16">
           <div className="grid md:grid-cols-2 grid-cols-1 items-center mt-16 gap-[30px]">
             <div className="relative">
@@ -100,6 +259,8 @@ const MyWork = () => {
             </div>
           </div>
         </div>
+        {/* ======================================   Listed   ====================================== */}
+
         <div className="container md:mt-24 mt-16">
           <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
             <div className="relative order-1 md:order-2">
