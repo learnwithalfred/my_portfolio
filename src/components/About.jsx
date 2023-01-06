@@ -44,7 +44,7 @@ const About = () => {
 
               <p className="text-dark-800 max-w-xl text-xl">
                 I am a Mid Level full-stack JavaScript, Node.js, and Ruby on
-                Rails developer with over two years of experience. I am a
+                Rails developer with over three years of experience. I am a
                 self-motivated and hardworking individual who can work well in a
                 team environment. I am a fast learner, willing to learn new
                 skills. I am very creative, always looking for new ways to
