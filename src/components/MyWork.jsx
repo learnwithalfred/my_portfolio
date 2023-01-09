@@ -291,9 +291,7 @@ const MyWork = () => {
               <p className="text-dark-800">
                 <span className="text-indigo-600">Description: </span> An
                 enterprise NFT application that allows users to create NFTs and
-                to buy and sell NFTs. I added role based authentication to the
-                app, so that only users with the admin role can create NFTs and
-                users with the buyer role can buy NFTs.
+                to buy and sell NFTs.
               </p>
               <ul className="list-none text-dark-800 mt-4">
                 <li className="mb-1 flex">
