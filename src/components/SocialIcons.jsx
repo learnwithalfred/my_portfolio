@@ -1,5 +1,3 @@
-import { Icon } from './Icons';
-
 const SocialIcons = ({ profiles }) => {
   return (
     <ul className="list-none md:text-right text-center mt-6 md:mt-0">
