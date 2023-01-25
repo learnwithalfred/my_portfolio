@@ -1,9 +1,9 @@
 const SocialIcons = ({ profiles }) => {
   return (
-    <ul className="list-none md:text-right text-center mt-6 md:mt-0">
+    <ul className="list-none text-center mt-8">
       {profiles.map(({ url, name, icon }) => (
         <li
-          className="w-6 h-6 opacity-70 hover:opacity-100 transition inline"
+          className="w-6 h-6 opacity-70 hover:opacity-100 transition inline px-2"
           key={name}
         >
           <a
