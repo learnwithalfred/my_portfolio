@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { SocialIcons } from '../SocialIcons';
+import { Github, Linkedin, Twitter } from '../Icons';
+
 const RightSideBar = () => {
   return (
     <div className="lg:col-span-4 md:col-span-6">
@@ -84,47 +87,25 @@ const RightSideBar = () => {
         <h5 className="text-lg font-semibold bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 rounded-md p-2 text-center mt-8">
           Social sites
         </h5>
-        <ul className="list-none text-center mt-8">
-          <li className="inline">
-            <a
-              href="https://linkedin.com/in/learnwithalfred"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md text-dark-800 hover:border-indigo-600 hover:text-white hover:bg-indigo-600 mx-2"
-            >
-              <i className="uil uil-linkedin" title="Linkedin" />
-            </a>
-          </li>
-          <li className="inline">
-            <a
-              href="https://github.com/learnwithalfred"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md text-dark-800 hover:border-indigo-600 hover:text-white hover:bg-indigo-600 mx-2"
-            >
-              <i className="uil uil-github" title="Linkedin" />
-            </a>
-          </li>
-          <li className="inline">
-            <a
-              href="https://twitter.com/kb_alfred"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md text-dark-800 hover:border-indigo-600 hover:text-white hover:bg-indigo-600 mx-2"
-            >
-              <i className="uil uil-twitter align-middle" title="twitter" />
-            </a>
-          </li>
-          <li className="inline">
-            <a
-              href="mailto:learnwithalfred@gmail.com"
-              className="btn btn-icon btn-sm border border-gray-100 dark:border-gray-800 rounded-md text-dark-800 hover:border-indigo-600 hover:text-white hover:bg-indigo-600 mx-2"
-            >
-              <i className="uil uil-envelope align-middle" title="email" />
-            </a>
-          </li>
-        </ul>
-        {/*end icon*/}
+        <SocialIcons
+          profiles={[
+            {
+              name: 'Github',
+              url: 'https://www.github.com/learnwithalfred',
+              icon: Github,
+            },
+            {
+              name: 'LinkedIn',
+              url: 'https://www.linkedin.com/in/learnwithalfred',
+              icon: Linkedin,
+            },
+            {
+              name: 'Twitter',
+              url: 'https://twitter.com/Kb_alfred',
+              icon: Twitter,
+            },
+          ]}
+        />
       </div>
     </div>
   );
