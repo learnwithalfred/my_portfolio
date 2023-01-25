@@ -16,7 +16,7 @@ const Available = () => {
       <div className="container relative">
         <div className="grid grid-cols-1 text-center">
           <h3 className="mb-4 md:text-3xl text-2xl text-white font-medium">
-            I am open to Software Engineering opportunities
+            I'm open to Software Engineering opportunities
           </h3>
           <div className="relative mt-8">
             <HashLink
