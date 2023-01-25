@@ -16,16 +16,8 @@ const Available = () => {
       <div className="container relative">
         <div className="grid grid-cols-1 text-center">
           <h3 className="mb-4 md:text-3xl text-2xl text-white font-medium">
-            I am open to Software Engineering opportunities
+            I'm open to Software Engineering opportunities
           </h3>
-          {/* <p className="text-white/80 max-w-xl mx-auto">
-            I am a Mid Level full-stack JavaScript, Node.js, Ruby on Rails
-            developer with over 2 years of experience. I am a self-motivated and
-            hardworking individual who is able to work well in a team
-            environment. I am a fast learner and I am always willing to learn
-            new skills. I am a very creative person and I am always looking for
-            new ways to improve my skills.
-          </p> */}
           <div className="relative mt-8">
             <HashLink
               to={'/#contact'}
@@ -36,9 +28,7 @@ const Available = () => {
             </HashLink>
           </div>
         </div>
-        {/*end grid*/}
       </div>
-      {/*end container*/}
     </section>
   );
 };
