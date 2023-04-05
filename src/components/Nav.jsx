@@ -63,15 +63,21 @@ const Nav = () => {
                 Experience
               </HashLink>
             </li>
-            {/* <li>
-              <HashLink to="/#testimonials" className="sub-menu-item">
-                Testimonials
-              </HashLink>
-            </li> */}
+
             <li>
               <Link to={'/blogs'} className="sub-menu-item">
                 Blogs
               </Link>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/@learnwithalfred"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="sub-menu-item"
+              >
+                Youtube
+              </a>
             </li>
             {/* <li>
               <Link to="/" className="sub-menu-item">

@@ -43,8 +43,17 @@ const About = () => {
               </h3>
 
               <p className="text-dark-800 max-w-xl text-xl">
-                Diligent software engineer with 3+ years of experience in web application development. Looking for my next role to build innovative and cutting-edge business solutions for an impressive suite of clients. Experience includes completing 3 web applications as a freelancer, and mentoring 2 junior developers providing technical support through code reviews. Strong skills include JavaScript, Ruby on Rails, Node.js, React.js PHP, and Debugging.
-
+                Energetic full-stack developer with 3+ years of experience
+                developing robust code for enterprise businesses. A fast learner
+                that enjoys technical research that further develops my skills,
+                and creative projects. Love teaching SWE content on {' '}
+                <a
+                  href="https://www.youtube.com/@learnwithalfred"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Youtube
+                </a>
               </p>
               <div className="mt-4">
                 <h3>
