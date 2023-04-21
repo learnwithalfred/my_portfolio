@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       id="welcome"
-      className="md:h-screen py-36 h-auto relative flex items-center background-effect overflow-hidden 
+      className="md:h-screen py-36 h-auto relative flex items-center background-effect overflow-hidden
       before:content-[''] before:absolute before:-z-1 sm:before:-bottom-80 before:-bottom-40 before:right-36 before:left-0 before:mx-auto before:rounded-full before:bg-indigo-600 sm:before:w-[50rem] before:w-[30rem] sm:before:h-[50rem] before:h-[30rem]"
     >
       <div className="container-fluid">
@@ -29,8 +29,12 @@ const Hero = () => {
                     Mid Level Full-stack Developer
                   </h5>
                   <p className="para-desc lg:text-slate-400 text-slate-200 dark:text-slate-200 mb-0">
-                    I have a passion for building web applications that are
-                    fast, responsive and user friendly
+                    Well-qualified Full Stack Developer familiar with wide range
+                    of programming utilities and languages. Knowledgeable of
+                    backend and frontend development requirements. Handles any
+                    part of process with ease. Collaborative team player with
+                    excellent technical abilities offering 3 years of related
+                    experience.
                   </p>
                   <div className="mt-4">
                     <HashLink
@@ -40,16 +44,6 @@ const Hero = () => {
                       {' '}
                       Portfolio Projects
                     </HashLink>
-                    {/* <a
-                      target={'_blank'}
-                      rel="noreferrer"
-                      href="https://docs.google.com/document/d/1_19Fknm1CHhR0YmslcuAKkVdP8u0uwwfNma-GJL5iJU/edit?usp=sharing"
-                      className="btn bg-sky-600 hover:bg-sky-700 border-sky-600
-                      hover:border-sky-700 text-white rounded-md"
-                    >
-                      {' '}
-                      My Resume
-                    </a> */}
                   </div>
                 </div>
               </div>
@@ -62,7 +56,7 @@ const Hero = () => {
                     steps={[
                       'Alfred Boateng',
                       7000,
-                      'Web developer!',
+                      'Full Stack  developer!',
                       10000,
                       'Open to work ',
                       5000,
