@@ -14,7 +14,7 @@ export const Projects = [
     title: 'Aura Geospatial Website',
     description:
       'A freelance project for a geospatial company in Ghana. The website is a single page application that allows the company to showcase their services and also allows them to manage their clients and projects',
-    image: '/assets/images/cms.png',
+    image: '/assets/images/aura.png',
     tags: ['React.js', 'JavaScript', 'Node.js', 'Bootstrap', 'Express.js'],
     github: 'private repo',
     link: 'https://www.aurageospatial.com',
@@ -36,7 +36,7 @@ export const Projects = [
   {
     title: 'Kraado',
     description: 'SASS website for booking coaches',
-    image: '/assets/images/cms.png',
+    image: '/assets/images/kraado.png',
     tags: ['React.js', 'JavaScript', 'Firebase'],
     github: 'private repo',
     link: 'https://kraado.co',
@@ -47,7 +47,7 @@ export const Projects = [
     title: 'Portfolio Website',
     description:
       "This is the website you're currently viewing, built with React.js",
-    image: '/assets/images/cms.png',
+    image: '/assets/images/code.png',
     tags: ['React.js', 'JavaScript', 'Tailwind CSS'],
     github: 'https://github.com/learnwithalfred/my_portfolio',
     link: 'https://alfredboateng.netlify.app/#/#welcome',
