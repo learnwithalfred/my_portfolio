@@ -19,7 +19,7 @@ export const handleToast = ({ msg, type = 'success' }) =>
 
 export const RenderTitle = ({
   title = 'Alfred Boateng',
-  description = 'A mid level software developer',
+  description = 'Mid level software developer',
 }) => (
   <Helmet>
     <title>{title} </title>
