@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 const Nav = () => {
@@ -65,9 +64,14 @@ const Nav = () => {
             </li>
 
             <li>
-              <Link to={'/blogs'} className="sub-menu-item">
+              <a
+                href="https://medium.com/@learnwithalfred"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="sub-menu-item"
+              >
                 Blogs
-              </Link>
+              </a>
             </li>
             <li>
               <a
