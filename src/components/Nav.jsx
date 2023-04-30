@@ -14,14 +14,11 @@ const Nav = () => {
   return (
     <nav id="topnav" className="defaultscroll is-sticky">
       <div className="container">
-        {/* Logo container*/}
         <HashLink className="logo pl-0" to="/#welcome">
           Alfred
         </HashLink>
-        {/* End Logo container*/}
         <div className="menu-extras">
           <div className="menu-item">
-            {/* Mobile menu toggle*/}
             <span className="navbar-toggle" id="isToggle" onClick={toggleMenu}>
               <div className="lines">
                 <span />
@@ -29,10 +26,8 @@ const Nav = () => {
                 <span />
               </div>
             </span>
-            {/* End mobile menu toggle*/}
           </div>
         </div>
-        {/*Login button Start*/}
         <ul className="buy-button list-none mb-0">
           <li className="inline pl-1 mb-0">
             <HashLink
@@ -64,30 +59,25 @@ const Nav = () => {
             </li>
 
             <li>
-              <a
-                href="https://medium.com/@learnwithalfred"
+              <HashLink
+                to="https://medium.com/@learnwithalfred"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="sub-menu-item"
               >
                 Blogs
-              </a>
+              </HashLink>
             </li>
             <li>
-              <a
-                href="https://www.youtube.com/@learnwithalfred"
+              <HashLink
+                to="https://www.youtube.com/@learnwithalfred"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="sub-menu-item"
               >
                 Youtube
-              </a>
+              </HashLink>
             </li>
-            {/* <li>
-              <Link to="/" className="sub-menu-item">
-                Contact
-              </Link>
-            </li> */}
           </ul>
         </div>
       </div>
