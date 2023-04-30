@@ -1,0 +1,507 @@
+{
+  "users": [
+    {
+      "first_name": "Alfredo",
+      "last_name": "Garcia",
+      "password": "secrete_!password1",
+      "username": "alfred",
+      "email": "alfred@test.com",
+      "dob": "1980-01-01",
+      "phone": {
+        "home": "212-555-1234",
+        "mobile": "646-555-4567"
+      },
+      "gender": "Male",
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001",
+        "country": "US"
+      },
+      "role": "client",
+      "status": "active"
+    },
+    {
+      "first_name": "Linda",
+      "last_name": "Brown",
+      "password": "secrete_!password1",
+      "username": "lindaBrown",
+      "email": "Linda@test.com",
+      "dob": "1980-01-02",
+      "phone": {
+        "home": "222-555-1234",
+        "mobile": "646-545-4567"
+      },
+      "gender": "Female",
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001",
+        "country": "US"
+      },
+      "role": "freelancer",
+      "status": "active"
+    },
+    {
+      "first_name": "George",
+      "last_name": "Brown",
+      "password": "secrete_!password1",
+      "username": "GeorgeBrown",
+      "email": "Linda@test.com",
+      "dob": "1980-01-04",
+      "phone": {
+        "home": "222-555-1234",
+        "mobile": "646-545-4567"
+      },
+      "gender": "Female",
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001",
+        "country": "US"
+      },
+      "role": "client",
+      "status": "active"
+    },
+    {
+      "first_name": "Emilia",
+      "last_name": "Johnson",
+      "password": "secrete_!password1",
+      "username": "EmiliaJohnson",
+      "email": "EmiliaJohnson@test.com",
+      "dob": "1980-01-04",
+      "phone": {
+        "home": "222-555-1234",
+        "mobile": "646-545-4567"
+      },
+      "gender": "Female",
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001",
+        "country": "US"
+      },
+      "role": "client",
+      "status": "active"
+    },
+    {
+      "first_name": "Anita",
+      "last_name": "Johnson",
+      "password": "secrete_!password1",
+      "username": "AnitaJohnson",
+      "email": "AnitaJohnson@test.com",
+      "dob": "1980-01-04",
+      "phone": {
+        "home": "222-555-1234",
+        "mobile": "646-545-4567"
+      },
+      "gender": "Female",
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001",
+        "country": "US"
+      },
+      "role": "client",
+      "status": "active"
+    },
+    {
+      "first_name": "Sarah",
+      "last_name": "Mills",
+      "password": "secrete_!password1",
+      "username": "SarahMills",
+      "email": "Sarah@test.com",
+      "dob": "1980-01-02",
+      "phone": {
+        "home": "222-555-1234",
+        "mobile": "646-545-4567"
+      },
+      "gender": "Female",
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001",
+        "country": "US"
+      },
+      "role": "freelancer",
+      "status": "active"
+    },
+    {
+      "first_name": "Nadia",
+      "last_name": "Johnson",
+      "password": "secrete_!password1",
+      "username": "NadiaJohnson",
+      "email": "NadiaJohnson@test.com",
+      "dob": "1980-01-04",
+      "phone": {
+        "home": "222-555-1234",
+        "mobile": "646-545-4567"
+      },
+      "gender": "Female",
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001",
+        "country": "US"
+      },
+      "role": "freelancer",
+      "status": "active"
+    }
+  ],
+  "sales": [
+    {
+      "sale_type": "ppv",
+      "fan_source": "facebook",
+      "client": {
+        "first_name": "George",
+        "last_name": "Brown",
+        "password": "secrete_!password1",
+        "username": "GeorgeBrown",
+        "email": "Linda@test.com",
+        "dob": "1980-01-04",
+        "phone": {
+          "home": "222-555-1234",
+          "mobile": "646-545-4567"
+        },
+        "gender": "Female",
+        "address": {
+          "street": "123 Main St",
+          "city": "New York",
+          "state": "NY",
+          "zip": "10001",
+          "country": "US"
+        },
+        "role": "client",
+        "status": "active"
+      },
+      "freelancer": {
+        "first_name": "Sarah",
+        "last_name": "Mills",
+        "password": "secrete_!password1",
+        "username": "SarahMills",
+        "email": "Sarah@test.com",
+        "dob": "1980-01-02",
+        "phone": {
+          "home": "222-555-1234",
+          "mobile": "646-545-4567"
+        },
+        "gender": "Female",
+        "address": {
+          "street": "123 Main St",
+          "city": "New York",
+          "state": "NY",
+          "zip": "10001",
+          "country": "US"
+        },
+        "role": "freelancer",
+        "status": "active"
+      },
+      "amount": 1000,
+      "status": "active"
+    },
+    {
+      "sale_type": "ppv",
+      "fan_source": "facebook",
+      "client": {
+        "first_name": "George",
+        "last_name": "Brown",
+        "password": "secrete_!password1",
+        "username": "GeorgeBrown",
+        "email": "Linda@test.com",
+        "dob": "1980-01-04",
+        "phone": {
+          "home": "222-555-1234",
+          "mobile": "646-545-4567"
+        },
+        "gender": "Female",
+        "address": {
+          "street": "123 Main St",
+          "city": "New York",
+          "state": "NY",
+          "zip": "10001",
+          "country": "US"
+        },
+        "role": "client",
+        "status": "active"
+      },
+      "freelancer": {
+        "first_name": "Sarah",
+        "last_name": "Mills",
+        "password": "secrete_!password1",
+        "username": "SarahMills",
+        "email": "Sarah@test.com",
+        "dob": "1980-01-02",
+        "phone": {
+          "home": "222-555-1234",
+          "mobile": "646-545-4567"
+        },
+        "gender": "Female",
+        "address": {
+          "street": "123 Main St",
+          "city": "New York",
+          "state": "NY",
+          "zip": "10001",
+          "country": "US"
+        },
+        "role": "freelancer",
+        "status": "active"
+      },
+      "amount": 2000,
+      "status": "active"
+    },
+    {
+      "sale_type": "ppv",
+      "fan_source": "facebook",
+      "client": {
+        "first_name": "George",
+        "last_name": "Brown",
+        "password": "secrete_!password1",
+        "username": "GeorgeBrown",
+        "email": "Linda@test.com",
+        "dob": "1980-01-04",
+        "phone": {
+          "home": "222-555-1234",
+          "mobile": "646-545-4567"
+        },
+        "gender": "Female",
+        "address": {
+          "street": "123 Main St",
+          "city": "New York",
+          "state": "NY",
+          "zip": "10001",
+          "country": "US"
+        },
+        "role": "client",
+        "status": "active"
+      },
+      "freelancer": {
+        "first_name": "Nadia",
+        "last_name": "Johnson",
+        "password": "secrete_!password1",
+        "username": "NadiaJohnson",
+        "email": "NadiaJohnson@test.com",
+        "dob": "1980-01-04",
+        "phone": {
+          "home": "222-555-1234",
+          "mobile": "646-545-4567"
+        },
+        "gender": "Female",
+        "address": {
+          "street": "123 Main St",
+          "city": "New York",
+          "state": "NY",
+          "zip": "10001",
+          "country": "US"
+        },
+        "role": "freelancer",
+        "status": "active"
+      },
+      "amount": 10000,
+      "status": "pending"
+    },
+    {
+      "sale_type": "ppv",
+      "fan_source": "facebook",
+      "client": "63e0ed8d86fb902c6eed389e",
+      "freelancer": {
+        "first_name": "Nadia",
+        "last_name": "Johnson",
+        "password": "secrete_!password1",
+        "username": "NadiaJohnson",
+        "email": "NadiaJohnson@test.com",
+        "dob": "1980-01-04",
+        "phone": {
+          "home": "222-555-1234",
+          "mobile": "646-545-4567"
+        },
+        "gender": "Female",
+        "address": {
+          "street": "123 Main St",
+          "city": "New York",
+          "state": "NY",
+          "zip": "10001",
+          "country": "US"
+        },
+        "role": "freelancer",
+        "status": "active"
+      },
+      "amount": 1000,
+      "status": "active"
+    },
+    {
+      "sale_type": "ppv",
+      "fan_source": "facebook",
+      "client": {
+        "first_name": "Emilia",
+        "last_name": "Johnson",
+        "password": "secrete_!password1",
+        "username": "EmiliaJohnson",
+        "email": "EmiliaJohnson@test.com",
+        "dob": "1980-01-04",
+        "phone": {
+          "home": "222-555-1234",
+          "mobile": "646-545-4567"
+        },
+        "gender": "Female",
+        "address": {
+          "street": "123 Main St",
+          "city": "New York",
+          "state": "NY",
+          "zip": "10001",
+          "country": "US"
+        },
+        "role": "client",
+        "status": "active"
+      },
+      "freelancer": {
+        "first_name": "Sarah",
+        "last_name": "Mills",
+        "password": "secrete_!password1",
+        "username": "SarahMills",
+        "email": "Sarah@test.com",
+        "dob": "1980-01-02",
+        "phone": {
+          "home": "222-555-1234",
+          "mobile": "646-545-4567"
+        },
+        "gender": "Female",
+        "address": {
+          "street": "123 Main St",
+          "city": "New York",
+          "state": "NY",
+          "zip": "10001",
+          "country": "US"
+        },
+        "role": "freelancer",
+        "status": "active"
+      },
+      "amount": 1000,
+      "status": "active"
+    }
+  ],
+  "reports": [
+    {
+      "reported_party": {
+        "first_name": "George",
+        "last_name": "Brown",
+        "password": "secrete_!password1",
+        "username": "GeorgeBrown",
+        "email": "Linda@test.com",
+        "dob": "1980-01-04",
+        "phone": {
+          "home": "222-555-1234",
+          "mobile": "646-545-4567"
+        },
+        "gender": "Female",
+        "address": {
+          "street": "123 Main St",
+          "city": "New York",
+          "state": "NY",
+          "zip": "10001",
+          "country": "US"
+        },
+        "role": "client",
+        "status": "active"
+      },
+      "description": "This is a report",
+      "date_time": "2023-01-01T00:00:00Z",
+      "reason": "Defamation",
+      "evidence": "http://www.google.com",
+      "type_of_behavior": "Conflict of Interest"
+    },
+    {
+      "reported_party": {
+        "first_name": "Emilia",
+        "last_name": "Johnson",
+        "password": "secrete_!password1",
+        "username": "EmiliaJohnson",
+        "email": "EmiliaJohnson@test.com",
+        "dob": "1980-01-04",
+        "phone": {
+          "home": "222-555-1234",
+          "mobile": "646-545-4567"
+        },
+        "gender": "Female",
+        "address": {
+          "street": "123 Main St",
+          "city": "New York",
+          "state": "NY",
+          "zip": "10001",
+          "country": "US"
+        },
+        "role": "client",
+        "status": "active"
+      },
+      "description": "This is a report",
+      "date_time": "2023-01-01T00:00:00Z",
+      "reason": "Defamation",
+      "evidence": "http://www.google.com",
+      "type_of_behavior": "harassment"
+    },
+    {
+      "reported_party": {
+        "first_name": "Emilia",
+        "last_name": "Johnson",
+        "password": "secrete_!password1",
+        "username": "EmiliaJohnson",
+        "email": "EmiliaJohnson@test.com",
+        "dob": "1980-01-04",
+        "phone": {
+          "home": "222-555-1234",
+          "mobile": "646-545-4567"
+        },
+        "gender": "Female",
+        "address": {
+          "street": "123 Main St",
+          "city": "New York",
+          "state": "NY",
+          "zip": "10001",
+          "country": "US"
+        },
+        "role": "client",
+        "status": "active"
+      },
+      "description": "This is a report",
+      "date_time": "2023-01-01T00:00:00Z",
+      "reason": "Sexual misconduct.",
+      "evidence": "http://www.google.com",
+      "type_of_behavior": "harassment"
+    },
+    {
+      "reported_party": {
+        "first_name": "Anita",
+        "last_name": "Johnson",
+        "password": "secrete_!password1",
+        "username": "AnitaJohnson",
+        "email": "AnitaJohnson@test.com",
+        "dob": "1980-01-04",
+        "phone": {
+          "home": "222-555-1234",
+          "mobile": "646-545-4567"
+        },
+        "gender": "Female",
+        "address": {
+          "street": "123 Main St",
+          "city": "New York",
+          "state": "NY",
+          "zip": "10001",
+          "country": "US"
+        },
+        "role": "client",
+        "status": "active"
+      },
+      "description": "This is a report",
+      "date_time": "2023-01-01T00:00:00Z",
+      "reason": "Fraud",
+      "evidence": "http://www.google.com",
+      "type_of_behavior": "Discrimination"
+    }
+  ]
+}

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { ToastContainer } from 'react-toastify';
 import { SpinnerRoundOutlined } from 'spinners-react';
-
+import { Button } from './Button';
 import 'react-toastify/dist/ReactToastify.css';
 import { handleToast } from '../utils/utils';
 
@@ -187,13 +187,7 @@ const ContactMe = () => {
                       </div>
                     </div>
                   </div>
-                  <button
-                    disabled={loading}
-                    type="submit"
-                    id="submit"
-                    name="send"
-                    className="btn bg-sky-600 hover:bg-sky-700 border-sky-600 hover:border-sky-700 text-white rounded-md justify-center flex items-center"
-                  >
+                  <Button disabled={loading} type="submit" id="submit">
                     {loading ? (
                       <>
                         <SpinnerRoundOutlined color="white" size={20} />
@@ -202,7 +196,7 @@ const ContactMe = () => {
                     ) : (
                       'Send Message'
                     )}
-                  </button>
+                  </Button>
                 </form>
               </div>
             </div>
