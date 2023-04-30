@@ -41,14 +41,12 @@ const ContactPage = () => {
         email,
         message,
       };
-      emailjs
-        .send(serviceId, templateId, templateParams, userId)
-        .then((response) =>
-          handleToast({
-            msg: 'Thank you for your message, I will be in touch in no time!',
-            type: 'success',
-          })
-        );
+      emailjs.send(serviceId, templateId, templateParams, userId).then(() =>
+        handleToast({
+          msg: 'Thank you for your message, I will be in touch in no time!',
+          type: 'success',
+        })
+      );
 
       setName('');
       setEmail('');
@@ -215,7 +213,6 @@ const ContactPage = () => {
               </div>
             </div>
           </div>
-          {/*end container*/}
         </section>
 
         <Available />
