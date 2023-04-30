@@ -1,5 +1,39 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
+import NavItem from './NavItem';
+
+const NavItems = [
+  {
+    title: 'Home',
+    url: '/#welcome',
+    is_external_link: false,
+  },
+  {
+    title: 'Projects',
+    url: '/about',
+    is_external_link: false,
+  },
+  {
+    title: 'Product',
+    url: '/portfolio',
+    is_external_link: false,
+  },
+  {
+    title: 'Experience',
+    url: '/#experience',
+    is_external_link: false,
+  },
+  {
+    title: 'Blogs',
+    url: 'https://medium.com/@learnwithalfred',
+    is_external_link: true,
+  },
+  {
+    title: 'Youtube',
+    url: 'https://www.youtube.com/@learnwithalfred',
+    is_external_link: true,
+  },
+];
 
 const Nav = () => {
   function toggleMenu() {
@@ -41,43 +75,11 @@ const Nav = () => {
         </ul>
         <div id="navigation">
           <ul className="navigation-menu">
-            <li>
-              <HashLink to="/#welcome" className="sub-menu-item">
-                Home
-              </HashLink>
-            </li>
-
-            <li>
-              <HashLink to="/portfolio" className="sub-menu-item">
-                Portfolio Projects
-              </HashLink>
-            </li>
-            <li>
-              <HashLink to="/#experience" className="sub-menu-item">
-                Experience
-              </HashLink>
-            </li>
-
-            <li>
-              <HashLink
-                to="https://medium.com/@learnwithalfred"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="sub-menu-item"
-              >
-                Blogs
-              </HashLink>
-            </li>
-            <li>
-              <HashLink
-                to="https://www.youtube.com/@learnwithalfred"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="sub-menu-item"
-              >
-                Youtube
-              </HashLink>
-            </li>
+            {NavItems.map((item) => (
+              <li>
+                <NavItem key={item.title} item={item} />
+              </li>
+            ))}
           </ul>
         </div>
       </div>
