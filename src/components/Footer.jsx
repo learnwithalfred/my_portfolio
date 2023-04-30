@@ -5,7 +5,7 @@ import { Github, Linkedin, Twitter } from './Icons';
 
 const Footer = () => {
   return (
-    <footer className="footer relative bg-slate-900/70 text-gray-800 dark:text-gray-200">
+    <footer className="footer relative bg-white text-gray-800 dark:text-gray-200">
       <div className="py-[30px] px-0 border-t border-slate-800">
         <div className="container text-center">
           <div className="grid md:grid-cols-3 grid-cols-1 items-center">
