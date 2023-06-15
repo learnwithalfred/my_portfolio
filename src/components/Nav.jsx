@@ -9,12 +9,7 @@ const NavItems = [
     is_external_link: false,
   },
   {
-    title: 'Projects',
-    url: '/about',
-    is_external_link: false,
-  },
-  {
-    title: 'Product',
+    title: 'Portfolio',
     url: '/portfolio',
     is_external_link: false,
   },
