@@ -28,14 +28,6 @@ const Hero = () => {
                   <h5 className="mb-3 text-3xl font-bold lg:text-black lg:dark:text-white text-white">
                     Mid Level Full-stack Developer
                   </h5>
-                  <p className="para-desc lg:text-slate-400 text-slate-200 dark:text-slate-200 mb-0">
-                    Well-qualified Full Stack Developer familiar with wide range
-                    of programming utilities and languages. Knowledgeable of
-                    backend and frontend development requirements. Handles any
-                    part of process with ease. Collaborative team player with
-                    excellent technical abilities offering 3 years of related
-                    experience.
-                  </p>
                   <div className="mt-4">
                     <HashLink
                       to="/portfolio"

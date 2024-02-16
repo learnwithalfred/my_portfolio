@@ -4,11 +4,6 @@ import NavItem from './NavItem';
 
 const NavItems = [
   {
-    title: 'Home',
-    url: '/#welcome',
-    is_external_link: false,
-  },
-  {
     title: 'Portfolio',
     url: '/portfolio',
     is_external_link: false,
@@ -44,7 +39,7 @@ const Nav = () => {
     <nav id="topnav" className="defaultscroll is-sticky">
       <div className="container">
         <HashLink className="logo pl-0" to="/#welcome">
-          Alfred
+          Home
         </HashLink>
         <div className="menu-extras">
           <div className="menu-item">
