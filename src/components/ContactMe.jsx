@@ -81,10 +81,10 @@ const ContactMe = () => {
                   <div className>
                     <h5 className="title font-bold mb-0">Phone</h5>
                     <a
-                      href="tel:+233541034798"
+                      href="tel:+447488587195"
                       className="btn btn-link text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                     >
-                      +233541034798
+                      +447488587195
                     </a>
                   </div>
                 </div>
